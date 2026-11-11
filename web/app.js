@@ -251,7 +251,6 @@
         </ul>
       </header>
       ${editing ? renderEditor(c) : ""}
-      ${renderOMR(c)}
       ${renderPapers(c)}
       ${renderEvidence(c)}
       ${renderReports(c)}
