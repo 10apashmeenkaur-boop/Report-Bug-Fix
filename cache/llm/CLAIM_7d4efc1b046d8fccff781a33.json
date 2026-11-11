@@ -1,0 +1,36 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R026",
+    "claim_type": "syllabus",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "out of syllabus",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "claims question is out of NEET syllabus"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R026\",\"claim_type\":\"syllabus\",\"student_value\":null,\"target_option\":null,\"target_text\":\"out of syllabus\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"claims question is out of NEET syllabus\"}]}",
+ "_usage": {
+  "queue_time": 0.322690451,
+  "prompt_tokens": 832,
+  "prompt_time": 0.021024248,
+  "completion_tokens": 243,
+  "completion_time": 0.577013855,
+  "total_tokens": 1075,
+  "total_time": 0.598038103,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 179
+  }
+ }
+}

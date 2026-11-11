@@ -1,0 +1,51 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "two times",
+   "option": "A"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Work, power and energy",
+   "why": "The question tests the relation between kinetic energy and momentum, which is covered in the work‑energy chapter."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option A correctly states that momentum doubles when kinetic energy quadruples."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"two times\",\"option\":\"A\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Work, power and energy\",\"why\":\"The question tests the relation between kinetic energy and momentum, which is covered in the work‑energy chapter.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Only option A correctly states that momentum doubles when kinetic energy quadruples.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.317479674,
+  "prompt_tokens": 823,
+  "prompt_time": 0.042024414,
+  "completion_tokens": 852,
+  "completion_time": 1.820099211,
+  "total_tokens": 1675,
+  "total_time": 1.862123625,
+  "completion_tokens_details": {
+   "reasoning_tokens": 702
+  }
+ }
+}

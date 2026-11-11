@@ -1,0 +1,25 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "gemini",
+ "model": "gemini-3.5-flash",
+ "output": {
+  "replies": {
+   "R001": "You were completely right! Thank you for catching this—the answer key accidentally showed (C) 130 V instead of 50 V. We have corrected the option key to (A) 50 V."
+  }
+ },
+ "raw": "{\"replies\": {\"R001\": \"You were completely right! Thank you for catching this—the answer key accidentally showed (C) 130 V instead of 50 V. We have corrected the option key to (A) 50 V.\"}}",
+ "_usage": {
+  "promptTokenCount": 498,
+  "candidatesTokenCount": 57,
+  "totalTokenCount": 1201,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 498
+   }
+  ],
+  "thoughtsTokenCount": 646,
+  "serviceTier": "standard"
+ }
+}

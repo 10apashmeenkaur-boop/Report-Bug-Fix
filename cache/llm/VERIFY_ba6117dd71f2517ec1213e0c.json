@@ -1,0 +1,48 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "gemini",
+ "model": "gemini-3.5-flash",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": true,
+    "why": "The supply voltage is calculated as V = sqrt(V_R^2 + (V_L - V_C)^2) = sqrt(40^2 + (60 - 30)^2) = 50 V."
+   },
+   "B": {
+    "correct": false,
+    "why": "70 V is the arithmetic sum of V_R and (V_L - V_C), not the phasor sum."
+   },
+   "C": {
+    "correct": false,
+    "why": "130 V is the simple scalar sum of all voltages (60 + 30 + 40), which ignores phase differences."
+   },
+   "D": {
+    "correct": false,
+    "why": "10 V is incorrect because voltages in an AC circuit add as vectors, resulting in 50 V."
+   }
+  },
+  "final_value": "50 V",
+  "choice": "A",
+  "choices": [
+   "A"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\n  \"assertion_true\": null,\n  \"reason_true\": null,\n  \"per_option\": {\n    \"A\": {\n      \"correct\": true,\n      \"why\": \"The supply voltage is calculated as V = sqrt(V_R^2 + (V_L - V_C)^2) = sqrt(40^2 + (60 - 30)^2) = 50 V.\"\n    },\n    \"B\": {\n      \"correct\": false,\n      \"why\": \"70 V is the arithmetic sum of V_R and (V_L - V_C), not the phasor sum.\"\n    },\n    \"C\": {\n      \"correct\": false,\n      \"why\": \"130 V is the simple scalar sum of all voltages (60 + 30 + 40), which ignores phase differences.\"\n    },\n    \"D\": {\n      \"correct\": false,\n      \"why\": \"10 V is incorrect because voltages in an AC circuit add as vectors, resulting in 50 V.\"\n    }\n  },\n  \"final_value\": \"50 V\",\n  \"choice\": \"A\",\n  \"choices\": [\n    \"A\"\n  ],\n  \"confidence\": \"high\"\n}",
+ "_usage": {
+  "promptTokenCount": 340,
+  "candidatesTokenCount": 290,
+  "totalTokenCount": 842,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 340
+   }
+  ],
+  "thoughtsTokenCount": 212,
+  "serviceTier": "standard"
+ }
+}

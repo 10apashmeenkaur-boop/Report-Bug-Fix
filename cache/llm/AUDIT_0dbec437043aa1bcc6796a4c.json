@@ -1,0 +1,54 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "5 V",
+   "option": "A"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Electrostatics",
+   "why": "The problem deals with capacitors and dielectric behaviour, which belongs to electrostatics."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option A (5 V) satisfies the derived equation; the other options do not."
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\"value\":\"5 V\",\"option\":\"A\"},\n  \"solution_foreign\": {\"present\":false,\"fragment\":null,\"why\":null},\n  \"solution_errors\": [],\n  \"solution_factual\": [],\n  \"missing_data\": {\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\n  \"chapter_fit\": {\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Electrostatics\",\"why\":\"The problem deals with capacitors and dielectric behaviour, which belongs to electrostatics.\"},\n  \"soundness\": {\"status\":\"ok\",\"why\":\"Only option A (5 V) satisfies the derived equation; the other options do not.\"},\n  \"noise\": []\n}",
+ "_usage": {
+  "queue_time": 0.291332265,
+  "prompt_tokens": 910,
+  "prompt_time": 0.86165123,
+  "completion_tokens": 1149,
+  "completion_time": 2.549824763,
+  "total_tokens": 2059,
+  "total_time": 3.411475993,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 976
+  }
+ }
+}

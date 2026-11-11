@@ -1,0 +1,52 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "gemini",
+ "model": "gemini-3.5-flash",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "2.2μA",
+   "option": "C"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": false,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Electromagnetic waves",
+   "why": "The question asks for the displacement current in a charging capacitor, which is a core concept of Electromagnetic Waves (or Capacitance), not Geometrical Optics."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": null
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\n    \"value\": \"2.2μA\",\n    \"option\": \"C\"\n  },\n  \"solution_foreign\": {\n    \"present\": false,\n    \"fragment\": null,\n    \"why\": null\n  },\n  \"solution_errors\": [],\n  \"solution_factual\": [],\n  \"missing_data\": {\n    \"present\": false,\n    \"what\": null,\n    \"value\": null,\n    \"anchor\": null,\n    \"insert\": null\n  },\n  \"chapter_fit\": {\n    \"fits\": false,\n    \"suggested_subject\": \"Physics\",\n    \"suggested_chapter\": \"Electromagnetic waves\",\n    \"why\": \"The question asks for the displacement current in a charging capacitor, which is a core concept of Electromagnetic Waves (or Capacitance), not Geometrical Optics.\"\n  },\n  \"soundness\": {\n    \"status\": \"ok\",\n    \"why\": null\n  },\n  \"noise\": []\n}",
+ "_usage": {
+  "promptTokenCount": 815,
+  "candidatesTokenCount": 241,
+  "totalTokenCount": 1694,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 815
+   }
+  ],
+  "thoughtsTokenCount": 638,
+  "serviceTier": "standard"
+ }
+}

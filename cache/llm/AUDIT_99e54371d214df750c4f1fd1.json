@@ -1,0 +1,54 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "99N",
+   "option": "C"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": ""
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Electrostatics",
+   "why": "The question tests Coulomb's law, which belongs to Electrostatics."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option C (99 N) matches the correct calculation."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"99N\",\"option\":\"C\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":\"\"},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Electrostatics\",\"why\":\"The question tests Coulomb's law, which belongs to Electrostatics.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Only option C (99 N) matches the correct calculation.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.159123961,
+  "prompt_tokens": 857,
+  "prompt_time": 0.030782139,
+  "completion_tokens": 770,
+  "completion_time": 2.54843746,
+  "total_tokens": 1627,
+  "total_time": 2.579219599,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 628
+  }
+ }
+}

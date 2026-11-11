@@ -1,0 +1,36 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R031",
+    "claim_type": "answer_wrong",
+    "student_value": "2 sec",
+    "target_option": null,
+    "target_text": null,
+    "language": "hinglish",
+    "instruction_attempt": false,
+    "summary": "Student claims answer should be 2 seconds"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R031\",\"claim_type\":\"answer_wrong\",\"student_value\":\"2 sec\",\"target_option\":null,\"target_text\":null,\"language\":\"hinglish\",\"instruction_attempt\":false,\"summary\":\"Student claims answer should be 2 seconds\"}]}",
+ "_usage": {
+  "queue_time": 0.320974809,
+  "prompt_tokens": 793,
+  "prompt_time": 0.032965569,
+  "completion_tokens": 260,
+  "completion_time": 0.630273595,
+  "total_tokens": 1053,
+  "total_time": 0.663239164,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 197
+  }
+ }
+}

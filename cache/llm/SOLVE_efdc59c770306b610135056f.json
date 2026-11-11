@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "T=16s ⇒ ω=2π/T=π/8 rad/s. SHM from equilibrium: v=Aωcos(ωt). At t=2s, ωt=π/4, cos=√2/2. Given v=π ⇒ Aω(√2/2)=π ⇒ A=π/(ω√2/2)=π/(π/8·√2/2)=16/√2=8√2 m.",
+  "final_value": "8√2 m",
+  "choice": "D",
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"T=16s ⇒ ω=2π/T=π/8 rad/s. SHM from equilibrium: v=Aωcos(ωt). At t=2s, ωt=π/4, cos=√2/2. Given v=π ⇒ Aω(√2/2)=π ⇒ A=π/(ω√2/2)=π/(π/8·√2/2)=16/√2=8√2 m.\",\"final_value\":\"8√2 m\",\"choice\":\"D\",\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.324906438,
+  "prompt_tokens": 427,
+  "prompt_time": 0.023848358,
+  "completion_tokens": 488,
+  "completion_time": 1.028867799,
+  "total_tokens": 915,
+  "total_time": 1.052716157,
+  "completion_tokens_details": {
+   "reasoning_tokens": 361
+  }
+ }
+}

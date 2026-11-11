@@ -1,0 +1,549 @@
+[
+  {
+    "reportId": "R001",
+    "questionId": "60f744b3f1b9bc7cc7b4a949",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+      "field": "answer",
+      "find": "C",
+      "replace": "A"
+    },
+    "route": "auto_apply",
+    "confidence": 0.95,
+    "evidence": "Key is wrong. Blind solve 1 → (A) 50 V; blind solve 2 → (A) 50 V; stored solution ends at 50V; key says (C) 130 V. Two blind solves and the stored solution all agree.",
+    "student_reply": "Thanks for noticing – the key’s 130 V is incorrect; the correct supply voltage is 50 V (option A)."
+  },
+  {
+    "reportId": "R002",
+    "questionId": "60f744b3f1b9bc7cc7b4a949",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+      "field": "answer",
+      "find": "C",
+      "replace": "A"
+    },
+    "route": "auto_apply",
+    "confidence": 0.95,
+    "evidence": "Key is wrong. Blind solve 1 → (A) 50 V; blind solve 2 → (A) 50 V; stored solution ends at 50V; key says (C) 130 V. Two blind solves and the stored solution all agree.",
+    "student_reply": "Thanks for catching that – the answer key mistakenly shows 130 V, but the correct supply voltage is 50 V (option A)."
+  },
+  {
+    "reportId": "R003",
+    "questionId": "60f744b3f1b9bc7cc7b4a949",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+      "field": "answer",
+      "find": "C",
+      "replace": "A"
+    },
+    "route": "auto_apply",
+    "confidence": 0.95,
+    "evidence": "Key is wrong. Blind solve 1 → (A) 50 V; blind solve 2 → (A) 50 V; stored solution ends at 50V; key says (C) 130 V. Two blind solves and the stored solution all agree.",
+    "student_reply": "Thanks for pointing it out – the key listed 130 V, while the right answer is 50 V (option A)."
+  },
+  {
+    "reportId": "R004",
+    "questionId": "68e870ef42c06737d6e565c4",
+    "verdict": "defect",
+    "repair": "unsound",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.85,
+    "evidence": "No option is valid as written. The stored answer key selects option A, but the correct calculation gives 4800 N/m², which corresponds to option D. Blind solve 1 → (D) 4800N/m^(2); blind solve 2 → (D) 4800N/m^(2); stored solution ends at 4800N/m^(2); key says (A) 4556N/m^(2).",
+    "student_reply": "Thanks for letting us know! A teacher is reviewing your comment and will get back to you soon."
+  },
+  {
+    "reportId": "R005",
+    "questionId": "68dea616d0cda73d07e93ae6",
+    "verdict": "defect",
+    "repair": "unsound",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.85,
+    "evidence": "No option is valid as written. The solution yields total flux (q)/(2ε_0), implying n=1, but the stored answer key is 2, so the recorded answer is incorrect. Blind solve 1 → 1; blind solve 2 → 1; stored solution ends at (q)/(2ε_0); key says 2.",
+    "student_reply": "Thanks for letting us know! A teacher is checking this question and will update you soon."
+  },
+  {
+    "reportId": "R006",
+    "questionId": "696a866665252c04fc1f81c2",
+    "verdict": "defect",
+    "repair": "stem_data",
+    "edit": {
+      "field": "question",
+      "find": "solid copper cube,",
+      "replace": "solid copper cube, of side 10 cm"
+    },
+    "route": "auto_apply",
+    "confidence": 0.9,
+    "evidence": "The question never gives side length of the cube, but the stored solution uses 10 cm. Inserting it (value taken from the solution, not invented).",
+    "student_reply": "Thanks for spotting that – the problem indeed doesn’t give the cube’s edge, and the official solution assumes a 10 cm side, using a volume of 1 × 10⁶ mm³. That’s why the answer is based on that assumed volume."
+  },
+  {
+    "reportId": "R007",
+    "questionId": "60f742f6660d187cc13a8078",
+    "verdict": "defect",
+    "repair": "stem_data",
+    "edit": {
+      "field": "question",
+      "find": "and an inductance",
+      "replace": "and an inductance of 95.5 mH"
+    },
+    "route": "auto_apply",
+    "confidence": 0.9,
+    "evidence": "The question never gives inductance value, but the stored solution uses 95.5×10^(−3) H. Inserting it (value taken from the solution, not invented).",
+    "student_reply": "Thanks for catching that – the problem didn’t give the inductance value. We’ve noted that the solution uses L = 95.5 × 10⁻³ H."
+  },
+  {
+    "reportId": "R008",
+    "questionId": "60f742f6660d187cc13a8078",
+    "verdict": "defect",
+    "repair": "stem_data",
+    "edit": {
+      "field": "question",
+      "find": "and an inductance",
+      "replace": "and an inductance of 95.5 mH"
+    },
+    "route": "auto_apply",
+    "confidence": 0.9,
+    "evidence": "The question never gives inductance value, but the stored solution uses 95.5×10^(−3) H. Inserting it (value taken from the solution, not invented).",
+    "student_reply": "Thanks for catching that – the problem didn’t give the inductance value. We’ve noted that the solution uses L = 95.5 × 10⁻³ H."
+  },
+  {
+    "reportId": "R009",
+    "questionId": "622f08d7b70e4b50e4500a1b",
+    "verdict": "defect",
+    "repair": "option_repair",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.95,
+    "evidence": "Only 3 options are stored (A, B, C); option D is absent. The key (C) 10m/s is present, so the missing option is a distractor: faculty must author it, AI must not invent one.",
+    "student_reply": "Thanks for letting us know; a teacher is checking the options now."
+  },
+  {
+    "reportId": "R010",
+    "questionId": "622f08d7b70e4b50e4500a1b",
+    "verdict": "defect",
+    "repair": "option_repair",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.95,
+    "evidence": "Only 3 options are stored (A, B, C); option D is absent. The key (C) 10m/s is present, so the missing option is a distractor: faculty must author it, AI must not invent one.",
+    "student_reply": "Thanks for letting us know; a teacher is checking the options now."
+  },
+  {
+    "reportId": "R011",
+    "questionId": "68e872546e45ba37dcc16bc0",
+    "verdict": "defect",
+    "repair": "option_repair",
+    "edit": {
+      "field": "question",
+      "find": "(C) ",
+      "replace": "(C) 1:1"
+    },
+    "route": "auto_apply",
+    "confidence": 0.9,
+    "evidence": "Option (C) is blank and it is the keyed answer. Two blind solves both give 1:1, which matches no other option, so (C) must read '1:1'.",
+    "student_reply": "Thanks for spotting it – option C was blank; we’ve updated it to '1:1', so you can mark C."
+  },
+  {
+    "reportId": "R012",
+    "questionId": "61dffbec08489156b684bd22",
+    "verdict": "defect",
+    "repair": "spelling",
+    "edit": {
+      "field": "question",
+      "find": "Epithellial tisue",
+      "replace": "Epithelial tissue"
+    },
+    "route": "auto_apply",
+    "confidence": 0.92,
+    "evidence": "'Epithellial tisue' is misspelt in the question; correct spelling is 'Epithelial tissue'. Words only, no values touched.",
+    "student_reply": "Thanks for spotting that! In option A “Epithellial tisue” was misspelled; it’s now corrected to “Epithelial tissue”."
+  },
+  {
+    "reportId": "R013",
+    "questionId": "617fa18efd53ff1629ed890f",
+    "verdict": "defect",
+    "repair": "exam_reference",
+    "edit": {
+      "field": "question",
+      "find": "(NEET 2019) ",
+      "replace": ""
+    },
+    "route": "auto_apply",
+    "confidence": 0.97,
+    "evidence": "Exam tag '(NEET 2019)' sits inside the question text.",
+    "student_reply": "Thanks for spotting that! The extra ‘NEET 2019’ tag was mistakenly inside the question and has been removed."
+  },
+  {
+    "reportId": "R014",
+    "questionId": "63765a28f1d8416ae0408d89",
+    "verdict": "defect",
+    "repair": "markup_leak",
+    "edit": {
+      "field": "question",
+      "find": "\\frac{7}{8}",
+      "replace": "<math xmlns=\"http://www.w3.org/1998/Math/MathML\" display=\"inline\"><mfrac><mn>7</mn><mn>8</mn></mfrac></math>"
+    },
+    "route": "auto_apply",
+    "confidence": 0.97,
+    "evidence": "Raw LaTeX '\\frac{7}{8}' is shown as text in the question.",
+    "student_reply": "Thanks for spotting the LaTeX glitch – the \\\\frac{7}{8} is now rendered correctly as \\(\\frac{7}{8}\\)."
+  },
+  {
+    "reportId": "R015",
+    "questionId": "6956d79788d7701e5617bc29",
+    "verdict": "defect",
+    "repair": "identical_options",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.97,
+    "evidence": "Options (B) and (C) are identical: '0 W'. A new distractor is authored content, so faculty writes it.",
+    "student_reply": "Thanks for catching that! A teacher is currently reviewing the duplicate options B and C."
+  },
+  {
+    "reportId": "R016",
+    "questionId": "6263d75bdd44e265ef926d97",
+    "verdict": "defect",
+    "repair": "solution_fix",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.75,
+    "evidence": "The key is right but the stored solution reaches a different answer. Blind solve 1 → 20 cm; blind solve 2 → 20; stored solution ends at 40 cm; key says 20.",
+    "student_reply": "Thanks for letting us know. A teacher is checking the question and will update it soon."
+  },
+  {
+    "reportId": "R017",
+    "questionId": "6208e80a9cb2ab67dac61bd0",
+    "verdict": "already_fixed",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.97,
+    "evidence": "Faculty fixed this on 2026-11-07 (Spelling mistake: 'mere' -> 'more' in options A-C; 'shurbs' -> 'shrubs'); reported text ['mere'] is no longer in the live record.",
+    "student_reply": "Thanks for spotting it! The typo 'mere' has been corrected to 'more' (and 'shurbs' to 'shrubs') in the options."
+  },
+  {
+    "reportId": "R018",
+    "questionId": "612151a6a34397610a9a2e58",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.7,
+    "evidence": "One blind solve and the stored solution both match the key. Blind solve 1 → (B) 16.8 eV; blind solve 2 → None; stored solution ends at 16.8 eV; key says (B) 16.8 eV.",
+    "student_reply": "Thanks for flagging it! The solution shown is correct for this question and the answer is (B) 16.8 eV."
+  },
+  {
+    "reportId": "R019",
+    "questionId": "612151a6a34397610a9a2e58",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.7,
+    "evidence": "One blind solve and the stored solution both match the key. Blind solve 1 → (B) 16.8 eV; blind solve 2 → None; stored solution ends at 16.8 eV; key says (B) 16.8 eV.",
+    "student_reply": "Thanks for letting us know! The solution is actually correct and the answer is (B) 16.8 eV."
+  },
+  {
+    "reportId": "R020",
+    "questionId": "68c8153cfb6b2f16e2d3ceaf",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+      "field": "answer",
+      "find": "[\"A, B, D\"]",
+      "replace": "[\"A\", \"B\", \"D\"]"
+    },
+    "route": "auto_apply",
+    "confidence": 0.97,
+    "evidence": "Answer key is malformed: [\"A, B, D\"] (several letters packed in one entry 'A, B, D'). Graders compare letter-by-letter, so a correct A+B+D attempt is marked wrong. Format-only fix: the set of letters is unchanged. Blind solves also confirm A, B, D are the correct statements.",
+    "student_reply": "Thanks for flagging it! The answer key was treating “A, B, D” as one option, so your A + B + D was marked wrong. It’s now fixed to accept A, B, D individually."
+  },
+  {
+    "reportId": "R021",
+    "questionId": "68f21caf941cda588bc04365",
+    "verdict": "defect",
+    "repair": "type_mismatch",
+    "edit": [
+      {
+        "field": "questionType",
+        "find": "mcq",
+        "replace": "scq"
+      },
+      {
+        "field": "answer",
+        "find": "[\"\", \"B\"]",
+        "replace": "B"
+      }
+    ],
+    "route": "auto_apply",
+    "confidence": 0.95,
+    "evidence": "Stored as multi-correct (mcq) but the key holds a single letter B wrapped in a malformed list [\"\", \"B\"]. Both blind solves find exactly one correct option, (B) 1.44 min.",
+    "student_reply": "Thanks for flagging it! The question was stored as a multi‑correct type, but the answer key only had B (1.44 min). It’s now set as a single‑choice with B as the correct answer."
+  },
+  {
+    "reportId": "R022",
+    "questionId": "61ee6c9d90a1a968a168686b",
+    "verdict": "defect",
+    "repair": "spelling",
+    "edit": {
+      "field": "question",
+      "find": "plexux",
+      "replace": "plexus"
+    },
+    "route": "auto_apply",
+    "confidence": 0.92,
+    "evidence": "'plexux' is misspelt in the question; correct spelling is 'plexus'. Words only, no values touched.",
+    "student_reply": "Thanks for catching that! The word 'plexux' was misspelled; it’s now corrected to 'plexus'."
+  },
+  {
+    "reportId": "R023",
+    "questionId": "68ecbacb2ec87a18deba1ad7",
+    "verdict": "defect",
+    "repair": "wrong_chapter",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.9,
+    "evidence": "Filed under Botany › The Living World, but it tests Nervous System (Physiology). The question concerns neuronal action potentials, not botany",
+    "student_reply": "Thanks for letting us know! A teacher is reviewing the category of this question to make sure it’s placed correctly."
+  },
+  {
+    "reportId": "R024",
+    "questionId": "5fc60508028950133eac8963",
+    "verdict": "defect",
+    "repair": "answer_form",
+    "edit": {
+      "field": "question",
+      "find": "the frictional force is equal to",
+      "replace": "the frictional force is equal to (in N)"
+    },
+    "route": "auto_apply",
+    "confidence": 0.9,
+    "evidence": "Integer answer 20 carries the unit 'N' in the solution, but the question never says which unit to answer in.",
+    "student_reply": "Thanks for catching that! The answer should be given as 20 N, now the unit is included."
+  },
+  {
+    "reportId": "R025",
+    "questionId": "622df25ab70e4b50e44ff837",
+    "verdict": "defect",
+    "repair": "diagram",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.95,
+    "evidence": "Stem refers to a figure ('as shown') but quesImages is empty.",
+    "student_reply": "Thanks for letting us know! A teacher is checking the missing figure and will update the question soon."
+  },
+  {
+    "reportId": "R026",
+    "questionId": "620e23cecc50543bc7db9186",
+    "verdict": "defect",
+    "repair": "syllabus",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.6,
+    "evidence": "Student says this is outside the syllabus. Syllabus calls are faculty-only; the question stays live meanwhile.",
+    "student_reply": "Thanks for pointing that out. A teacher is reviewing your comment and will get back to you shortly."
+  },
+  {
+    "reportId": "R027",
+    "questionId": "6062ec84518e9535e120c422",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.95,
+    "evidence": "Key verified independently twice. Blind solve 1 → (A) 5.7 x 10-5/oC; blind solve 2 → (A) 5.7 x 10-5/oC; stored solution ends at 5.7×10^( − 5)/C; key says (A) 5.7 x 10-5/oC. Student's value (C) does not match. The comment contained instructions to the system; they were ignored and only the content was checked.",
+    "student_reply": "Thanks for your note; the answer key is correct as (A) 5.7 × 10⁻⁵ /°C."
+  },
+  {
+    "reportId": "R028",
+    "questionId": "6956d7bb23cb221e570d6013",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.95,
+    "evidence": "Key verified independently twice. Blind solve 1 → (B) tan^( − 1)(4); blind solve 2 → (B) tan^( − 1)(4); stored solution ends at tan^( − 1)(4); key says (B) tan^( − 1)(4). Student's value (tan inverse 2) does not match.",
+    "student_reply": "Thanks for checking! When you set the range (v² sin2θ/g) equal to the max height (v² sin²θ/2g) and simplify, you get tanθ = 4, so the angle is tan⁻¹4."
+  },
+  {
+    "reportId": "R029",
+    "questionId": "68e8734442c06737d6e56da4",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.95,
+    "evidence": "Key verified independently twice. Blind solve 1 → (A) 0.8; blind solve 2 → (A) 0.8; stored solution ends at 0.8; key says (A) 0.8. Student's value (0.4) does not match.",
+    "student_reply": "Thanks for double‑checking! Using F = ma + μmg with the first case (F = 100 N + 1·10 N) gives μ = (110 − 10)/100 = 0.8, which matches answer (A)."
+  },
+  {
+    "reportId": "R030",
+    "questionId": "6956d7e988d7701e5617bd3e",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.95,
+    "evidence": "Key verified independently twice. Blind solve 1 → (D) 8√(2m); blind solve 2 → (D) 8√(2m); stored solution ends at 8√(2)m; key says (D) 8√(2m). Student's value (4√2) does not match.",
+    "student_reply": "Thanks for checking! Using ω = 2π/T = π/8 and v = ωA cos(ωt) at t = 2 s (cos π/4 = √2/2) gives A = 8√2 m, which matches the key (D)."
+  },
+  {
+    "reportId": "R031",
+    "questionId": "68dea619d0cda73d07e93aee",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.95,
+    "evidence": "Key verified independently twice. Blind solve 1 → 4 s; blind solve 2 → 4; stored solution ends at 4; key says 4. Student's value (2 sec) does not match.",
+    "student_reply": "Thanks for checking! The dots line up again when the relative angle is a multiple of 2π; solving (π/2 – π/4) t² = 2π gives t = 4 s, which matches the key."
+  },
+  {
+    "reportId": "R032",
+    "questionId": "68dea7c2387eea3d0d95f9bb",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.85,
+    "evidence": "Key verified independently twice. Blind solve 1 → 8 cm; blind solve 2 → 8; stored solution ends at 0.08m; key says 8. (The solution stops before the final unit/scale step; same quantity.) Student's value (0.08) does not match.",
+    "student_reply": "Thanks for checking! The shift works out to 8 cm – the 0.08 you obtained is the value before converting to centimeters. So the correct answer is 8 cm."
+  },
+  {
+    "reportId": "R033",
+    "questionId": "68dea715387eea3d0d95f790",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.85,
+    "evidence": "Key verified independently twice. Blind solve 1 → 3113; blind solve 2 → 3113; stored solution ends at 311.3 m^(2); key says 3113. (The solution stops before the final unit/scale step; same quantity.) Student's value (3112.99) does not match.",
+    "student_reply": "The cube’s area is 6 × (7.203)² = 311.3 m², and 10 × A = 3113 when rounded to the correct three significant figures. That’s why the answer key shows 3113, not 3112.99."
+  },
+  {
+    "reportId": "R034",
+    "questionId": "695ee00b88d7701e561aabc5",
+    "verdict": "defect",
+    "repair": "unsound",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.85,
+    "evidence": "No option is valid as written. Both assertion and reason are false, but none of the given options (A‑D) represent this combination. Blind solve 1 → NONE; blind solve 2 → NONE; stored solution ends at (d); key says (D) A is false, but R is true..",
+    "student_reply": "Thanks for letting us know! A teacher is reviewing this question and will update it if needed."
+  },
+  {
+    "reportId": "R035",
+    "questionId": "66fe9dbe22132e5a70a3e579",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.95,
+    "evidence": "Key verified independently twice. Blind solve 1 → (D) Relaxin - Inhibin; blind solve 2 → (D) Relaxin - Inhibin; stored solution ends at Relaxin - Inhibin; key says (D) Relaxin - Inhibin.",
+    "student_reply": "Relaxin and inhibin don’t oppose each other – they both support reproductive functions, so they’re the pair that isn’t antagonistic. Hence the key (D) is correct."
+  },
+  {
+    "reportId": "R036",
+    "questionId": "60ca4feb6420652745f55522",
+    "verdict": "display_issue",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.9,
+    "evidence": "Complaint is about rendering/loading; stored content checked and is intact (all options parse correctly).",
+    "student_reply": "We’ve noted the options aren’t showing on your screen; we’ll fix the display so you can see all choices."
+  },
+  {
+    "reportId": "R037",
+    "questionId": "68c9ae5afb6b2f16e2d43b1c",
+    "verdict": "display_issue",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.9,
+    "evidence": "Complaint is about rendering/loading; stored content checked and is intact (all options parse correctly).",
+    "student_reply": "Thanks for letting us know about the loading issue; we’re checking the display and will get it working properly soon."
+  },
+  {
+    "reportId": "R038",
+    "questionId": "68f21df0941cda588bc0470b",
+    "verdict": "app_issue",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.9,
+    "evidence": "Complaint is about how the app recorded the attempt, not about this question's content.",
+    "student_reply": "Thanks for letting us know – we’ll look into why the app recorded B instead of A and fix it soon."
+  },
+  {
+    "reportId": "R039",
+    "questionId": "68c801bc1b1dbc16dc93bf2b",
+    "verdict": "language_mode",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.95,
+    "evidence": "Student wants the question in another language; this record is English-only.",
+    "student_reply": "Sure, we’ll add a Hindi version of the question for you shortly."
+  },
+  {
+    "reportId": "R040",
+    "questionId": "6264197209f4fd65f58f5707",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.85,
+    "evidence": "Key verified independently twice. Blind solve 1 → (C) Golden rice; blind solve 2 → (C) Golden rice; stored solution ends at Bt-Brinjal: Engineered for insect resistance (Bt toxin), not vitamin A enrichment.; key says (C) Golden rice.",
+    "student_reply": "The correct choice is (C) Golden rice – it’s enriched with β‑carotene, which the body converts to vitamin A and prevents the blindness. That’s why the key lists (C)."
+  },
+  {
+    "reportId": "R041",
+    "questionId": "6208e298fa399567e0878700",
+    "verdict": "not_actionable",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.9,
+    "evidence": "Comment is unintelligible. Checks found nothing: Blind solve 1 → (A) Julius von Sachs; blind solve 2 → (A) Julius von Sachs; stored solution ends at He found that the green parts in plants are where glucose is made, and that the glucose is usually stored as starch; key says (A) Julius von Sachs.",
+    "student_reply": "Hey, could you please share a bit more detail about what seems off with the question? It’ll help us look into it right away."
+  },
+  {
+    "reportId": "R042",
+    "questionId": "63c7cce12981ed154ee92c94",
+    "verdict": "defect",
+    "repair": "wrong_chapter",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.9,
+    "evidence": "Filed under Physics › Geometrical optics and optical instruments, but it tests Electromagnetism (Physics). Question deals with displacement current in a capacitor, not geometrical optics",
+    "student_reply": "Thanks for catching that! A teacher is currently reviewing the classification of this question to make sure it’s in the right chapter."
+  },
+  {
+    "reportId": "R043",
+    "questionId": "636283dbe3770c24f866e6d6",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.95,
+    "evidence": "Key verified independently twice. Blind solve 1 → (B) 4:1; blind solve 2 → (B) 4:1; stored solution ends at 4:1; key says (B) 4:1. Student's value (1:4) does not match.",
+    "student_reply": "When 64 drops merge, the radius becomes 0.08 m, so the area grows by 16× while the charge grows by 64×; the surface charge density is therefore (64/16)=4 times the small‑drop value, i.e. 4:1 as given in answer (B)."
+  },
+  {
+    "reportId": "R044",
+    "questionId": "68dea577d0cda73d07e9391c",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.95,
+    "evidence": "Key verified independently twice. Blind solve 1 → 14 V; blind solve 2 → 14; stored solution ends at 14V; key says 14. Student's value (22 V) does not match.",
+    "student_reply": "For a uniformly charged sphere V(r)=kQ/R · (3/2−r³/2R³); at r=R/2 this gives V=1.5·kQ/R and at the surface V=kQ/R, so the difference is 0.5·kQ/R = 14 V. Hence the correct potential difference is 14 V."
+  }
+]

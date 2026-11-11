@@ -1,0 +1,60 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "50ohm",
+   "option": "C"
+  },
+  "solution_foreign": {
+   "present": true,
+   "fragment": "95.5×10^( − 3)",
+   "why": "Inductance value used in solution is not mentioned in the question"
+  },
+  "solution_errors": [],
+  "solution_factual": [
+   {
+    "find": "2πvL",
+    "replace": "2πfL",
+    "why": "The impedance formula uses frequency f, not v"
+   }
+  ],
+  "missing_data": {
+   "present": true,
+   "what": "inductance value",
+   "value": "95.5×10^(−3) H",
+   "anchor": "and an inductance",
+   "insert": "of 95.5 mH"
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Alternating Current and EM Waves",
+   "why": "The question asks for impedance of an RL series AC circuit, which belongs to this chapter"
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option C matches the calculated impedance"
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"50ohm\",\"option\":\"C\"},\"solution_foreign\":{\"present\":true,\"fragment\":\"95.5×10^( − 3)\",\"why\":\"Inductance value used in solution is not mentioned in the question\"},\"solution_errors\":[],\"solution_factual\":[{\"find\":\"2πvL\",\"replace\":\"2πfL\",\"why\":\"The impedance formula uses frequency f, not v\"}],\"missing_data\":{\"present\":true,\"what\":\"inductance value\",\"value\":\"95.5×10^(−3) H\",\"anchor\":\"and an inductance\",\"insert\":\"of 95.5 mH\"},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Alternating Current and EM Waves\",\"why\":\"The question asks for impedance of an RL series AC circuit, which belongs to this chapter\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Only option C matches the calculated impedance\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.1564328,
+  "prompt_tokens": 859,
+  "prompt_time": 0.496845123,
+  "completion_tokens": 1391,
+  "completion_time": 3.211890108,
+  "total_tokens": 2250,
+  "total_time": 3.708735231,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1177
+  }
+ }
+}

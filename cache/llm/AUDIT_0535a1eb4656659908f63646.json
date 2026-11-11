@@ -1,0 +1,66 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "2.2μA",
+   "option": "C"
+  },
+  "solution_foreign": {
+   "present": true,
+   "fragment": "C = kε_0(A)/(d) = 8.85×10^( − 8)Fi_d = (d)/(dt)(CV)",
+   "why": "The expression does not belong to this problem and appears to be from another question."
+  },
+  "solution_errors": [
+   {
+    "find": "8.85×10^( − 8)F",
+    "replace": "8.85×10^(−12)F",
+    "why": "ε0 value exponent is incorrect"
+   }
+  ],
+  "solution_factual": [
+   {
+    "find": "8.85×10^( − 8)F",
+    "replace": "8.85×10^(−12)F",
+    "why": "Correct value of vacuum permittivity"
+   }
+  ],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": false,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Electromagnetism",
+   "why": "Question deals with displacement current in a capacitor, not geometrical optics"
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option C matches the calculated displacement current"
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"2.2μA\",\"option\":\"C\"},\"solution_foreign\":{\"present\":true,\"fragment\":\"C = kε_0(A)/(d) = 8.85×10^( − 8)Fi_d = (d)/(dt)(CV)\",\"why\":\"The expression does not belong to this problem and appears to be from another question.\"},\"solution_errors\":[{\"find\":\"8.85×10^( − 8)F\",\"replace\":\"8.85×10^(−12)F\",\"why\":\"ε0 value exponent is incorrect\"}],\"solution_factual\":[{\"find\":\"8.85×10^( − 8)F\",\"replace\":\"8.85×10^(−12)F\",\"why\":\"Correct value of vacuum permittivity\"}],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":false,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Electromagnetism\",\"why\":\"Question deals with displacement current in a capacitor, not geometrical optics\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Only option C matches the calculated displacement current\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.371607337,
+  "prompt_tokens": 874,
+  "prompt_time": 0.095202518,
+  "completion_tokens": 1817,
+  "completion_time": 4.393718456,
+  "total_tokens": 2691,
+  "total_time": 4.488920974,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1556
+  }
+ }
+}

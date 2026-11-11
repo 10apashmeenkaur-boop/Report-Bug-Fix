@@ -1,0 +1,73 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [
+   {
+    "field": "question|solution",
+    "find": "plexux",
+    "replace": "plexus"
+   },
+   {
+    "field": "question|solution",
+    "find": "prominant",
+    "replace": "prominent"
+   },
+   {
+    "field": "question|solution",
+    "find": "Maceus membrane",
+    "replace": "Mucous membrane"
+   }
+  ],
+  "solution_final": {
+   "value": "villi",
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [
+   {
+    "find": "Maceus membrane",
+    "replace": "Mucous membrane",
+    "why": "Correct term for the lining of the small intestine is mucous membrane (or mucosa)"
+   }
+  ],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": null,
+   "suggested_chapter": null,
+   "why": "Lymphoid tissue in the ileum is part of digestion and absorption, matching the chapter"
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Exactly one correct option (B)"
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[{\"field\":\"question|solution\",\"find\":\"plexux\",\"replace\":\"plexus\"},{\"field\":\"question|solution\",\"find\":\"prominant\",\"replace\":\"prominent\"},{\"field\":\"question|solution\",\"find\":\"Maceus membrane\",\"replace\":\"Mucous membrane\"}],\"solution_final\":{\"value\":\"villi\",\"option\":null},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[],\"solution_factual\":[{\"find\":\"Maceus membrane\",\"replace\":\"Mucous membrane\",\"why\":\"Correct term for the lining of the small intestine is mucous membrane (or mucosa)\"}],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":null,\"suggested_chapter\":null,\"why\":\"Lymphoid tissue in the ileum is part of digestion and absorption, matching the chapter\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Exactly one correct option (B)\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.368951065,
+  "prompt_tokens": 851,
+  "prompt_time": 0.047200961,
+  "completion_tokens": 1468,
+  "completion_time": 3.09309319,
+  "total_tokens": 2319,
+  "total_time": 3.140294151,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1241
+  }
+ }
+}

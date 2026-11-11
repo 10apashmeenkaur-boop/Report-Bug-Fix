@@ -1,0 +1,34 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "gemini",
+ "model": "gemini-3.5-flash",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R001",
+    "claim_type": "answer_wrong",
+    "student_value": "50 V",
+    "target_option": "A",
+    "target_text": null,
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Claims answer should be 50V (Option A) instead of C"
+   }
+  ]
+ },
+ "raw": "{\n  \"reports\": [\n    {\n      \"reportId\": \"R001\",\n      \"claim_type\": \"answer_wrong\",\n      \"student_value\": \"50 V\",\n      \"target_option\": \"A\",\n      \"target_text\": null,\n      \"language\": \"en\",\n      \"instruction_attempt\": false,\n      \"summary\": \"Claims answer should be 50V (Option A) instead of C\"\n    }\n  ]\n}",
+ "_usage": {
+  "promptTokenCount": 739,
+  "candidatesTokenCount": 112,
+  "totalTokenCount": 2095,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 739
+   }
+  ],
+  "thoughtsTokenCount": 1244,
+  "serviceTier": "standard"
+ }
+}

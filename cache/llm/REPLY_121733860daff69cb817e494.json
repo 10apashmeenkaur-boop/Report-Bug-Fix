@@ -1,0 +1,27 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R026": "Thanks for pointing that out. A teacher is reviewing your comment and will get back to you shortly."
+  }
+ },
+ "raw": "{\"replies\":{\"R026\":\"Thanks for pointing that out. A teacher is reviewing your comment and will get back to you shortly.\"}}",
+ "_usage": {
+  "queue_time": 0.322656536,
+  "prompt_tokens": 499,
+  "prompt_time": 0.028596133,
+  "completion_tokens": 149,
+  "completion_time": 0.323351205,
+  "total_tokens": 648,
+  "total_time": 0.351947338,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 112
+  }
+ }
+}

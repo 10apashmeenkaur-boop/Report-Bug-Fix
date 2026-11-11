@@ -1,0 +1,36 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R013",
+    "claim_type": "exam_tag",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "NEET 2019",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "asks why the NEET 2019 tag appears in question"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R013\",\"claim_type\":\"exam_tag\",\"student_value\":null,\"target_option\":null,\"target_text\":\"NEET 2019\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"asks why the NEET 2019 tag appears in question\"}]}",
+ "_usage": {
+  "queue_time": 0.528528504,
+  "prompt_tokens": 753,
+  "prompt_time": 0.420216022,
+  "completion_tokens": 272,
+  "completion_time": 0.608712999,
+  "total_tokens": 1025,
+  "total_time": 1.028929021,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 203
+  }
+ }
+}

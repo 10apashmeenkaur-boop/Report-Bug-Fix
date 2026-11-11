@@ -1,0 +1,60 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [
+   {
+    "field": "question",
+    "find": "Epithellial tisue",
+    "replace": "Epithelial tissue"
+   }
+  ],
+  "solution_final": {
+   "value": "Epithelial tissue",
+   "option": "A"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": "No text from another question is present"
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": null,
+   "suggested_chapter": null,
+   "why": "The question tests knowledge of epithelial tissue, which is part of Structural Organisation in Animals"
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Exactly one correct option (A)"
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[{\"field\":\"question\",\"find\":\"Epithellial tisue\",\"replace\":\"Epithelial tissue\"}],\"solution_final\":{\"value\":\"Epithelial tissue\",\"option\":\"A\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":\"No text from another question is present\"},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":null,\"suggested_chapter\":null,\"why\":\"The question tests knowledge of epithelial tissue, which is part of Structural Organisation in Animals\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Exactly one correct option (A)\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.525723211,
+  "prompt_tokens": 822,
+  "prompt_time": 0.66177319,
+  "completion_tokens": 972,
+  "completion_time": 2.256145159,
+  "total_tokens": 1794,
+  "total_time": 2.917918349,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 806
+  }
+ }
+}

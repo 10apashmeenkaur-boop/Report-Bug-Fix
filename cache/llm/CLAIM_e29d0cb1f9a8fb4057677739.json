@@ -1,0 +1,33 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R011",
+    "claim_type": "option_missing_or_blank",
+    "student_value": "C",
+    "target_option": "C",
+    "target_text": "blank",
+    "language": "hinglish",
+    "instruction_attempt": false,
+    "summary": "Student says option C is blank, asks how to mark"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R011\",\"claim_type\":\"option_missing_or_blank\",\"student_value\":\"C\",\"target_option\":\"C\",\"target_text\":\"blank\",\"language\":\"hinglish\",\"instruction_attempt\":false,\"summary\":\"Student says option C is blank, asks how to mark\"}]}",
+ "_usage": {
+  "queue_time": 0.530271448,
+  "prompt_tokens": 773,
+  "prompt_time": 0.338182068,
+  "completion_tokens": 339,
+  "completion_time": 0.711835914,
+  "total_tokens": 1112,
+  "total_time": 1.050017982,
+  "completion_tokens_details": {
+   "reasoning_tokens": 272
+  }
+ }
+}

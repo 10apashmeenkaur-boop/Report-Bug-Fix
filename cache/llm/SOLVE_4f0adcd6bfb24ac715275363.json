@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "s=7.203 m (4 sf); A=6s²=6×7.203²=6×51.883209≈311.299 m² → 4 sf ⇒ A=311.3 m²; 10A=10×311.3=3113",
+  "final_value": "3113",
+  "choice": null,
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"s=7.203 m (4 sf); A=6s²=6×7.203²=6×51.883209≈311.299 m² → 4 sf ⇒ A=311.3 m²; 10A=10×311.3=3113\",\"final_value\":\"3113\",\"choice\":null,\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.281290588,
+  "prompt_tokens": 387,
+  "prompt_time": 0.018634689,
+  "completion_tokens": 701,
+  "completion_time": 1.473084834,
+  "total_tokens": 1088,
+  "total_time": 1.491719523,
+  "completion_tokens_details": {
+   "reasoning_tokens": 606
+  }
+ }
+}

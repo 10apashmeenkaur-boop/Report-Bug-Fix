@@ -1,0 +1,57 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "4:1",
+   "option": "B"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": ""
+  },
+  "solution_errors": [
+   {
+    "find": "R = 4rQ = 64q;",
+    "replace": "R = 4r; Q = 64 q;",
+    "why": "Two separate equations were concatenated without a separator; R = 4r follows from volume equality and Q = 64 q follows from charge addition."
+   }
+  ],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Electrostatics",
+   "why": "The problem concerns surface charge density of conducting spheres, a topic within electrostatics."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option B (4:1) matches the derived ratio; there is a unique correct choice."
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\n    \"value\": \"4:1\",\n    \"option\": \"B\"\n  },\n  \"solution_foreign\": {\n    \"present\": false,\n    \"fragment\": null,\n    \"why\": \"\"\n  },\n  \"solution_errors\": [\n    {\n      \"find\": \"R = 4rQ = 64q;\",\n      \"replace\": \"R = 4r; Q = 64 q;\",\n      \"why\": \"Two separate equations were concatenated without a separator; R = 4r follows from volume equality and Q = 64 q follows from charge addition.\"\n    }\n  ],\n  \"solution_factual\": [],\n  \"missing_data\": {\n    \"present\": false,\n    \"what\": null,\n    \"value\": null,\n    \"anchor\": null,\n    \"insert\": null\n  },\n  \"chapter_fit\": {\n    \"fits\": true,\n    \"suggested_subject\": \"Physics\",\n    \"suggested_chapter\": \"Electrostatics\",\n    \"why\": \"The problem concerns surface charge density of conducting spheres, a topic within electrostatics.\"\n  },\n  \"soundness\": {\n    \"status\": \"ok\",\n    \"why\": \"Only option B (4:1) matches the derived ratio; there is a unique correct choice.\"\n  },\n  \"noise\": []\n}",
+ "_usage": {
+  "queue_time": 0.04922551,
+  "prompt_tokens": 951,
+  "prompt_time": 0.053854176,
+  "completion_tokens": 1501,
+  "completion_time": 3.175536691,
+  "total_tokens": 2452,
+  "total_time": 3.229390867,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1205
+  }
+ }
+}

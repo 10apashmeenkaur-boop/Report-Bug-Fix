@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "Δ=(n1-1)t1-(n2-1)t2=0.5·2mm-0.4·1.5mm=1mm-0.6mm=0.4mm=4×10⁻⁴m; shift y= -LΔ/d=-(1)(4×10⁻⁴)/(5×10⁻³)= -0.08 m≈8 cm",
+  "final_value": "8 cm",
+  "choice": null,
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"Δ=(n1-1)t1-(n2-1)t2=0.5·2mm-0.4·1.5mm=1mm-0.6mm=0.4mm=4×10⁻⁴m; shift y= -LΔ/d=-(1)(4×10⁻⁴)/(5×10⁻³)= -0.08 m≈8 cm\",\"final_value\":\"8 cm\",\"choice\":null,\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.370086165,
+  "prompt_tokens": 414,
+  "prompt_time": 0.019407244,
+  "completion_tokens": 783,
+  "completion_time": 1.623584852,
+  "total_tokens": 1197,
+  "total_time": 1.642992096,
+  "completion_tokens_details": {
+   "reasoning_tokens": 663
+  }
+ }
+}

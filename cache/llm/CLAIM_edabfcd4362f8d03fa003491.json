@@ -1,0 +1,33 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R012",
+    "claim_type": "spelling",
+    "student_value": null,
+    "target_option": "A",
+    "target_text": "Epithellial tisue",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Student claims option A has a spelling mistake"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R012\",\"claim_type\":\"spelling\",\"student_value\":null,\"target_option\":\"A\",\"target_text\":\"Epithellial tisue\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Student claims option A has a spelling mistake\"}]}",
+ "_usage": {
+  "queue_time": 0.290995657,
+  "prompt_tokens": 742,
+  "prompt_time": 0.042837802,
+  "completion_tokens": 372,
+  "completion_time": 0.787435151,
+  "total_tokens": 1114,
+  "total_time": 0.830272953,
+  "completion_tokens_details": {
+   "reasoning_tokens": 306
+  }
+ }
+}

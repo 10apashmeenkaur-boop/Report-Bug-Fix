@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Question fixes · Acadza review</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@400;700&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="top">
+  <div class="brand">
+    <span class="mark" aria-hidden="true"></span>
+    <div>
+      <h1>Question fixes</h1>
+      <p class="sub" id="runinfo"></p>
+    </div>
+  </div>
+  <div class="progress" id="progress" aria-live="polite"></div>
+  <div class="top-actions">
+    <button class="ghost" id="btn-bonus" type="button">Unreported issues</button>
+    <button class="ghost" id="btn-log" type="button">Audit log</button>
+    <button class="ghost icon" id="btn-help" type="button" aria-label="Keyboard shortcuts">?</button>
+  </div>
+</header>
+
+<main class="layout">
+  <nav class="queue" id="queue" aria-label="Review queue"></nav>
+  <section class="case" id="case" aria-live="polite"></section>
+</main>
+
+<aside class="drawer" id="drawer" hidden>
+  <div class="drawer-head">
+    <h2 id="drawer-title"></h2>
+    <button class="ghost" id="drawer-close" type="button">Close</button>
+  </div>
+  <div class="drawer-body" id="drawer-body"></div>
+</aside>
+
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script>
+  // ?demo loads design fixtures (fake evidence) instead of the real engine output
+  document.write('<script src="' + (location.search.includes('demo') ? 'demo-data.js' : 'data.js') + '"><\/script>');
+</script>
+<script src="app.js"></script>
+</body>
+</html>

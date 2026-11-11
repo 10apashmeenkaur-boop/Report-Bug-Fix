@@ -1,0 +1,24 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R013": "Thanks for spotting that! The extra ‘NEET 2019’ tag was mistakenly inside the question and has been removed."
+  }
+ },
+ "raw": "{\"replies\":{\"R013\":\"Thanks for spotting that! The extra ‘NEET 2019’ tag was mistakenly inside the question and has been removed.\"}}",
+ "_usage": {
+  "queue_time": 0.367598903,
+  "prompt_tokens": 470,
+  "prompt_time": 0.021539264,
+  "completion_tokens": 216,
+  "completion_time": 0.446576507,
+  "total_tokens": 686,
+  "total_time": 0.468115771,
+  "completion_tokens_details": {
+   "reasoning_tokens": 174
+  }
+ }
+}

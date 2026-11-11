@@ -1,0 +1,51 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "1.44 min",
+   "option": "B"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": false,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Radioactivity",
+   "why": "The question deals with radioactive decay, which belongs to the Radioactivity/Nuclear Physics chapter, not 'Mathematics in physics'."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option B matches the calculated mean life."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"1.44 min\",\"option\":\"B\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":false,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Radioactivity\",\"why\":\"The question deals with radioactive decay, which belongs to the Radioactivity/Nuclear Physics chapter, not 'Mathematics in physics'.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Only option B matches the calculated mean life.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.329814063,
+  "prompt_tokens": 1000,
+  "prompt_time": 0.059907025,
+  "completion_tokens": 730,
+  "completion_time": 1.542788206,
+  "total_tokens": 1730,
+  "total_time": 1.602695231,
+  "completion_tokens_details": {
+   "reasoning_tokens": 580
+  }
+ }
+}

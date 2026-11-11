@@ -1,0 +1,47 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": true,
+    "why": "Supply voltage is the vector sum: √[V_R²+(V_L−V_C)²]=√[40²+30²]=50 V"
+   },
+   "B": {
+    "correct": false,
+    "why": "70 V does not satisfy the vector sum"
+   },
+   "C": {
+    "correct": false,
+    "why": "130 V is far larger than the resultant magnitude"
+   },
+   "D": {
+    "correct": false,
+    "why": "10 V is too small compared to component voltages"
+   }
+  },
+  "final_value": "50 V",
+  "choice": "A",
+  "choices": [
+   "A"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\"assertion_true\":null,\"reason_true\":null,\"per_option\":{\"A\":{\"correct\":true,\"why\":\"Supply voltage is the vector sum: √[V_R²+(V_L−V_C)²]=√[40²+30²]=50 V\"},\"B\":{\"correct\":false,\"why\":\"70 V does not satisfy the vector sum\"},\"C\":{\"correct\":false,\"why\":\"130 V is far larger than the resultant magnitude\"},\"D\":{\"correct\":false,\"why\":\"10 V is too small compared to component voltages\"} },\"final_value\":\"50 V\",\"choice\":\"A\",\"choices\":[\"A\"],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.158491931,
+  "prompt_tokens": 415,
+  "prompt_time": 0.016490479,
+  "completion_tokens": 493,
+  "completion_time": 1.026692653,
+  "total_tokens": 908,
+  "total_time": 1.043183132,
+  "completion_tokens_details": {
+   "reasoning_tokens": 347
+  }
+ }
+}

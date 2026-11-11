@@ -1,0 +1,27 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R035": "Relaxin and inhibin don’t oppose each other – they both support reproductive functions, so they’re the pair that isn’t antagonistic. Hence the key (D) is correct."
+  }
+ },
+ "raw": "{\"replies\":{\"R035\":\"Relaxin and inhibin don’t oppose each other – they both support reproductive functions, so they’re the pair that isn’t antagonistic. Hence the key (D) is correct.\"}}",
+ "_usage": {
+  "queue_time": 0.290994348,
+  "prompt_tokens": 522,
+  "prompt_time": 0.721914688,
+  "completion_tokens": 591,
+  "completion_time": 1.348164747,
+  "total_tokens": 1113,
+  "total_time": 2.070079435,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 537
+  }
+ }
+}

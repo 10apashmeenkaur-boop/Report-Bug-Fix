@@ -1,0 +1,24 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R040": "The correct choice is (C) Golden rice – it’s enriched with β‑carotene, which the body converts to vitamin A and prevents the blindness. That’s why the key lists (C)."
+  }
+ },
+ "raw": "{\"replies\":{\"R040\":\"The correct choice is (C) Golden rice – it’s enriched with β‑carotene, which the body converts to vitamin A and prevents the blindness. That’s why the key lists (C).\"}}",
+ "_usage": {
+  "queue_time": 0.158108933,
+  "prompt_tokens": 508,
+  "prompt_time": 0.023341306,
+  "completion_tokens": 293,
+  "completion_time": 0.618368753,
+  "total_tokens": 801,
+  "total_time": 0.641710059,
+  "completion_tokens_details": {
+   "reasoning_tokens": 234
+  }
+ }
+}

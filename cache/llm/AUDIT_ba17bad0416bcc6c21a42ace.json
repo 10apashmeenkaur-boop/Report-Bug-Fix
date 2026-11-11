@@ -1,0 +1,54 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "He found that the green parts in plants are where glucose is made, and that the glucose is usually stored as starch",
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": ""
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": "",
+   "value": "",
+   "anchor": "",
+   "insert": ""
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "",
+   "suggested_chapter": "",
+   "why": "The question asks about evidence for glucose production in plants, which is a core topic of photosynthesis in higher plants."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "The stored answer key (A) matches the solution, and there is exactly one correct option."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"He found that the green parts in plants are where glucose is made, and that the glucose is usually stored as starch\",\"option\":null},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":\"\"},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":\"\",\"value\":\"\",\"anchor\":\"\",\"insert\":\"\"},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"\",\"suggested_chapter\":\"\",\"why\":\"The question asks about evidence for glucose production in plants, which is a core topic of photosynthesis in higher plants.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"The stored answer key (A) matches the solution, and there is exactly one correct option.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.289275759,
+  "prompt_tokens": 854,
+  "prompt_time": 1.302273469,
+  "completion_tokens": 921,
+  "completion_time": 2.414296309,
+  "total_tokens": 1775,
+  "total_time": 3.716569778,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 758
+  }
+ }
+}

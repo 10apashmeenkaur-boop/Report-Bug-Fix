@@ -1,0 +1,65 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "0",
+   "option": "B"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "AC Circuits",
+   "why": "Question tests phase difference and power factor in AC circuits, appropriate for AC Circuits chapter."
+  },
+  "soundness": {
+   "status": "multiple_correct",
+   "why": "Both options B and C state '0 W', giving more than one correct choice."
+  },
+  "noise": [
+   {
+    "field": "solution",
+    "find": "&P = I_rmsV_rmscosϕ",
+    "why": "Extraneous ampersand character likely from formatting."
+   },
+   {
+    "field": "solution",
+    "find": "&ϕ = 90^(∘)",
+    "why": "Extraneous ampersand character likely from formatting."
+   }
+  ]
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\"value\":\"0\",\"option\":\"B\"},\n  \"solution_foreign\": {\"present\":false,\"fragment\":null,\"why\":null},\n  \"solution_errors\": [],\n  \"solution_factual\": [],\n  \"missing_data\": {\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\n  \"chapter_fit\": {\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"AC Circuits\",\"why\":\"Question tests phase difference and power factor in AC circuits, appropriate for AC Circuits chapter.\"},\n  \"soundness\": {\"status\":\"multiple_correct\",\"why\":\"Both options B and C state '0 W', giving more than one correct choice.\"},\n  \"noise\": [\n    {\"field\":\"solution\",\"find\":\"&P = I_rmsV_rmscosϕ\",\"why\":\"Extraneous ampersand character likely from formatting.\"},\n    {\"field\":\"solution\",\"find\":\"&ϕ = 90^(∘)\",\"why\":\"Extraneous ampersand character likely from formatting.\"}\n  ]\n}",
+ "_usage": {
+  "queue_time": 0.15821241,
+  "prompt_tokens": 853,
+  "prompt_time": 2.877328736,
+  "completion_tokens": 1300,
+  "completion_time": 3.188894738,
+  "total_tokens": 2153,
+  "total_time": 6.066223474,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1061
+  }
+ }
+}

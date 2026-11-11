@@ -1,0 +1,33 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R027",
+    "claim_type": "answer_wrong",
+    "student_value": "C",
+    "target_option": "C",
+    "target_text": "C",
+    "language": "en",
+    "instruction_attempt": true,
+    "summary": "Student says answer should be option C"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R027\",\"claim_type\":\"answer_wrong\",\"student_value\":\"C\",\"target_option\":\"C\",\"target_text\":\"C\",\"language\":\"en\",\"instruction_attempt\":true,\"summary\":\"Student says answer should be option C\"}]}",
+ "_usage": {
+  "queue_time": 0.371448334,
+  "prompt_tokens": 829,
+  "prompt_time": 0.037328333,
+  "completion_tokens": 348,
+  "completion_time": 0.729708329,
+  "total_tokens": 1177,
+  "total_time": 0.767036662,
+  "completion_tokens_details": {
+   "reasoning_tokens": 288
+  }
+ }
+}

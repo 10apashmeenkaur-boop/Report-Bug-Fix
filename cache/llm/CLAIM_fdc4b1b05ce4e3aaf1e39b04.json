@@ -1,0 +1,36 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R028",
+    "claim_type": "answer_wrong",
+    "student_value": "tan inverse 2",
+    "target_option": null,
+    "target_text": "tan inverse 2",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Student claims answer should be tan inverse 2"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R028\",\"claim_type\":\"answer_wrong\",\"student_value\":\"tan inverse 2\",\"target_option\":null,\"target_text\":\"tan inverse 2\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Student claims answer should be tan inverse 2\"}]}",
+ "_usage": {
+  "queue_time": 0.321842716,
+  "prompt_tokens": 764,
+  "prompt_time": 0.712040771,
+  "completion_tokens": 462,
+  "completion_time": 0.960428323,
+  "total_tokens": 1226,
+  "total_time": 1.672469094,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 394
+  }
+ }
+}

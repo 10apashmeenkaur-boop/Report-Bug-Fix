@@ -1,0 +1,51 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": null,
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": "Solution only contains relevant force symbols"
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": null,
+   "suggested_chapter": null,
+   "why": "Electrostatics covers Coulomb's law and forces between charges"
+  },
+  "soundness": {
+   "status": "no_correct_option",
+   "why": "Correct ratio is 1:1, which is not among options A, B, D; option C is blank"
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":null,\"option\":null},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":\"Solution only contains relevant force symbols\"},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":null,\"suggested_chapter\":null,\"why\":\"Electrostatics covers Coulomb's law and forces between charges\"},\"soundness\":{\"status\":\"no_correct_option\",\"why\":\"Correct ratio is 1:1, which is not among options A, B, D; option C is blank\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.157956292,
+  "prompt_tokens": 820,
+  "prompt_time": 0.044607811,
+  "completion_tokens": 1105,
+  "completion_time": 2.306482656,
+  "total_tokens": 1925,
+  "total_time": 2.351090467,
+  "completion_tokens_details": {
+   "reasoning_tokens": 950
+  }
+ }
+}

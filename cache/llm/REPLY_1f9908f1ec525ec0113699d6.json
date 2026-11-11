@@ -1,0 +1,24 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R036": "We’ve noted the options aren’t showing on your screen; we’ll fix the display so you can see all choices."
+  }
+ },
+ "raw": "{\"replies\":{\"R036\":\"We’ve noted the options aren’t showing on your screen; we’ll fix the display so you can see all choices.\"}}",
+ "_usage": {
+  "queue_time": 0.322093317,
+  "prompt_tokens": 495,
+  "prompt_time": 0.021380012,
+  "completion_tokens": 154,
+  "completion_time": 0.323335257,
+  "total_tokens": 649,
+  "total_time": 0.344715269,
+  "completion_tokens_details": {
+   "reasoning_tokens": 113
+  }
+ }
+}

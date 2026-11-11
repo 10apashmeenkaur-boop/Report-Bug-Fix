@@ -1,0 +1,47 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": false,
+    "why": "Calculated pressure is 4800 Pa, not 4556 Pa."
+   },
+   "B": {
+    "correct": false,
+    "why": "Calculated pressure is 4800 Pa, not 8225 Pa."
+   },
+   "C": {
+    "correct": false,
+    "why": "Calculated pressure is 4800 Pa, not 7520 Pa."
+   },
+   "D": {
+    "correct": true,
+    "why": "Using p = (1/3)ρv^2 gives (1/3)*0.09*400^2 = 4800 Pa."
+   }
+  },
+  "final_value": "4800 N/m^2",
+  "choice": "D",
+  "choices": [
+   "D"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\"assertion_true\":null,\"reason_true\":null,\"per_option\":{\"A\":{\"correct\":false,\"why\":\"Calculated pressure is 4800 Pa, not 4556 Pa.\"},\"B\":{\"correct\":false,\"why\":\"Calculated pressure is 4800 Pa, not 8225 Pa.\"},\"C\":{\"correct\":false,\"why\":\"Calculated pressure is 4800 Pa, not 7520 Pa.\"},\"D\":{\"correct\":true,\"why\":\"Using p = (1/3)ρv^2 gives (1/3)*0.09*400^2 = 4800 Pa.\"}},\"final_value\":\"4800 N/m^2\",\"choice\":\"D\",\"choices\":[\"D\"],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.319578678,
+  "prompt_tokens": 429,
+  "prompt_time": 0.02673039,
+  "completion_tokens": 476,
+  "completion_time": 0.993955024,
+  "total_tokens": 905,
+  "total_time": 1.020685414,
+  "completion_tokens_details": {
+   "reasoning_tokens": 312
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R015",
+    "claim_type": "duplicate_options",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "two options are same B and C",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Two answer options B and C are identical"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R015\",\"claim_type\":\"duplicate_options\",\"student_value\":null,\"target_option\":null,\"target_text\":\"two options are same B and C\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Two answer options B and C are identical\"}]}",
+ "_usage": {
+  "queue_time": 0.368639937,
+  "prompt_tokens": 782,
+  "prompt_time": 0.151046101,
+  "completion_tokens": 307,
+  "completion_time": 0.787377517,
+  "total_tokens": 1089,
+  "total_time": 0.938423618,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 240
+  }
+ }
+}

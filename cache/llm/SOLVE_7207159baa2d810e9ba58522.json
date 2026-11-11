@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "Total momentum =10*14+4*0=140 kg·m/s; total mass=10+4=14 kg; V_cm=140/14=10 m/s",
+  "final_value": "10 m/s",
+  "choice": "C",
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"Total momentum =10*14+4*0=140 kg·m/s; total mass=10+4=14 kg; V_cm=140/14=10 m/s\",\"final_value\":\"10 m/s\",\"choice\":\"C\",\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.439237737,
+  "prompt_tokens": 428,
+  "prompt_time": 0.050541908,
+  "completion_tokens": 242,
+  "completion_time": 0.506695867,
+  "total_tokens": 670,
+  "total_time": 0.557237775,
+  "completion_tokens_details": {
+   "reasoning_tokens": 174
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R023",
+    "claim_type": "wrong_chapter",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "neural control chapter",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Question belongs to neural control chapter, not living world"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R023\",\"claim_type\":\"wrong_chapter\",\"student_value\":null,\"target_option\":null,\"target_text\":\"neural control chapter\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Question belongs to neural control chapter, not living world\"}]}",
+ "_usage": {
+  "queue_time": 0.153983892,
+  "prompt_tokens": 768,
+  "prompt_time": 0.759506639,
+  "completion_tokens": 346,
+  "completion_time": 0.719569557,
+  "total_tokens": 1114,
+  "total_time": 1.479076196,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 279
+  }
+ }
+}

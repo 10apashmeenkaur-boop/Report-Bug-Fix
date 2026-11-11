@@ -1,0 +1,25 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R010": "Thanks for letting us know; a teacher is checking the options now.",
+   "R009": "Thanks for letting us know; a teacher is checking the options now."
+  }
+ },
+ "raw": "{\"replies\":{\"R010\":\"Thanks for letting us know; a teacher is checking the options now.\",\"R009\":\"Thanks for letting us know; a teacher is checking the options now.\"}}",
+ "_usage": {
+  "queue_time": 0.499492394,
+  "prompt_tokens": 638,
+  "prompt_time": 0.249794652,
+  "completion_tokens": 136,
+  "completion_time": 0.298886454,
+  "total_tokens": 774,
+  "total_time": 0.548681106,
+  "completion_tokens_details": {
+   "reasoning_tokens": 88
+  }
+ }
+}

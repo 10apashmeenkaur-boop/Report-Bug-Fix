@@ -1,0 +1,54 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "0.08m",
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": true,
+   "what": "wavelength λ",
+   "value": "1 (unit consistent with other quantities)",
+   "anchor": "distance between the slits plane and screen is 1 m",
+   "insert": " and the wavelength of light λ = 1 (unit consistent)"
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Wave optics",
+   "why": "The problem involves Young's double‑slit experiment and the effect of inserting glass slabs, which is a standard topic in wave optics."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "The computed shift 0.08 m equals 8 cm, matching the stored answer key of 8."
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\n    \"value\": \"0.08m\",\n    \"option\": null\n  },\n  \"solution_foreign\": {\n    \"present\": false,\n    \"fragment\": null,\n    \"why\": null\n  },\n  \"solution_errors\": [],\n  \"solution_factual\": [],\n  \"missing_data\": {\n    \"present\": true,\n    \"what\": \"wavelength λ\",\n    \"value\": \"1 (unit consistent with other quantities)\",\n    \"anchor\": \"distance between the slits plane and screen is 1 m\",\n    \"insert\": \" and the wavelength of light λ = 1 (unit consistent)\"\n  },\n  \"chapter_fit\": {\n    \"fits\": true,\n    \"suggested_subject\": \"Physics\",\n    \"suggested_chapter\": \"Wave optics\",\n    \"why\": \"The problem involves Young's double‑slit experiment and the effect of inserting glass slabs, which is a standard topic in wave optics.\"\n  },\n  \"soundness\": {\n    \"status\": \"ok\",\n    \"why\": \"The computed shift 0.08 m equals 8 cm, matching the stored answer key of 8.\"\n  },\n  \"noise\": []\n}",
+ "_usage": {
+  "queue_time": 0.156622626,
+  "prompt_tokens": 909,
+  "prompt_time": 0.087755556,
+  "completion_tokens": 1581,
+  "completion_time": 4.315136359,
+  "total_tokens": 2490,
+  "total_time": 4.402891915,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1313
+  }
+ }
+}

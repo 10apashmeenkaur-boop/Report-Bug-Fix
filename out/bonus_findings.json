@@ -1,0 +1,658 @@
+[
+  {
+    "questionId": "68dea715387eea3d0d95f790",
+    "subject": "Physics",
+    "chapter": "Units and dimensions",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step '311.3 m^(2)' should be '10 A = 10 × 311.3 = 3113'. The question asks for the value of 10 A, but the solution stops at A = 311.3 m² and does not perform the required multiplication by 10.",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": true
+  },
+  {
+    "questionId": "61ee6c9d90a1a968a168686b",
+    "subject": "Zoology",
+    "chapter": "Digestion and Absorption",
+    "kind": "solution_factual",
+    "repair": "solution_fix",
+    "evidence": "Solution states 'Maceus membrane' — Correct term for the lining of the small intestine is mucous membrane (or mucosa) Correct: 'Mucous membrane'.",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "63c7cce12981ed154ee92c94",
+    "subject": "Physics",
+    "chapter": "Geometrical optics and optical instruments",
+    "kind": "solution_factual",
+    "repair": "solution_fix",
+    "evidence": "Solution states '8.85×10^( − 8)F' — Correct value of vacuum permittivity Correct: '8.85×10^(−12)F'.",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "63c7cce12981ed154ee92c94",
+    "subject": "Physics",
+    "chapter": "Geometrical optics and optical instruments",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step '8.85×10^( − 8)F' should be '8.85×10^(−12)F'. ε0 value exponent is incorrect",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": true
+  },
+  {
+    "questionId": "68e872546e45ba37dcc16bc0",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "kind": "unsound",
+    "repair": "unsound",
+    "evidence": "Correct ratio is 1:1, which is not among options A, B, D; option C is blank",
+    "edit": null,
+    "confidence": 0.6,
+    "reported": true
+  },
+  {
+    "questionId": "66fe9dbe22132e5a70a3e579",
+    "subject": "Zoology",
+    "chapter": "Chemical Coordination and Integration",
+    "kind": "solution_factual",
+    "repair": "solution_fix",
+    "evidence": "Solution states 'Insulin and glucagon work synergistically to keep blood glucose concentrations normal.' — Insulin and glucagon have opposite effects on blood glucose levels, not synergistic. Correct: 'Insulin and glucagon work antagonistically to regulate blood glucose concentrations.'.",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "620e23cecc50543bc7db9186",
+    "subject": "Zoology",
+    "chapter": "Evolution",
+    "kind": "spelling",
+    "repair": "spelling",
+    "evidence": "'wheater' → 'whether' (solution)",
+    "edit": {
+      "field": "solution",
+      "find": "wheater",
+      "replace": "whether"
+    },
+    "confidence": 0.85,
+    "reported": true
+  },
+  {
+    "questionId": "620e23cecc50543bc7db9186",
+    "subject": "Zoology",
+    "chapter": "Evolution",
+    "kind": "solution_factual",
+    "repair": "solution_fix",
+    "evidence": "Solution states 'Forked tongue snakes may represents the origin of new variety of snake from the non-forked tongue snakes.' — The original statement incorrectly describes evolutionary origin rather than ancestral state reconstruction. Correct: 'The presence or absence of a forked tongue is a character state; to infer the ancestral state, one should compare with an outgroup species.'.",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "6208e80a9cb2ab67dac61bd0",
+    "subject": "Botany",
+    "chapter": "Photosynthesis in Higher Plants",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step 'Minimum photosynthesis occur in the green wavelength.' should be 'Minimum photosynthesis occurs in the green wavelength.'. Verb agreement error",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": true
+  },
+  {
+    "questionId": "68dea657387eea3d0d95f54a",
+    "subject": "Physics",
+    "chapter": "Geometrical optics and optical instruments",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step '2P_eqcu' should be '2 P_eq'. Spurious characters 'cu' attached to expression",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": false
+  },
+  {
+    "questionId": "68dea657387eea3d0d95f54a",
+    "subject": "Physics",
+    "chapter": "Geometrical optics and optical instruments",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step 'P_eqch' should be 'P'. Incorrect variable name; should denote power of each lens",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": false
+  },
+  {
+    "questionId": "68e8734442c06737d6e56da4",
+    "subject": "Physics",
+    "chapter": "Newton's law of motion",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step '10020 + 100μ = 100μ = 0.8' should be '20 + 100μ = 100'. Algebraic simplification is incorrect; after expanding 2(10+μ100)−μ100 the correct expression is 20+100μ=100",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": true
+  },
+  {
+    "questionId": "6956d79788d7701e5617bc29",
+    "subject": "Physics",
+    "chapter": "AC Circuits",
+    "kind": "markup_leak",
+    "repair": "markup_leak",
+    "evidence": "2 stray '&' alignment character(s) from LaTeX render visibly in the solution.",
+    "edit": null,
+    "confidence": 0.9,
+    "reported": true
+  },
+  {
+    "questionId": "6956d79788d7701e5617bc29",
+    "subject": "Physics",
+    "chapter": "AC Circuits",
+    "kind": "noise",
+    "repair": "noise",
+    "evidence": "Stray text '&P = I_rmsV_rmscosϕ' in solution: Extraneous ampersand character likely from formatting.",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "6956d79788d7701e5617bc29",
+    "subject": "Physics",
+    "chapter": "AC Circuits",
+    "kind": "noise",
+    "repair": "noise",
+    "evidence": "Stray text '&ϕ = 90^(∘)' in solution: Extraneous ampersand character likely from formatting.",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "6956d79788d7701e5617bc29",
+    "subject": "Physics",
+    "chapter": "AC Circuits",
+    "kind": "unsound",
+    "repair": "unsound",
+    "evidence": "Both options B and C state '0 W', giving more than one correct choice.",
+    "edit": null,
+    "confidence": 0.6,
+    "reported": true
+  },
+  {
+    "questionId": "695ee00b88d7701e561aabc5",
+    "subject": "Physics",
+    "chapter": "Waves",
+    "kind": "solution_factual",
+    "repair": "solution_fix",
+    "evidence": "Solution states 'In interference, the resultant intensity is always the sum of individual intensities if the phase difference is non-zero.' — The statement is factually incorrect for coherent interference. Correct: 'In interference, the resultant intensity equals the sum of individual intensities only when the waves are incoherent (no fixed phase relationship); for coherent waves it depends on the phase difference.'.",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "695ee00b88d7701e561aabc5",
+    "subject": "Physics",
+    "chapter": "Waves",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step 'I = 2I_0cos^(2)((ϕ)/(2))' should be 'I = 4I_0cos^(2)((ϕ)/(2))'. Correct intensity formula for two equal‑amplitude coherent waves is I = 4I₀cos²(φ/2).",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": true
+  },
+  {
+    "questionId": "695ee00b88d7701e561aabc5",
+    "subject": "Physics",
+    "chapter": "Waves",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step 'Therefore, assertion (A) is true.' should be 'Therefore, assertion (A) is false.'. Logical inconsistency; the preceding analysis shows the assertion is false.",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": true
+  },
+  {
+    "questionId": "622df25ab70e4b50e44ff837",
+    "subject": "Physics",
+    "chapter": "Properties of matter and fluid mechanics",
+    "kind": "spelling",
+    "repair": "spelling",
+    "evidence": "'hemispherial' → 'hemispherical' (question)",
+    "edit": {
+      "field": "question",
+      "find": "hemispherial",
+      "replace": "hemispherical"
+    },
+    "confidence": 0.85,
+    "reported": true
+  },
+  {
+    "questionId": "622df25ab70e4b50e44ff837",
+    "subject": "Physics",
+    "chapter": "Properties of matter and fluid mechanics",
+    "kind": "solution_factual",
+    "repair": "solution_fix",
+    "evidence": "Solution states 'P_2<P_1(since r_2>r_1)' — The inequality assumes r_2>r_1, but the radius of the bubble at end 2 is not given in the question. Correct: 'P_2<P_1 (cannot be concluded without knowing r_2)'.",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "622df25ab70e4b50e44ff837",
+    "subject": "Physics",
+    "chapter": "Properties of matter and fluid mechanics",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step 'sincer_2>r_1' should be 'since r_2>r_1'. Typographical error; the intended word is \"since\".",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": true
+  },
+  {
+    "questionId": "622df25ab70e4b50e44ff837",
+    "subject": "Physics",
+    "chapter": "Properties of matter and fluid mechanics",
+    "kind": "missing_data",
+    "repair": "stem_data",
+    "evidence": "Question does not state radius of the sub‑hemispherical bubble at end 2 (solution uses r_2 > r_1).",
+    "edit": null,
+    "confidence": 0.7,
+    "reported": true
+  },
+  {
+    "questionId": "695ede2a88d7701e561aa9d9",
+    "subject": "Zoology",
+    "chapter": "Excretory Products and their Elimination",
+    "kind": "solution_factual",
+    "repair": "solution_fix",
+    "evidence": "Solution states 'making it a supportive measure when transplant isn't feasible (Statement-II).' — The factual claim about Statement‑II is reversed; the statement says dialysis is not supportive, but the solution describes it as supportive. Correct: 'showing that Statement‑II is incorrect because dialysis is a supportive measure when transplant isn't feasible.'.",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": false
+  },
+  {
+    "questionId": "695ede2a88d7701e561aa9d9",
+    "subject": "Zoology",
+    "chapter": "Excretory Products and their Elimination",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step 'making it a supportive measure when transplant isn't feasible (Statement-II).' should be 'showing that Statement‑II is incorrect because dialysis is a supportive measure when transplant isn't feasible.'. The solution claims dialysis is a supportive measure (which contradicts the claim that Statement‑II is incorrect). The explanation should reflect that Statement‑II is false.",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": false
+  },
+  {
+    "questionId": "695ede2a88d7701e561aa9d9",
+    "subject": "Zoology",
+    "chapter": "Excretory Products and their Elimination",
+    "kind": "wrong_chapter",
+    "repair": "wrong_chapter",
+    "evidence": "Filed as Excretory Products and their Elimination; looks like Human Physiology – Renal Physiology. The question concerns medical dialysis, which belongs to human renal physiology, not Zoology's Excretory Products and their Elimination.",
+    "edit": null,
+    "confidence": 0.7,
+    "reported": false
+  },
+  {
+    "questionId": "612151a6a34397610a9a2e58",
+    "subject": "Physics",
+    "chapter": "Photoelectric effect and matter waves",
+    "kind": "markup_leak",
+    "repair": "markup_leak",
+    "evidence": "Raw LaTeX '\\AA' (ångström) is shown as text in the solution.",
+    "edit": {
+      "field": "solution",
+      "find": "\\AA",
+      "replace": "Å"
+    },
+    "confidence": 0.97,
+    "reported": true
+  },
+  {
+    "questionId": "612151a6a34397610a9a2e58",
+    "subject": "Physics",
+    "chapter": "Photoelectric effect and matter waves",
+    "kind": "spelling",
+    "repair": "spelling",
+    "evidence": "'de-Broglie' → 'de Broglie' (question)",
+    "edit": {
+      "field": "question",
+      "find": "de-Broglie",
+      "replace": "de Broglie"
+    },
+    "confidence": 0.85,
+    "reported": true
+  },
+  {
+    "questionId": "612151a6a34397610a9a2e58",
+    "subject": "Physics",
+    "chapter": "Photoelectric effect and matter waves",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step '5.469×10^( − 10)m = 5.47\\AA' should be '0.3 nm = 3.0×10^(−10) m'. The solution uses a wavelength of 5.47 Å, which does not match the question's given wavelength of 0.3 nm.",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": true
+  },
+  {
+    "questionId": "612151a6a34397610a9a2e58",
+    "subject": "Physics",
+    "chapter": "Photoelectric effect and matter waves",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step '(h)/(|I|)' should be '(h)/(|p|)'. Variable typo: momentum is denoted by p, not I.",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": true
+  },
+  {
+    "questionId": "60f742f6660d187cc13a8078",
+    "subject": "Physics",
+    "chapter": "Alternating Current and EM Waves",
+    "kind": "solution_factual",
+    "repair": "solution_fix",
+    "evidence": "Solution states '2πvL' — The impedance formula uses frequency f, not v Correct: '2πfL'.",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "6264197209f4fd65f58f5707",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and its Applications",
+    "kind": "spelling",
+    "repair": "spelling",
+    "evidence": "'Canolla' → 'Canola' (question)",
+    "edit": {
+      "field": "question",
+      "find": "Canolla",
+      "replace": "Canola"
+    },
+    "confidence": 0.85,
+    "reported": true
+  },
+  {
+    "questionId": "6264197209f4fd65f58f5707",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and its Applications",
+    "kind": "spelling",
+    "repair": "spelling",
+    "evidence": "'riceis' → 'rice is' (solution)",
+    "edit": {
+      "field": "solution",
+      "find": "riceis",
+      "replace": "rice is"
+    },
+    "confidence": 0.85,
+    "reported": true
+  },
+  {
+    "questionId": "6264197209f4fd65f58f5707",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and its Applications",
+    "kind": "spelling",
+    "repair": "spelling",
+    "evidence": "'producebeta-carotene' → 'produce beta-carotene' (solution)",
+    "edit": {
+      "field": "solution",
+      "find": "producebeta-carotene",
+      "replace": "produce beta-carotene"
+    },
+    "confidence": 0.85,
+    "reported": true
+  },
+  {
+    "questionId": "6264197209f4fd65f58f5707",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and its Applications",
+    "kind": "spelling",
+    "repair": "spelling",
+    "evidence": "'ofvitamin' → 'of vitamin' (solution)",
+    "edit": {
+      "field": "solution",
+      "find": "ofvitamin",
+      "replace": "of vitamin"
+    },
+    "confidence": 0.85,
+    "reported": true
+  },
+  {
+    "questionId": "6264197209f4fd65f58f5707",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and its Applications",
+    "kind": "spelling",
+    "repair": "spelling",
+    "evidence": "'helpprevent' → 'help prevent' (solution)",
+    "edit": {
+      "field": "solution",
+      "find": "helpprevent",
+      "replace": "help prevent"
+    },
+    "confidence": 0.85,
+    "reported": true
+  },
+  {
+    "questionId": "6264197209f4fd65f58f5707",
+    "subject": "Zoology",
+    "chapter": "Biotechnology and its Applications",
+    "kind": "spelling",
+    "repair": "spelling",
+    "evidence": "'tonight' → 'to night' (solution)",
+    "edit": {
+      "field": "solution",
+      "find": "tonight",
+      "replace": "to night"
+    },
+    "confidence": 0.85,
+    "reported": true
+  },
+  {
+    "questionId": "617fa18efd53ff1629ed890f",
+    "subject": "Botany",
+    "chapter": "Morphology of Flowering Plants",
+    "kind": "noise",
+    "repair": "noise",
+    "evidence": "Stray text '(NEET 2019)' in question: Source label not needed",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "6062ec84518e9535e120c422",
+    "subject": "Physics",
+    "chapter": "Temperature and thermal properties of matter",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step 'γ = 3a' should be 'γ = 3α'. The coefficient of cubical expansion γ equals three times the linear expansion coefficient α, not the letter a.",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": true
+  },
+  {
+    "questionId": "6062ec84518e9535e120c422",
+    "subject": "Physics",
+    "chapter": "Temperature and thermal properties of matter",
+    "kind": "noise",
+    "repair": "noise",
+    "evidence": "Stray text 'AC' in solution: Stray text not part of the solution.",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "6062ec84518e9535e120c422",
+    "subject": "Physics",
+    "chapter": "Temperature and thermal properties of matter",
+    "kind": "noise",
+    "repair": "noise",
+    "evidence": "Stray text 'CC' in solution: Stray text not part of the solution.",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "5fc60508028950133eac8963",
+    "subject": "Physics",
+    "chapter": "Newton's law of motion",
+    "kind": "missing_data",
+    "repair": "stem_data",
+    "evidence": "Question does not state gravitational acceleration (solution uses 10 m/s^2).",
+    "edit": null,
+    "confidence": 0.7,
+    "reported": true
+  },
+  {
+    "questionId": "68f21caf941cda588bc04365",
+    "subject": "Physics",
+    "chapter": "Mathematics in physics",
+    "kind": "wrong_chapter",
+    "repair": "wrong_chapter",
+    "evidence": "Filed as Mathematics in physics; looks like Radioactivity. The question deals with radioactive decay, which belongs to the Radioactivity/Nuclear Physics chapter, not 'Mathematics in physics'.",
+    "edit": null,
+    "confidence": 0.7,
+    "reported": true
+  },
+  {
+    "questionId": "68c801bc1b1dbc16dc93bf2b",
+    "subject": "Physics",
+    "chapter": "Photoelectric effect and matter waves",
+    "kind": "markup_leak",
+    "repair": "markup_leak",
+    "evidence": "2 stray '&' alignment character(s) from LaTeX render visibly in the solution.",
+    "edit": null,
+    "confidence": 0.9,
+    "reported": true
+  },
+  {
+    "questionId": "68c801bc1b1dbc16dc93bf2b",
+    "subject": "Physics",
+    "chapter": "Photoelectric effect and matter waves",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step '(1)/(√(2mK)) = (c)/(eV)√(2mK) = (eV)/(c)' should be '(1)/(√(2mK)) = (c)/(eV)'. Incorrect algebra after cancelling h; the correct relation is 1/√(2mK)=c/(eV) leading to √(2mK)=eV/c.",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": true
+  },
+  {
+    "questionId": "68c801bc1b1dbc16dc93bf2b",
+    "subject": "Physics",
+    "chapter": "Photoelectric effect and matter waves",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step 'K&' should be 'K'. Spurious '&' character introduced; should be just K.",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": true
+  },
+  {
+    "questionId": "636283dbe3770c24f866e6d6",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step 'R = 4rQ = 64q;' should be 'R = 4r; Q = 64 q;'. Two separate equations were concatenated without a separator; R = 4r follows from volume equality and Q = 64 q follows from charge addition.",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": true
+  },
+  {
+    "questionId": "6263d75bdd44e265ef926d97",
+    "subject": "Physics",
+    "chapter": "Properties of matter and fluid mechanics",
+    "kind": "solution_factual",
+    "repair": "solution_fix",
+    "evidence": "Solution states 'a = 40 cm' — Correct calculation gives side length a = 20 cm, not 40 cm. Correct: 'a = 20 cm'.",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "622f08d7b70e4b50e4500a1b",
+    "subject": "Physics",
+    "chapter": "Centre of mass and momentum conservation (collision)",
+    "kind": "markup_leak",
+    "repair": "markup_leak",
+    "evidence": "2 stray '&' alignment character(s) from LaTeX render visibly in the solution.",
+    "edit": null,
+    "confidence": 0.9,
+    "reported": true
+  },
+  {
+    "questionId": "622f08d7b70e4b50e4500a1b",
+    "subject": "Physics",
+    "chapter": "Centre of mass and momentum conservation (collision)",
+    "kind": "missing_data",
+    "repair": "stem_data",
+    "evidence": "Question does not state initial velocity of the lighter block (solution uses 0).",
+    "edit": null,
+    "confidence": 0.7,
+    "reported": true
+  },
+  {
+    "questionId": "68c8153cfb6b2f16e2d3ceaf",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "kind": "wrong_chapter",
+    "repair": "wrong_chapter",
+    "evidence": "Filed as Electrostatics; looks like Magnetism. The question involves both electrostatic and magnetic fields, but the stored chapter is only Electrostatics.",
+    "edit": null,
+    "confidence": 0.7,
+    "reported": true
+  },
+  {
+    "questionId": "6956d7e988d7701e5617bd3e",
+    "subject": "Physics",
+    "chapter": "Oscillations",
+    "kind": "solution_error",
+    "repair": "solution_fix",
+    "evidence": "Solution step 'π = A×(π)/(8)×cos(π)/(8)×2' should be 'π = A×(π)/(8)×cos(π/4)'. The cosine term should be cos(ωt)=cos((π/8)·2)=cos(π/4), not \"cos(π)/(8)×2\"",
+    "edit": null,
+    "confidence": 0.75,
+    "reported": true
+  },
+  {
+    "questionId": "6956d7bb23cb221e570d6013",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "kind": "noise",
+    "repair": "noise",
+    "evidence": "Stray text 'Solution:' in solution: Redundant label",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "6956d7bb23cb221e570d6013",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "kind": "noise",
+    "repair": "noise",
+    "evidence": "Stray text '(b)' in solution: Lower‑case option label not needed",
+    "edit": null,
+    "confidence": 0.8,
+    "reported": true
+  },
+  {
+    "questionId": "6956d7bb23cb221e570d6013",
+    "subject": "Physics",
+    "chapter": "Motion in a Plane",
+    "kind": "missing_data",
+    "repair": "stem_data",
+    "evidence": "Question does not state projectile lands at the same vertical level as launch (solution uses same level).",
+    "edit": null,
+    "confidence": 0.7,
+    "reported": true
+  },
+  {
+    "questionId": "68dea7c2387eea3d0d95f9bb",
+    "subject": "Physics",
+    "chapter": "Wave optics",
+    "kind": "missing_data",
+    "repair": "stem_data",
+    "evidence": "Question does not state wavelength λ (solution uses 1 (unit consistent with other quantities)).",
+    "edit": null,
+    "confidence": 0.7,
+    "reported": true
+  }
+]

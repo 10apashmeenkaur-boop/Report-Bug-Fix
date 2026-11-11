@@ -1,0 +1,33 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R034",
+    "claim_type": "other",
+    "student_value": "assertion is true, intensity remains same",
+    "target_option": null,
+    "target_text": null,
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Student claims assertion is true, intensity unchanged"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R034\",\"claim_type\":\"other\",\"student_value\":\"assertion is true, intensity remains same\",\"target_option\":null,\"target_text\":null,\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Student claims assertion is true, intensity unchanged\"}]}",
+ "_usage": {
+  "queue_time": 0.321924564,
+  "prompt_tokens": 822,
+  "prompt_time": 0.046363614,
+  "completion_tokens": 435,
+  "completion_time": 0.913489367,
+  "total_tokens": 1257,
+  "total_time": 0.959852981,
+  "completion_tokens_details": {
+   "reasoning_tokens": 368
+  }
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R017": "Thanks for spotting it! The typo 'mere' has been corrected to 'more' (and 'shurbs' to 'shrubs') in the options."
+  }
+ },
+ "raw": "{\"replies\":{\"R017\":\"Thanks for spotting it! The typo 'mere' has been corrected to 'more' (and 'shurbs' to 'shrubs') in the options.\"}}",
+ "_usage": {
+  "queue_time": 0.278173041,
+  "prompt_tokens": 498,
+  "prompt_time": 0.021348559,
+  "completion_tokens": 161,
+  "completion_time": 0.338509091,
+  "total_tokens": 659,
+  "total_time": 0.35985765,
+  "completion_tokens_details": {
+   "reasoning_tokens": 112
+  }
+ }
+}

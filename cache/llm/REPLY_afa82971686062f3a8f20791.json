@@ -1,0 +1,24 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R039": "Sure, we’ll add a Hindi version of the question for you shortly."
+  }
+ },
+ "raw": "{\"replies\":{\"R039\":\"Sure, we’ll add a Hindi version of the question for you shortly.\"}}",
+ "_usage": {
+  "queue_time": 0.316442677,
+  "prompt_tokens": 524,
+  "prompt_time": 0.02695422,
+  "completion_tokens": 146,
+  "completion_time": 0.309166841,
+  "total_tokens": 670,
+  "total_time": 0.336121061,
+  "completion_tokens_details": {
+   "reasoning_tokens": 114
+  }
+ }
+}

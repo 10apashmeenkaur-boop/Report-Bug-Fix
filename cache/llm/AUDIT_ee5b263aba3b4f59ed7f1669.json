@@ -1,0 +1,51 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "10m/s",
+   "option": "C"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": ""
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": true,
+   "what": "initial velocity of the lighter block",
+   "value": "0",
+   "anchor": "in the direction of the lighter block.",
+   "insert": " The lighter block is initially at rest."
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Centre of mass and momentum conservation",
+   "why": "The problem asks for the centre‑of‑mass velocity, which is a standard application of the centre‑of‑mass concept and momentum conservation."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option C (10 m/s) matches the correct calculation."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"10m/s\",\"option\":\"C\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":\"\"},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":true,\"what\":\"initial velocity of the lighter block\",\"value\":\"0\",\"anchor\":\"in the direction of the lighter block.\",\"insert\":\" The lighter block is initially at rest.\"},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Centre of mass and momentum conservation\",\"why\":\"The problem asks for the centre‑of‑mass velocity, which is a standard application of the centre‑of‑mass concept and momentum conservation.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Only option C (10 m/s) matches the correct calculation.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.159620098,
+  "prompt_tokens": 875,
+  "prompt_time": 0.045491725,
+  "completion_tokens": 1076,
+  "completion_time": 2.2670205709999998,
+  "total_tokens": 1951,
+  "total_time": 2.312512296,
+  "completion_tokens_details": {
+   "reasoning_tokens": 898
+  }
+ }
+}

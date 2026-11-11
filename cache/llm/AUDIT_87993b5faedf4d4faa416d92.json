@@ -1,0 +1,51 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "180 days",
+   "option": "C"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": "No text from another question appears in the solution"
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": null,
+   "suggested_chapter": null,
+   "why": "Half‑life calculation is a topic of Nuclear physics and radioactivity"
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Exactly one option (C) matches the correct calculation"
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"180 days\",\"option\":\"C\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":\"No text from another question appears in the solution\"},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":null,\"suggested_chapter\":null,\"why\":\"Half‑life calculation is a topic of Nuclear physics and radioactivity\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Exactly one option (C) matches the correct calculation\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.156423349,
+  "prompt_tokens": 830,
+  "prompt_time": 0.037225285,
+  "completion_tokens": 906,
+  "completion_time": 1.909270946,
+  "total_tokens": 1736,
+  "total_time": 1.946496231,
+  "completion_tokens_details": {
+   "reasoning_tokens": 761
+  }
+ }
+}

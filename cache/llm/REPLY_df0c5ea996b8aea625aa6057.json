@@ -1,0 +1,24 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R030": "Thanks for checking! Using ω = 2π/T = π/8 and v = ωA cos(ωt) at t = 2 s (cos π/4 = √2/2) gives A = 8√2 m, which matches the key (D)."
+  }
+ },
+ "raw": "{\"replies\":{\"R030\":\"Thanks for checking! Using ω = 2π/T = π/8 and v = ωA cos(ωt) at t = 2 s (cos π/4 = √2/2) gives A = 8√2 m, which matches the key (D).\"}}",
+ "_usage": {
+  "queue_time": 0.322611638,
+  "prompt_tokens": 559,
+  "prompt_time": 0.028732959,
+  "completion_tokens": 431,
+  "completion_time": 0.911259337,
+  "total_tokens": 990,
+  "total_time": 0.939992296,
+  "completion_tokens_details": {
+   "reasoning_tokens": 352
+  }
+ }
+}

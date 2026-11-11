@@ -1,0 +1,27 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R024": "Thanks for catching that! The answer should be given as 20 N, now the unit is included."
+  }
+ },
+ "raw": "{\"replies\":{\"R024\":\"Thanks for catching that! The answer should be given as 20 N, now the unit is included.\"}}",
+ "_usage": {
+  "queue_time": 0.157626344,
+  "prompt_tokens": 496,
+  "prompt_time": 0.014495596,
+  "completion_tokens": 162,
+  "completion_time": 0.347769707,
+  "total_tokens": 658,
+  "total_time": 0.362265303,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 123
+  }
+ }
+}

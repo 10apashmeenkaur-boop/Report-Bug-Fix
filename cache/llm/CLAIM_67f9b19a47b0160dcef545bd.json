@@ -1,0 +1,33 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R029",
+    "claim_type": "answer_wrong",
+    "student_value": "0.4",
+    "target_option": "B",
+    "target_text": "0.4",
+    "language": "hinglish",
+    "instruction_attempt": false,
+    "summary": "Student says the correct coefficient μ should be 0.4 instead"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R029\",\"claim_type\":\"answer_wrong\",\"student_value\":\"0.4\",\"target_option\":\"B\",\"target_text\":\"0.4\",\"language\":\"hinglish\",\"instruction_attempt\":false,\"summary\":\"Student says the correct coefficient μ should be 0.4 instead\"}]}",
+ "_usage": {
+  "queue_time": 0.156661269,
+  "prompt_tokens": 801,
+  "prompt_time": 0.069092074,
+  "completion_tokens": 383,
+  "completion_time": 0.804852793,
+  "total_tokens": 1184,
+  "total_time": 0.873944867,
+  "completion_tokens_details": {
+   "reasoning_tokens": 312
+  }
+ }
+}

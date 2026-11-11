@@ -1,0 +1,47 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": false,
+    "why": "Mean life computed as τ = t/(3 ln2) ≈1.44 min, not 0.693 min."
+   },
+   "B": {
+    "correct": true,
+    "why": "Using N/N0=1/8 gives τ =3 min/(3 ln2)≈1.44 min, matching option B."
+   },
+   "C": {
+    "correct": false,
+    "why": "2.079 min corresponds to half‑life, not mean life."
+   },
+   "D": {
+    "correct": false,
+    "why": "4.329 min is unrelated to the calculated mean life."
+   }
+  },
+  "final_value": "1.44 min",
+  "choice": "B",
+  "choices": [
+   "B"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\"assertion_true\":null,\"reason_true\":null,\"per_option\":{\"A\":{\"correct\":false,\"why\":\"Mean life computed as τ = t/(3 ln2) ≈1.44 min, not 0.693 min.\"},\"B\":{\"correct\":true,\"why\":\"Using N/N0=1/8 gives τ =3 min/(3 ln2)≈1.44 min, matching option B.\"},\"C\":{\"correct\":false,\"why\":\"2.079 min corresponds to half‑life, not mean life.\"},\"D\":{\"correct\":false,\"why\":\"4.329 min is unrelated to the calculated mean life.\"}},\"final_value\":\"1.44 min\",\"choice\":\"B\",\"choices\":[\"B\"],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.857490512,
+  "prompt_tokens": 412,
+  "prompt_time": 0.019121419,
+  "completion_tokens": 503,
+  "completion_time": 1.062661591,
+  "total_tokens": 915,
+  "total_time": 1.08178301,
+  "completion_tokens_details": {
+   "reasoning_tokens": 333
+  }
+ }
+}

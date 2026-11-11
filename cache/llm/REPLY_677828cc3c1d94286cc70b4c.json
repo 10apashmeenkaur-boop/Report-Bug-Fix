@@ -1,0 +1,24 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R021": "Thanks for flagging it! The question was stored as a multi‑correct type, but the answer key only had B (1.44 min). It’s now set as a single‑choice with B as the correct answer."
+  }
+ },
+ "raw": "{\"replies\":{\"R021\":\"Thanks for flagging it! The question was stored as a multi‑correct type, but the answer key only had B (1.44 min). It’s now set as a single‑choice with B as the correct answer.\"}}",
+ "_usage": {
+  "queue_time": 0.369117776,
+  "prompt_tokens": 524,
+  "prompt_time": 0.024335791,
+  "completion_tokens": 310,
+  "completion_time": 0.653286114,
+  "total_tokens": 834,
+  "total_time": 0.677621905,
+  "completion_tokens_details": {
+   "reasoning_tokens": 246
+  }
+ }
+}

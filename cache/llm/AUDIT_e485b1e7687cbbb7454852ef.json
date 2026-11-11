@@ -1,0 +1,51 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "1.1 V",
+   "option": "D"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Photoelectric effect and matter waves",
+   "why": "The question asks for stopping potential in a photoelectric effect scenario, which is covered in this chapter."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option D matches the calculated stopping potential."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"1.1 V\",\"option\":\"D\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Photoelectric effect and matter waves\",\"why\":\"The question asks for stopping potential in a photoelectric effect scenario, which is covered in this chapter.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Only option D matches the calculated stopping potential.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.369052993,
+  "prompt_tokens": 870,
+  "prompt_time": 0.052009674,
+  "completion_tokens": 851,
+  "completion_time": 1.786572139,
+  "total_tokens": 1721,
+  "total_time": 1.838581813,
+  "completion_tokens_details": {
+   "reasoning_tokens": 704
+  }
+ }
+}

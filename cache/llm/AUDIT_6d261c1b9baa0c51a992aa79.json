@@ -1,0 +1,57 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "0.8",
+   "option": "A"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": "All quantities in the solution belong to the given problem"
+  },
+  "solution_errors": [
+   {
+    "find": "10020 + 100μ = 100μ = 0.8",
+    "replace": "20 + 100μ = 100",
+    "why": "Algebraic simplification is incorrect; after expanding 2(10+μ100)−μ100 the correct expression is 20+100μ=100"
+   }
+  ],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Newton's law of motion",
+   "why": "The problem uses Newton's second law with friction, which belongs to this chapter"
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option A (0.8) satisfies the derived coefficient of friction"
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\"value\": \"0.8\", \"option\": \"A\"},\n  \"solution_foreign\": {\"present\": false, \"fragment\": null, \"why\": \"All quantities in the solution belong to the given problem\"},\n  \"solution_errors\": [\n    {\n      \"find\": \"10020 + 100μ = 100μ = 0.8\",\n      \"replace\": \"20 + 100μ = 100\",\n      \"why\": \"Algebraic simplification is incorrect; after expanding 2(10+μ100)−μ100 the correct expression is 20+100μ=100\"\n    }\n  ],\n  \"solution_factual\": [],\n  \"missing_data\": {\"present\": false, \"what\": null, \"value\": null, \"anchor\": null, \"insert\": null},\n  \"chapter_fit\": {\"fits\": true, \"suggested_subject\": \"Physics\", \"suggested_chapter\": \"Newton's law of motion\", \"why\": \"The problem uses Newton's second law with friction, which belongs to this chapter\"},\n  \"soundness\": {\"status\": \"ok\", \"why\": \"Only option A (0.8) satisfies the derived coefficient of friction\"},\n  \"noise\": []\n}",
+ "_usage": {
+  "queue_time": 0.3186281,
+  "prompt_tokens": 898,
+  "prompt_time": 0.050234046,
+  "completion_tokens": 1294,
+  "completion_time": 2.706311242,
+  "total_tokens": 2192,
+  "total_time": 2.756545288,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1019
+  }
+ }
+}

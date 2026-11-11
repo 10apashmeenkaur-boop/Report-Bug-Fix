@@ -1,0 +1,51 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "required for a new depolarization.",
+   "option": "B"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": false,
+   "suggested_subject": "Physiology",
+   "suggested_chapter": "Nervous System",
+   "why": "The question concerns neuronal action potentials, not botany"
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Exactly one correct option (B) matches the solution"
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"required for a new depolarization.\",\"option\":\"B\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":false,\"suggested_subject\":\"Physiology\",\"suggested_chapter\":\"Nervous System\",\"why\":\"The question concerns neuronal action potentials, not botany\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Exactly one correct option (B) matches the solution\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.158464562,
+  "prompt_tokens": 896,
+  "prompt_time": 0.043544926,
+  "completion_tokens": 715,
+  "completion_time": 1.487106695,
+  "total_tokens": 1611,
+  "total_time": 1.530651621,
+  "completion_tokens_details": {
+   "reasoning_tokens": 573
+  }
+ }
+}

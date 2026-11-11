@@ -1,0 +1,36 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R036",
+    "claim_type": "display",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "options",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Options are cut off on phone screen"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R036\",\"claim_type\":\"display\",\"student_value\":null,\"target_option\":null,\"target_text\":\"options\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Options are cut off on phone screen\"}]}",
+ "_usage": {
+  "queue_time": 0.155651638,
+  "prompt_tokens": 773,
+  "prompt_time": 0.13377246,
+  "completion_tokens": 240,
+  "completion_time": 0.69393974,
+  "total_tokens": 1013,
+  "total_time": 0.8277122,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 181
+  }
+ }
+}

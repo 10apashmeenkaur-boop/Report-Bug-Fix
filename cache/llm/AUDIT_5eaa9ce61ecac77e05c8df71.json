@@ -1,0 +1,66 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "D",
+   "option": "D"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [
+   {
+    "find": "making it a supportive measure when transplant isn't feasible (Statement-II).",
+    "replace": "showing that Statement‑II is incorrect because dialysis is a supportive measure when transplant isn't feasible.",
+    "why": "The solution claims dialysis is a supportive measure (which contradicts the claim that Statement‑II is incorrect). The explanation should reflect that Statement‑II is false."
+   }
+  ],
+  "solution_factual": [
+   {
+    "find": "making it a supportive measure when transplant isn't feasible (Statement-II).",
+    "replace": "showing that Statement‑II is incorrect because dialysis is a supportive measure when transplant isn't feasible.",
+    "why": "The factual claim about Statement‑II is reversed; the statement says dialysis is not supportive, but the solution describes it as supportive."
+   }
+  ],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": false,
+   "suggested_subject": "Biology",
+   "suggested_chapter": "Human Physiology – Renal Physiology",
+   "why": "The question concerns medical dialysis, which belongs to human renal physiology, not Zoology's Excretory Products and their Elimination."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option D correctly matches the factual status of the two statements."
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\"value\": \"D\", \"option\": \"D\"},\n  \"solution_foreign\": {\"present\": false, \"fragment\": null, \"why\": null},\n  \"solution_errors\": [\n    {\n      \"find\": \"making it a supportive measure when transplant isn't feasible (Statement-II).\",\n      \"replace\": \"showing that Statement‑II is incorrect because dialysis is a supportive measure when transplant isn't feasible.\",\n      \"why\": \"The solution claims dialysis is a supportive measure (which contradicts the claim that Statement‑II is incorrect). The explanation should reflect that Statement‑II is false.\"\n    }\n  ],\n  \"solution_factual\": [\n    {\n      \"find\": \"making it a supportive measure when transplant isn't feasible (Statement-II).\",\n      \"replace\": \"showing that Statement‑II is incorrect because dialysis is a supportive measure when transplant isn't feasible.\",\n      \"why\": \"The factual claim about Statement‑II is reversed; the statement says dialysis is not supportive, but the solution describes it as supportive.\"\n    }\n  ],\n  \"missing_data\": {\"present\": false, \"what\": null, \"value\": null, \"anchor\": null, \"insert\": null},\n  \"chapter_fit\": {\n    \"fits\": false,\n    \"suggested_subject\": \"Biology\",\n    \"suggested_chapter\": \"Human Physiology – Renal Physiology\",\n    \"why\": \"The question concerns medical dialysis, which belongs to human renal physiology, not Zoology's Excretory Products and their Elimination.\"\n  },\n  \"soundness\": {\"status\": \"ok\", \"why\": \"Only option D correctly matches the factual status of the two statements.\"},\n  \"noise\": []\n}",
+ "_usage": {
+  "queue_time": 0.158881229,
+  "prompt_tokens": 913,
+  "prompt_time": 0.03629664,
+  "completion_tokens": 1507,
+  "completion_time": 5.419503158,
+  "total_tokens": 2420,
+  "total_time": 5.455799798,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1137
+  }
+ }
+}

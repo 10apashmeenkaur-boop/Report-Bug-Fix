@@ -1,0 +1,66 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "40 cm",
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": "All quantities in the solution relate to the given problem."
+  },
+  "solution_errors": [
+   {
+    "find": "800 × g = (2) × (a2) × 1 × g",
+    "replace": "800 × g = (a-2) × a^2 × 1 × g",
+    "why": "The displaced water volume when the mass is removed is a^2 × (a‑2) cm³, not 2 × a² cm³."
+   }
+  ],
+  "solution_factual": [
+   {
+    "find": "a = 40 cm",
+    "replace": "a = 20 cm",
+    "why": "Correct calculation gives side length a = 20 cm, not 40 cm."
+   }
+  ],
+  "missing_data": {
+   "present": false,
+   "what": "",
+   "value": "",
+   "anchor": "",
+   "insert": ""
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "",
+   "suggested_chapter": "",
+   "why": "The problem involves buoyancy and fluid mechanics, which belong to the chapter 'Properties of matter and fluid mechanics'."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "The question has a unique integer answer (20 cm)."
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\n    \"value\": \"40 cm\",\n    \"option\": null\n  },\n  \"solution_foreign\": {\n    \"present\": false,\n    \"fragment\": null,\n    \"why\": \"All quantities in the solution relate to the given problem.\"\n  },\n  \"solution_errors\": [\n    {\n      \"find\": \"800 × g = (2) × (a2) × 1 × g\",\n      \"replace\": \"800 × g = (a-2) × a^2 × 1 × g\",\n      \"why\": \"The displaced water volume when the mass is removed is a^2 × (a‑2) cm³, not 2 × a² cm³.\"\n    }\n  ],\n  \"solution_factual\": [\n    {\n      \"find\": \"a = 40 cm\",\n      \"replace\": \"a = 20 cm\",\n      \"why\": \"Correct calculation gives side length a = 20 cm, not 40 cm.\"\n    }\n  ],\n  \"missing_data\": {\n    \"present\": false,\n    \"what\": \"\",\n    \"value\": \"\",\n    \"anchor\": \"\",\n    \"insert\": \"\"\n  },\n  \"chapter_fit\": {\n    \"fits\": true,\n    \"suggested_subject\": \"\",\n    \"suggested_chapter\": \"\",\n    \"why\": \"The problem involves buoyancy and fluid mechanics, which belong to the chapter 'Properties of matter and fluid mechanics'.\"\n  },\n  \"soundness\": {\n    \"status\": \"ok\",\n    \"why\": \"The question has a unique integer answer (20 cm).\"\n  },\n  \"noise\": []\n}",
+ "_usage": {
+  "queue_time": 0.158263922,
+  "prompt_tokens": 825,
+  "prompt_time": 0.194123236,
+  "completion_tokens": 2591,
+  "completion_time": 5.923820058,
+  "total_tokens": 3416,
+  "total_time": 6.117943294,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 2230
+  }
+ }
+}

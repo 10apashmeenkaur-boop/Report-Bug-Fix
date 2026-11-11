@@ -1,0 +1,24 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R041": "Hey, could you please share a bit more detail about what seems off with the question? It’ll help us look into it right away."
+  }
+ },
+ "raw": "{\"replies\":{\"R041\":\"Hey, could you please share a bit more detail about what seems off with the question? It’ll help us look into it right away.\"}}",
+ "_usage": {
+  "queue_time": 0.370687769,
+  "prompt_tokens": 515,
+  "prompt_time": 0.031650508,
+  "completion_tokens": 135,
+  "completion_time": 0.296313734,
+  "total_tokens": 650,
+  "total_time": 0.327964242,
+  "completion_tokens_details": {
+   "reasoning_tokens": 90
+  }
+ }
+}

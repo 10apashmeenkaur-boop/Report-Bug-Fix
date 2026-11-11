@@ -1,0 +1,51 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "(q)/(2ε_0)",
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Electrostatics",
+   "why": "The problem involves electric flux and Gauss's law, which belong to Electrostatics."
+  },
+  "soundness": {
+   "status": "no_correct_option",
+   "why": "The solution yields total flux (q)/(2ε_0), implying n=1, but the stored answer key is 2, so the recorded answer is incorrect."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"(q)/(2ε_0)\",\"option\":null},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Electrostatics\",\"why\":\"The problem involves electric flux and Gauss's law, which belong to Electrostatics.\"},\"soundness\":{\"status\":\"no_correct_option\",\"why\":\"The solution yields total flux (q)/(2ε_0), implying n=1, but the stored answer key is 2, so the recorded answer is incorrect.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.156085501,
+  "prompt_tokens": 879,
+  "prompt_time": 0.039877098,
+  "completion_tokens": 1319,
+  "completion_time": 2.7548268350000003,
+  "total_tokens": 2198,
+  "total_time": 2.794703933,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1146
+  }
+ }
+}

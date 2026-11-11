@@ -1,0 +1,52 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "gemini",
+ "model": "gemini-3.5-flash",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "50",
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": true,
+   "what": "Edge length of the solid copper cube",
+   "value": "10 cm",
+   "anchor": "solid copper cube",
+   "insert": " of edge 10 cm"
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": null,
+   "suggested_chapter": null,
+   "why": null
+  },
+  "soundness": {
+   "status": "ok",
+   "why": null
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\n    \"value\": \"50\",\n    \"option\": null\n  },\n  \"solution_foreign\": {\n    \"present\": false,\n    \"fragment\": null,\n    \"why\": null\n  },\n  \"solution_errors\": [],\n  \"solution_factual\": [],\n  \"missing_data\": {\n    \"present\": true,\n    \"what\": \"Edge length of the solid copper cube\",\n    \"value\": \"10 cm\",\n    \"anchor\": \"solid copper cube\",\n    \"insert\": \" of edge 10 cm\"\n  },\n  \"chapter_fit\": {\n    \"fits\": true,\n    \"suggested_subject\": null,\n    \"suggested_chapter\": null,\n    \"why\": null\n  },\n  \"soundness\": {\n    \"status\": \"ok\",\n    \"why\": null\n  },\n  \"noise\": []\n}",
+ "_usage": {
+  "promptTokenCount": 789,
+  "candidatesTokenCount": 222,
+  "totalTokenCount": 2240,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 789
+   }
+  ],
+  "thoughtsTokenCount": 1229,
+  "serviceTier": "standard"
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R021",
+    "claim_type": "type_or_marking",
+    "student_value": "B",
+    "target_option": "B",
+    "target_text": "multiple correct type",
+    "language": "hinglish",
+    "instruction_attempt": false,
+    "summary": "Student claims only B correct, question marked multiple correct type"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R021\",\"claim_type\":\"type_or_marking\",\"student_value\":\"B\",\"target_option\":\"B\",\"target_text\":\"multiple correct type\",\"language\":\"hinglish\",\"instruction_attempt\":false,\"summary\":\"Student claims only B correct, question marked multiple correct type\"}]}",
+ "_usage": {
+  "queue_time": 0.157809896,
+  "prompt_tokens": 783,
+  "prompt_time": 0.014483043,
+  "completion_tokens": 503,
+  "completion_time": 1.091535902,
+  "total_tokens": 1286,
+  "total_time": 1.106018945,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 434
+  }
+ }
+}

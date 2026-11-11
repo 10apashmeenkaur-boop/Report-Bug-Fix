@@ -1,0 +1,51 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "14V",
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Electrostatics",
+   "why": "The problem involves electric potential of a uniformly charged sphere, which belongs to electrostatics."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "The integer answer 14 is uniquely determined."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"14V\",\"option\":null},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Electrostatics\",\"why\":\"The problem involves electric potential of a uniformly charged sphere, which belongs to electrostatics.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"The integer answer 14 is uniquely determined.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.305463357,
+  "prompt_tokens": 951,
+  "prompt_time": 0.060660081,
+  "completion_tokens": 1831,
+  "completion_time": 3.864246996,
+  "total_tokens": 2782,
+  "total_time": 3.924907077,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1691
+  }
+ }
+}

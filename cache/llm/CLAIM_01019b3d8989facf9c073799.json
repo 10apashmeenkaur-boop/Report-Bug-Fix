@@ -1,0 +1,36 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R020",
+    "claim_type": "answer_wrong",
+    "student_value": "A B D",
+    "target_option": null,
+    "target_text": null,
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Student claims A,B,D answer should be correct but marked wrong"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R020\",\"claim_type\":\"answer_wrong\",\"student_value\":\"A B D\",\"target_option\":null,\"target_text\":null,\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Student claims A,B,D answer should be correct but marked wrong\"}]}",
+ "_usage": {
+  "queue_time": 0.319661058,
+  "prompt_tokens": 797,
+  "prompt_time": 0.01613013,
+  "completion_tokens": 343,
+  "completion_time": 0.746703003,
+  "total_tokens": 1140,
+  "total_time": 0.762833133,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 276
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R024",
+    "claim_type": "unit_or_form",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "unit",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Student claims unit is not mentioned in question"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R024\",\"claim_type\":\"unit_or_form\",\"student_value\":null,\"target_option\":null,\"target_text\":\"unit\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Student claims unit is not mentioned in question\"}]}",
+ "_usage": {
+  "queue_time": 1.194252492,
+  "prompt_tokens": 747,
+  "prompt_time": 0.902631219,
+  "completion_tokens": 268,
+  "completion_time": 0.662393462,
+  "total_tokens": 1015,
+  "total_time": 1.5650246810000001,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 206
+  }
+ }
+}

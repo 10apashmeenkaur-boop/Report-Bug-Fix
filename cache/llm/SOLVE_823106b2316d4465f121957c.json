@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "N/N0=1/8 => e^{-t/τ}=1/8 => -t/τ=ln(1/8)=-ln8=-2.07944; τ=t/2.07944=3/2.07944≈1.44 min",
+  "final_value": "1.44 min",
+  "choice": "B",
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"N/N0=1/8 => e^{-t/τ}=1/8 => -t/τ=ln(1/8)=-ln8=-2.07944; τ=t/2.07944=3/2.07944≈1.44 min\",\"final_value\":\"1.44 min\",\"choice\":\"B\",\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.294016766,
+  "prompt_tokens": 416,
+  "prompt_time": 0.023018422,
+  "completion_tokens": 297,
+  "completion_time": 0.623837603,
+  "total_tokens": 713,
+  "total_time": 0.646856025,
+  "completion_tokens_details": {
+   "reasoning_tokens": 207
+  }
+ }
+}

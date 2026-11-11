@@ -1,0 +1,47 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "50V",
+   "option": "A"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Alternating Current and EM Waves",
+   "why": "LCR circuit analysis is part of AC circuits covered in this chapter"
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Exactly one option (A) matches the computed supply voltage of 50 V; answer key is incorrect."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"50V\",\"option\":\"A\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Alternating Current and EM Waves\",\"why\":\"LCR circuit analysis is part of AC circuits covered in this chapter\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Exactly one option (A) matches the computed supply voltage of 50 V; answer key is incorrect.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.33002651,
+  "prompt_tokens": 853,
+  "prompt_time": 0.063284467,
+  "completion_tokens": 1018,
+  "completion_time": 2.124643419,
+  "total_tokens": 1871,
+  "total_time": 2.1879278859999998,
+  "completion_tokens_details": {
+   "reasoning_tokens": 883
+  }
+ }
+}

@@ -1,0 +1,47 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": false,
+    "why": "V_cm = 140/14 = 10 m/s, not 30 m/s"
+   },
+   "B": {
+    "correct": false,
+    "why": "V_cm = 140/14 = 10 m/s, not 20 m/s"
+   },
+   "C": {
+    "correct": true,
+    "why": "Total momentum 140 kg·m/s divided by total mass 14 kg gives 10 m/s"
+   },
+   "D": {
+    "correct": false,
+    "why": "Option D not given in the question"
+   }
+  },
+  "final_value": "10 m/s",
+  "choice": "C",
+  "choices": [
+   "C"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\n  \"assertion_true\": null,\n  \"reason_true\": null,\n  \"per_option\": {\n    \"A\": {\"correct\": false, \"why\": \"V_cm = 140/14 = 10 m/s, not 30 m/s\"},\n    \"B\": {\"correct\": false, \"why\": \"V_cm = 140/14 = 10 m/s, not 20 m/s\"},\n    \"C\": {\"correct\": true, \"why\": \"Total momentum 140 kg·m/s divided by total mass 14 kg gives 10 m/s\"},\n    \"D\": {\"correct\": false, \"why\": \"Option D not given in the question\"}\n  },\n  \"final_value\": \"10 m/s\",\n  \"choice\": \"C\",\n  \"choices\": [\"C\"],\n  \"confidence\": \"high\"\n}",
+ "_usage": {
+  "queue_time": 0.36963398,
+  "prompt_tokens": 424,
+  "prompt_time": 0.019337197,
+  "completion_tokens": 503,
+  "completion_time": 1.0619717,
+  "total_tokens": 927,
+  "total_time": 1.081308897,
+  "completion_tokens_details": {
+   "reasoning_tokens": 319
+  }
+ }
+}

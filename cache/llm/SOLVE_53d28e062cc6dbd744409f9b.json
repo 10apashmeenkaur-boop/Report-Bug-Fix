@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "ΔV/V = -P/K; assume unit cube of 1 cm³ (=1e-6 m³). ΔV = V·P/K = 1e-6·7e6/1.4e11 = 5×10⁻¹¹ m³ = 5×10⁻² mm³ = 0.05 mm³.",
+  "final_value": "0.05 mm^3",
+  "choice": null,
+  "choices": [],
+  "confidence": "medium"
+ },
+ "raw": "{\"working\":\"ΔV/V = -P/K; assume unit cube of 1 cm³ (=1e-6 m³). ΔV = V·P/K = 1e-6·7e6/1.4e11 = 5×10⁻¹¹ m³ = 5×10⁻² mm³ = 0.05 mm³.\",\"final_value\":\"0.05 mm^3\",\"choice\":null,\"choices\":[],\"confidence\":\"medium\"}",
+ "_usage": {
+  "queue_time": 0.321895794,
+  "prompt_tokens": 401,
+  "prompt_time": 0.018448395,
+  "completion_tokens": 726,
+  "completion_time": 1.533532696,
+  "total_tokens": 1127,
+  "total_time": 1.551981091,
+  "completion_tokens_details": {
+   "reasoning_tokens": 612
+  }
+ }
+}

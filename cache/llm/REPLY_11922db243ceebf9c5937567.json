@@ -1,0 +1,24 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R005": "Thanks for letting us know! A teacher is checking this question and will update you soon."
+  }
+ },
+ "raw": "{\"replies\":{\"R005\":\"Thanks for letting us know! A teacher is checking this question and will update you soon.\"}}",
+ "_usage": {
+  "queue_time": 0.44263365,
+  "prompt_tokens": 554,
+  "prompt_time": 0.08028303,
+  "completion_tokens": 133,
+  "completion_time": 0.279799341,
+  "total_tokens": 687,
+  "total_time": 0.360082371,
+  "completion_tokens_details": {
+   "reasoning_tokens": 98
+  }
+ }
+}

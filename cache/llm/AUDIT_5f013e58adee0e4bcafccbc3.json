@@ -1,0 +1,51 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "16",
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": null,
+   "suggested_chapter": null,
+   "why": "Question on lens displacement method belongs to geometrical optics."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Unique integer answer 16 matches solution."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"16\",\"option\":null},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":null,\"suggested_chapter\":null,\"why\":\"Question on lens displacement method belongs to geometrical optics.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Unique integer answer 16 matches solution.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.370595911,
+  "prompt_tokens": 946,
+  "prompt_time": 0.050080516,
+  "completion_tokens": 1215,
+  "completion_time": 2.563313343,
+  "total_tokens": 2161,
+  "total_time": 2.613393859,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1087
+  }
+ }
+}

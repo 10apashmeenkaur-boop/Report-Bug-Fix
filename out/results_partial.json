@@ -1,0 +1,17 @@
+[
+  {
+    "reportId": "R001",
+    "questionId": "60f744b3f1b9bc7cc7b4a949",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+      "field": "answer",
+      "find": "C",
+      "replace": "A"
+    },
+    "route": "auto_apply",
+    "confidence": 0.95,
+    "evidence": "Key is wrong. Blind solve 1 → (A) 50 V; blind solve 2 → (A) 50 V; stored solution ends at 50V; key says (C) 130 V. Two blind solves and the stored solution all agree.",
+    "student_reply": "Thank you for catching this! The key mistakenly listed (C) 130 V; it has been updated to the correct answer (A) 50 V."
+  }
+]

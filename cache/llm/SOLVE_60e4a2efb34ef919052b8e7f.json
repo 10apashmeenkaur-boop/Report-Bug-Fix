@@ -1,0 +1,30 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "A: E field constant, v∥E → straight line. B: v⊥E → constant transverse acceleration → parabola. C: v∥B → no magnetic force → straight line, not helix. D: v⊥B → magnetic force centripetal → circle in plane ⟂B.",
+  "final_value": "",
+  "choice": "MULTIPLE",
+  "choices": [
+   "A",
+   "B",
+   "D"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"A: E field constant, v∥E → straight line. B: v⊥E → constant transverse acceleration → parabola. C: v∥B → no magnetic force → straight line, not helix. D: v⊥B → magnetic force centripetal → circle in plane ⟂B.\",\"final_value\":\"\",\"choice\":\"MULTIPLE\",\"choices\":[\"A\",\"B\",\"D\"],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.158037249,
+  "prompt_tokens": 434,
+  "prompt_time": 0.01722651,
+  "completion_tokens": 353,
+  "completion_time": 0.728189158,
+  "total_tokens": 787,
+  "total_time": 0.745415668,
+  "completion_tokens_details": {
+   "reasoning_tokens": 253
+  }
+ }
+}

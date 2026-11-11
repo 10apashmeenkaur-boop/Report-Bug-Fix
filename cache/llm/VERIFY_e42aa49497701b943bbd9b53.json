@@ -1,0 +1,45 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": false,
+    "why": "Force magnitudes are equal, ratio is 1:1, not 9:16."
+   },
+   "B": {
+    "correct": false,
+    "why": "Force magnitudes are equal, ratio is 1:1, not 2:√3."
+   },
+   "C": {
+    "correct": false,
+    "why": "Option is blank; the correct ratio 1:1 is not provided."
+   },
+   "D": {
+    "correct": false,
+    "why": "Force magnitudes are equal, ratio is 1:1, not 3:4."
+   }
+  },
+  "final_value": "1:1",
+  "choice": "NONE",
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\n  \"assertion_true\": null,\n  \"reason_true\": null,\n  \"per_option\": {\n    \"A\": {\"correct\": false, \"why\": \"Force magnitudes are equal, ratio is 1:1, not 9:16.\"},\n    \"B\": {\"correct\": false, \"why\": \"Force magnitudes are equal, ratio is 1:1, not 2:√3.\"},\n    \"C\": {\"correct\": false, \"why\": \"Option is blank; the correct ratio 1:1 is not provided.\"},\n    \"D\": {\"correct\": false, \"why\": \"Force magnitudes are equal, ratio is 1:1, not 3:4.\"}\n  },\n  \"final_value\": \"1:1\",\n  \"choice\": \"NONE\",\n  \"choices\": [],\n  \"confidence\": \"high\"\n}",
+ "_usage": {
+  "queue_time": 0.157196727,
+  "prompt_tokens": 402,
+  "prompt_time": 0.023690352,
+  "completion_tokens": 609,
+  "completion_time": 1.274477799,
+  "total_tokens": 1011,
+  "total_time": 1.298168151,
+  "completion_tokens_details": {
+   "reasoning_tokens": 417
+  }
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R033": "Great catch! Using 6×(7.203)² gives 311.262 m², which rounds to 311.3 m² (4 sf); multiplying by 10 yields 3113. The key is correct."
+  }
+ },
+ "raw": "{\"replies\":{\"R033\":\"Great catch! Using 6×(7.203)² gives 311.262 m², which rounds to 311.3 m² (4 sf); multiplying by 10 yields 3113. The key is correct.\"}}",
+ "_usage": {
+  "queue_time": 0.47145459,
+  "prompt_tokens": 531,
+  "prompt_time": 0.149911195,
+  "completion_tokens": 512,
+  "completion_time": 1.081150184,
+  "total_tokens": 1043,
+  "total_time": 1.231061379,
+  "completion_tokens_details": {
+   "reasoning_tokens": 444
+  }
+ }
+}

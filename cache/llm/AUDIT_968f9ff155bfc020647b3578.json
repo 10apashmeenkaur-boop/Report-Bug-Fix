@@ -1,0 +1,51 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "50",
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": true,
+   "what": "side length of the cube",
+   "value": "10 cm",
+   "anchor": "solid copper cube,",
+   "insert": " of side 10 cm"
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Properties of matter and fluid mechanics",
+   "why": "Bulk modulus and volume change are properties of matter, appropriate for this chapter."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Unique integer answer matches calculation."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"50\",\"option\":null},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":true,\"what\":\"side length of the cube\",\"value\":\"10 cm\",\"anchor\":\"solid copper cube,\",\"insert\":\" of side 10 cm\"},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Properties of matter and fluid mechanics\",\"why\":\"Bulk modulus and volume change are properties of matter, appropriate for this chapter.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Unique integer answer matches calculation.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.467244488,
+  "prompt_tokens": 845,
+  "prompt_time": 0.094251944,
+  "completion_tokens": 1213,
+  "completion_time": 2.55031696,
+  "total_tokens": 2058,
+  "total_time": 2.6445689039999998,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1065
+  }
+ }
+}

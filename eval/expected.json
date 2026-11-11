@@ -1,0 +1,313 @@
+{
+ "_about": "OUR OWN hand-solved labels (Pashmeen + AI, each case re-derived by hand). Not Acadza's ground truth; R018/R019 route and R026 verdict are judgement calls.",
+ "labels": {
+  "R001": {
+   "verdict": "defect",
+   "repair": "answer_key",
+   "route": "auto_apply",
+   "edit_contains": "\"replace\": \"A\"",
+   "note": "sqrt(40^2+30^2)=50 V = A; solution says 50"
+  },
+  "R002": {
+   "verdict": "defect",
+   "repair": "answer_key",
+   "route": "auto_apply",
+   "edit_contains": "\"replace\": \"A\"",
+   "note": "sqrt(40^2+30^2)=50 V = A; solution says 50"
+  },
+  "R003": {
+   "verdict": "defect",
+   "repair": "answer_key",
+   "route": "auto_apply",
+   "edit_contains": "\"replace\": \"A\"",
+   "note": "sqrt(40^2+30^2)=50 V = A; solution says 50"
+  },
+  "R004": {
+   "verdict": "defect",
+   "repair": "answer_key",
+   "route": "auto_apply",
+   "edit_contains": "\"replace\": \"D\"",
+   "note": "P=1/3 rho v^2=4800=D; student's 8225 also wrong"
+  },
+  "R005": {
+   "verdict": "defect",
+   "repair": "answer_key",
+   "route": "auto_apply",
+   "edit_contains": "\"replace\": \"1\"",
+   "note": "flux q/4e0+q/4e0=q/2e0 => n=1"
+  },
+  "R006": {
+   "verdict": "defect",
+   "repair": "stem_data",
+   "route": "auto_apply",
+   "edit_contains": "10 cm",
+   "note": "solution uses 10 cm edge"
+  },
+  "R007": {
+   "verdict": "defect",
+   "repair": "stem_data",
+   "route": "auto_apply",
+   "edit_contains": "95.5",
+   "note": "solution uses L=95.5 mH"
+  },
+  "R008": {
+   "verdict": "defect",
+   "repair": "stem_data",
+   "route": "auto_apply",
+   "edit_contains": "95.5",
+   "note": "solution uses L=95.5 mH"
+  },
+  "R009": {
+   "verdict": "defect",
+   "repair": "option_repair",
+   "route": "faculty_review",
+   "edit_contains": null,
+   "note": "D missing; distractor unknown"
+  },
+  "R010": {
+   "verdict": "defect",
+   "repair": "option_repair",
+   "route": "faculty_review",
+   "edit_contains": null,
+   "note": "D missing; distractor unknown"
+  },
+  "R011": {
+   "verdict": "defect",
+   "repair": "option_repair",
+   "route": "auto_apply",
+   "edit_contains": "1",
+   "note": "blank C is the key; F12=F21 => 1:1"
+  },
+  "R012": {
+   "verdict": "defect",
+   "repair": "spelling",
+   "route": "auto_apply",
+   "edit_contains": "Epithelial",
+   "note": ""
+  },
+  "R013": {
+   "verdict": "defect",
+   "repair": "exam_reference",
+   "route": "auto_apply",
+   "edit_contains": "NEET 2019",
+   "note": ""
+  },
+  "R014": {
+   "verdict": "defect",
+   "repair": "markup_leak",
+   "route": "auto_apply",
+   "edit_contains": "frac",
+   "note": ""
+  },
+  "R015": {
+   "verdict": "defect",
+   "repair": "identical_options",
+   "route": "faculty_review",
+   "edit_contains": null,
+   "note": "B and C both 0 W"
+  },
+  "R016": {
+   "verdict": "defect",
+   "repair": "solution_fix",
+   "route": "auto_apply",
+   "edit_contains": "20",
+   "note": "800=2a^2 => a=20; solution says 40"
+  },
+  "R017": {
+   "verdict": "already_fixed",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": "errorHistory 2026-11-07"
+  },
+  "R018": {
+   "verdict": "defect",
+   "repair": "solution_fix",
+   "route": "auto_apply",
+   "edit_contains": null,
+   "note": "foreign 5.47 A step in solution; key B correct"
+  },
+  "R019": {
+   "verdict": "defect",
+   "repair": "solution_fix",
+   "route": "auto_apply",
+   "edit_contains": null,
+   "note": "foreign 5.47 A step in solution; key B correct"
+  },
+  "R020": {
+   "verdict": "defect",
+   "repair": "answer_key",
+   "route": "auto_apply",
+   "edit_contains": "B",
+   "note": "malformed ['A, B, D']"
+  },
+  "R021": {
+   "verdict": "defect",
+   "repair": "type_mismatch",
+   "route": "auto_apply",
+   "edit_contains": "scq",
+   "note": "single correct B stored as mcq"
+  },
+  "R022": {
+   "verdict": "defect",
+   "repair": "spelling",
+   "route": "auto_apply",
+   "edit_contains": "plexus",
+   "note": ""
+  },
+  "R023": {
+   "verdict": "defect",
+   "repair": "wrong_chapter",
+   "route": "faculty_review",
+   "edit_contains": null,
+   "note": "neural control (Zoology)"
+  },
+  "R024": {
+   "verdict": "defect",
+   "repair": "answer_form",
+   "route": "auto_apply",
+   "edit_contains": "in N",
+   "note": ""
+  },
+  "R025": {
+   "verdict": "defect",
+   "repair": "diagram",
+   "route": "faculty_review",
+   "edit_contains": null,
+   "note": ""
+  },
+  "R026": {
+   "verdict": "defect",
+   "repair": "syllabus",
+   "route": "faculty_review",
+   "edit_contains": null,
+   "note": ""
+  },
+  "R027": {
+   "verdict": "no_error",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": "injection; key A correct (gamma=3alpha)"
+  },
+  "R028": {
+   "verdict": "no_error",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": "key verified"
+  },
+  "R029": {
+   "verdict": "no_error",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": "key verified"
+  },
+  "R030": {
+   "verdict": "no_error",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": "key verified"
+  },
+  "R031": {
+   "verdict": "no_error",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": "key verified"
+  },
+  "R032": {
+   "verdict": "no_error",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": "key verified"
+  },
+  "R033": {
+   "verdict": "no_error",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": "key verified"
+  },
+  "R034": {
+   "verdict": "defect",
+   "repair": "unsound",
+   "route": "faculty_review",
+   "edit_contains": null,
+   "note": "I=2I0 => A false; R false; no option"
+  },
+  "R035": {
+   "verdict": "no_error",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": "key verified"
+  },
+  "R036": {
+   "verdict": "display_issue",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": ""
+  },
+  "R037": {
+   "verdict": "display_issue",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": ""
+  },
+  "R038": {
+   "verdict": "app_issue",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": ""
+  },
+  "R039": {
+   "verdict": "language_mode",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": ""
+  },
+  "R040": {
+   "verdict": "no_error",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": "key verified"
+  },
+  "R041": {
+   "verdict": "not_actionable",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": ""
+  },
+  "R042": {
+   "verdict": "defect",
+   "repair": "wrong_chapter",
+   "route": "faculty_review",
+   "edit_contains": null,
+   "note": "displacement current -> EM waves"
+  },
+  "R043": {
+   "verdict": "no_error",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": "key verified"
+  },
+  "R044": {
+   "verdict": "no_error",
+   "repair": null,
+   "route": "no_change",
+   "edit_contains": null,
+   "note": "key verified"
+  }
+ }
+}

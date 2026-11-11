@@ -1,0 +1,33 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R041",
+    "claim_type": "gibberish",
+    "student_value": null,
+    "target_option": null,
+    "target_text": null,
+    "language": "other",
+    "instruction_attempt": false,
+    "summary": "Student comment contains meaningless text, no specific claim or request"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R041\",\"claim_type\":\"gibberish\",\"student_value\":null,\"target_option\":null,\"target_text\":null,\"language\":\"other\",\"instruction_attempt\":false,\"summary\":\"Student comment contains meaningless text, no specific claim or request\"}]}",
+ "_usage": {
+  "queue_time": 0.318424474,
+  "prompt_tokens": 739,
+  "prompt_time": 0.037921663,
+  "completion_tokens": 295,
+  "completion_time": 0.619972753,
+  "total_tokens": 1034,
+  "total_time": 0.657894416,
+  "completion_tokens_details": {
+   "reasoning_tokens": 229
+  }
+ }
+}

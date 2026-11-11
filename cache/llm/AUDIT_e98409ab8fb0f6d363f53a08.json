@@ -1,0 +1,65 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "5",
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [
+   {
+    "find": "2P_eqcu",
+    "replace": "2 P_eq",
+    "why": "Spurious characters 'cu' attached to expression"
+   },
+   {
+    "find": "P_eqch",
+    "replace": "P",
+    "why": "Incorrect variable name; should denote power of each lens"
+   }
+  ],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": null,
+   "suggested_chapter": null,
+   "why": "Question concerns focal length and power of lenses, which belongs to Geometrical optics"
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Exactly one integer answer (5) matches the calculation"
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\"value\": \"5\", \"option\": null},\n  \"solution_foreign\": {\"present\": false, \"fragment\": null, \"why\": null},\n  \"solution_errors\": [\n    {\"find\": \"2P_eqcu\", \"replace\": \"2 P_eq\", \"why\": \"Spurious characters 'cu' attached to expression\"},\n    {\"find\": \"P_eqch\", \"replace\": \"P\", \"why\": \"Incorrect variable name; should denote power of each lens\"}\n  ],\n  \"solution_factual\": [],\n  \"missing_data\": {\"present\": false, \"what\": null, \"value\": null, \"anchor\": null, \"insert\": null},\n  \"chapter_fit\": {\"fits\": true, \"suggested_subject\": null, \"suggested_chapter\": null, \"why\": \"Question concerns focal length and power of lenses, which belongs to Geometrical optics\"},\n  \"soundness\": {\"status\": \"ok\", \"why\": \"Exactly one integer answer (5) matches the calculation\"},\n  \"noise\": []\n}",
+ "_usage": {
+  "queue_time": 0.157920046,
+  "prompt_tokens": 914,
+  "prompt_time": 0.454403501,
+  "completion_tokens": 1532,
+  "completion_time": 3.360168534,
+  "total_tokens": 2446,
+  "total_time": 3.814572035,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1294
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R008",
+    "claim_type": "data_missing",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "data",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Student says required data is missing"
+   },
+   {
+    "reportId": "R007",
+    "claim_type": "data_missing",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "inductance ki value",
+    "language": "hinglish",
+    "instruction_attempt": false,
+    "summary": "Student says inductance value not provided"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R008\",\"claim_type\":\"data_missing\",\"student_value\":null,\"target_option\":null,\"target_text\":\"data\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Student says required data is missing\"},{\"reportId\":\"R007\",\"claim_type\":\"data_missing\",\"student_value\":null,\"target_option\":null,\"target_text\":\"inductance ki value\",\"language\":\"hinglish\",\"instruction_attempt\":false,\"summary\":\"Student says inductance value not provided\"}]}",
+ "_usage": {
+  "queue_time": 0.542081422,
+  "prompt_tokens": 788,
+  "prompt_time": 0.254623805,
+  "completion_tokens": 299,
+  "completion_time": 0.636515645,
+  "total_tokens": 1087,
+  "total_time": 0.89113945,
+  "completion_tokens_details": {
+   "reasoning_tokens": 189
+  }
+ }
+}

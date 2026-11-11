@@ -1,0 +1,47 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": true,
+    "why": "Linear expansion α = ΔL/(L0ΔT)=0.19cm/(100cm·100°C)=1.9×10⁻⁵°C⁻¹; cubic coefficient β≈3α=5.7×10⁻⁵°C⁻¹, matching option A"
+   },
+   "B": {
+    "correct": false,
+    "why": "Value 0.63×10⁻⁵°C⁻¹ is far smaller than calculated"
+   },
+   "C": {
+    "correct": false,
+    "why": "1.9×10⁻⁵°C⁻¹ is the linear coefficient, not the cubic one"
+   },
+   "D": {
+    "correct": false,
+    "why": "16.1×10⁻⁵°C⁻¹ is too large"
+   }
+  },
+  "final_value": "5.7×10⁻⁵ °C⁻¹",
+  "choice": "A",
+  "choices": [
+   "A"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\"assertion_true\":null,\"reason_true\":null,\"per_option\":{\"A\":{\"correct\":true,\"why\":\"Linear expansion α = ΔL/(L0ΔT)=0.19cm/(100cm·100°C)=1.9×10⁻⁵°C⁻¹; cubic coefficient β≈3α=5.7×10⁻⁵°C⁻¹, matching option A\"},\"B\":{\"correct\":false,\"why\":\"Value 0.63×10⁻⁵°C⁻¹ is far smaller than calculated\"},\"C\":{\"correct\":false,\"why\":\"1.9×10⁻⁵°C⁻¹ is the linear coefficient, not the cubic one\"},\"D\":{\"correct\":false,\"why\":\"16.1×10⁻⁵°C⁻¹ is too large\"}},\"final_value\":\"5.7×10⁻⁵ °C⁻¹\",\"choice\":\"A\",\"choices\":[\"A\"],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.290710267,
+  "prompt_tokens": 446,
+  "prompt_time": 0.022557571,
+  "completion_tokens": 517,
+  "completion_time": 1.083726997,
+  "total_tokens": 963,
+  "total_time": 1.106284568,
+  "completion_tokens_details": {
+   "reasoning_tokens": 303
+  }
+ }
+}

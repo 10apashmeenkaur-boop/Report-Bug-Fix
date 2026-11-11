@@ -1,0 +1,33 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R006",
+    "claim_type": "data_missing",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "edge length of cube",
+    "language": "hinglish",
+    "instruction_attempt": false,
+    "summary": "Edge length not provided, volume cannot be computed"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R006\",\"claim_type\":\"data_missing\",\"student_value\":null,\"target_option\":null,\"target_text\":\"edge length of cube\",\"language\":\"hinglish\",\"instruction_attempt\":false,\"summary\":\"Edge length not provided, volume cannot be computed\"}]}",
+ "_usage": {
+  "queue_time": 0.156533815,
+  "prompt_tokens": 766,
+  "prompt_time": 0.053069433,
+  "completion_tokens": 249,
+  "completion_time": 0.527694391,
+  "total_tokens": 1015,
+  "total_time": 0.580763824,
+  "completion_tokens_details": {
+   "reasoning_tokens": 183
+  }
+ }
+}

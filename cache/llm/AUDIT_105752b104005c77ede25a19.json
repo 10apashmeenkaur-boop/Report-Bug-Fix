@@ -1,0 +1,68 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "(d)",
+   "option": "D"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [
+   {
+    "find": "I = 2I_0cos^(2)((ϕ)/(2))",
+    "replace": "I = 4I_0cos^(2)((ϕ)/(2))",
+    "why": "Correct intensity formula for two equal‑amplitude coherent waves is I = 4I₀cos²(φ/2)."
+   },
+   {
+    "find": "Therefore, assertion (A) is true.",
+    "replace": "Therefore, assertion (A) is false.",
+    "why": "Logical inconsistency; the preceding analysis shows the assertion is false."
+   }
+  ],
+  "solution_factual": [
+   {
+    "find": "In interference, the resultant intensity is always the sum of individual intensities if the phase difference is non-zero.",
+    "replace": "In interference, the resultant intensity equals the sum of individual intensities only when the waves are incoherent (no fixed phase relationship); for coherent waves it depends on the phase difference.",
+    "why": "The statement is factually incorrect for coherent interference."
+   }
+  ],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Waves",
+   "why": "The question deals with interference of waves, which belongs to the Waves chapter."
+  },
+  "soundness": {
+   "status": "no_correct_option",
+   "why": "Both assertion and reason are false, but none of the given options (A‑D) represent this combination."
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\"value\":\"(d)\",\"option\":\"D\"},\n  \"solution_foreign\": {\"present\":false,\"fragment\":null,\"why\":null},\n  \"solution_errors\": [\n    {\n      \"find\":\"I = 2I_0cos^(2)((ϕ)/(2))\",\n      \"replace\":\"I = 4I_0cos^(2)((ϕ)/(2))\",\n      \"why\":\"Correct intensity formula for two equal‑amplitude coherent waves is I = 4I₀cos²(φ/2).\"\n    },\n    {\n      \"find\":\"Therefore, assertion (A) is true.\",\n      \"replace\":\"Therefore, assertion (A) is false.\",\n      \"why\":\"Logical inconsistency; the preceding analysis shows the assertion is false.\"\n    }\n  ],\n  \"solution_factual\": [\n    {\n      \"find\":\"In interference, the resultant intensity is always the sum of individual intensities if the phase difference is non-zero.\",\n      \"replace\":\"In interference, the resultant intensity equals the sum of individual intensities only when the waves are incoherent (no fixed phase relationship); for coherent waves it depends on the phase difference.\",\n      \"why\":\"The statement is factually incorrect for coherent interference.\"\n    }\n  ],\n  \"missing_data\": {\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\n  \"chapter_fit\": {\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Waves\",\"why\":\"The question deals with interference of waves, which belongs to the Waves chapter.\"},\n  \"soundness\": {\"status\":\"no_correct_option\",\"why\":\"Both assertion and reason are false, but none of the given options (A‑D) represent this combination.\"},\n  \"noise\": []\n}",
+ "_usage": {
+  "queue_time": 0.651961168,
+  "prompt_tokens": 1068,
+  "prompt_time": 0.156189859,
+  "completion_tokens": 1814,
+  "completion_time": 3.837991386,
+  "total_tokens": 2882,
+  "total_time": 3.994181245,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1427
+  }
+ }
+}

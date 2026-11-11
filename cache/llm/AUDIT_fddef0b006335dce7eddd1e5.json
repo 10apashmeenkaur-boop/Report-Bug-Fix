@@ -1,0 +1,65 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "≈600 eV",
+   "option": "A"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [
+   {
+    "find": "(1)/(√(2mK)) = (c)/(eV)√(2mK) = (eV)/(c)",
+    "replace": "(1)/(√(2mK)) = (c)/(eV)",
+    "why": "Incorrect algebra after cancelling h; the correct relation is 1/√(2mK)=c/(eV) leading to √(2mK)=eV/c."
+   },
+   {
+    "find": "K&",
+    "replace": "K",
+    "why": "Spurious '&' character introduced; should be just K."
+   }
+  ],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Photoelectric effect and matter waves",
+   "why": "The problem involves de‑Broglie wavelength (matter waves) and the Duane‑Hunt law for X‑ray minimum wavelength, both relevant to the stated chapter."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Exactly one option (A) matches the computed kinetic energy (~600 eV)."
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\"value\":\"≈600 eV\",\"option\":\"A\"},\n  \"solution_foreign\": {\"present\":false,\"fragment\":null,\"why\":null},\n  \"solution_errors\": [\n    {\n      \"find\":\"(1)/(√(2mK)) = (c)/(eV)√(2mK) = (eV)/(c)\",\n      \"replace\":\"(1)/(√(2mK)) = (c)/(eV)\",\n      \"why\":\"Incorrect algebra after cancelling h; the correct relation is 1/√(2mK)=c/(eV) leading to √(2mK)=eV/c.\"\n    },\n    {\n      \"find\":\"K&\",\n      \"replace\":\"K\",\n      \"why\":\"Spurious '&' character introduced; should be just K.\"\n    }\n  ],\n  \"solution_factual\": [],\n  \"missing_data\": {\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\n  \"chapter_fit\": {\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Photoelectric effect and matter waves\",\"why\":\"The problem involves de‑Broglie wavelength (matter waves) and the Duane‑Hunt law for X‑ray minimum wavelength, both relevant to the stated chapter.\"},\n  \"soundness\": {\"status\":\"ok\",\"why\":\"Exactly one option (A) matches the computed kinetic energy (~600 eV).\"},\n  \"noise\": []\n}",
+ "_usage": {
+  "queue_time": 0.155957383,
+  "prompt_tokens": 1032,
+  "prompt_time": 0.037251835,
+  "completion_tokens": 2089,
+  "completion_time": 4.892289968,
+  "total_tokens": 3121,
+  "total_time": 4.929541803,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1764
+  }
+ }
+}

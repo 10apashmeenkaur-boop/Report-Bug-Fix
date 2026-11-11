@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "Sachs performed experiments showing that CO2 is fixed into sugar; he isolated glucose from growing plants, confirming its production during growth.",
+  "final_value": "Julius von Sachs",
+  "choice": "A",
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"Sachs performed experiments showing that CO2 is fixed into sugar; he isolated glucose from growing plants, confirming its production during growth.\",\"final_value\":\"Julius von Sachs\",\"choice\":\"A\",\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.159366957,
+  "prompt_tokens": 383,
+  "prompt_time": 0.022954022,
+  "completion_tokens": 243,
+  "completion_time": 0.515133183,
+  "total_tokens": 626,
+  "total_time": 0.538087205,
+  "completion_tokens_details": {
+   "reasoning_tokens": 185
+  }
+ }
+}

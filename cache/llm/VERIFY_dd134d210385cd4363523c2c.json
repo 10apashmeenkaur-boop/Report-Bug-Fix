@@ -1,0 +1,47 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": false,
+    "why": "Ratio is 1:4, but actual ratio is 4:1"
+   },
+   "B": {
+    "correct": true,
+    "why": "Combined radius is 4 times, area 16 times, charge 64 times, giving σ_big =4σ_small"
+   },
+   "C": {
+    "correct": false,
+    "why": "Ratio 1:8 is incorrect"
+   },
+   "D": {
+    "correct": false,
+    "why": "Ratio 8:1 is opposite direction"
+   }
+  },
+  "final_value": "4:1",
+  "choice": "B",
+  "choices": [
+   "B"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\"assertion_true\":null,\"reason_true\":null,\"per_option\":{\"A\":{\"correct\":false,\"why\":\"Ratio is 1:4, but actual ratio is 4:1\"},\"B\":{\"correct\":true,\"why\":\"Combined radius is 4 times, area 16 times, charge 64 times, giving σ_big =4σ_small\"},\"C\":{\"correct\":false,\"why\":\"Ratio 1:8 is incorrect\"},\"D\":{\"correct\":false,\"why\":\"Ratio 8:1 is opposite direction\"} },\"final_value\":\"4:1\",\"choice\":\"B\",\"choices\":[\"B\"],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.157273645,
+  "prompt_tokens": 412,
+  "prompt_time": 0.072399084,
+  "completion_tokens": 736,
+  "completion_time": 1.551382443,
+  "total_tokens": 1148,
+  "total_time": 1.623781527,
+  "completion_tokens_details": {
+   "reasoning_tokens": 597
+  }
+ }
+}

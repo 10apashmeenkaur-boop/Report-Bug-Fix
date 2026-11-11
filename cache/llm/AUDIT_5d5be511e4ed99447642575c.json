@@ -1,0 +1,63 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "gemini",
+ "model": "gemini-3.5-flash",
+ "output": {
+  "spelling": [
+   {
+    "field": "solution",
+    "find": "prominant",
+    "replace": "prominent"
+   },
+   {
+    "field": "solution",
+    "find": "Maceus",
+    "replace": "Mucous"
+   }
+  ],
+  "solution_final": {
+   "value": "Peyer’s patches",
+   "option": "B"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": null,
+   "suggested_chapter": null,
+   "why": null
+  },
+  "soundness": {
+   "status": "ok",
+   "why": null
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [\n    {\n      \"field\": \"solution\",\n      \"find\": \"prominant\",\n      \"replace\": \"prominent\"\n    },\n    {\n      \"field\": \"solution\",\n      \"find\": \"Maceus\",\n      \"replace\": \"Mucous\"\n    }\n  ],\n  \"solution_final\": {\n    \"value\": \"Peyer’s patches\",\n    \"option\": \"B\"\n  },\n  \"solution_foreign\": {\n    \"present\": false,\n    \"fragment\": null,\n    \"why\": null\n  },\n  \"solution_errors\": [],\n  \"solution_factual\": [],\n  \"missing_data\": {\n    \"present\": false,\n    \"what\": null,\n    \"value\": null,\n    \"anchor\": null,\n    \"insert\": null\n  },\n  \"chapter_fit\": {\n    \"fits\": true,\n    \"suggested_subject\": null,\n    \"suggested_chapter\": null,\n    \"why\": null\n  },\n  \"soundness\": {\n    \"status\": \"ok\",\n    \"why\": null\n  },\n  \"noise\": []\n}",
+ "_usage": {
+  "promptTokenCount": 780,
+  "candidatesTokenCount": 275,
+  "totalTokenCount": 2112,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 780
+   }
+  ],
+  "thoughtsTokenCount": 1057,
+  "serviceTier": "standard"
+ }
+}

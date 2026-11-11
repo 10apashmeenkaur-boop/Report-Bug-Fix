@@ -1,0 +1,47 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": false,
+    "why": "Using ω = π/8 rad/s, v = Aωcos(ωt) at t=2 s gives A = 8√2 m, not 2√2 m."
+   },
+   "B": {
+    "correct": false,
+    "why": "Amplitude computed is 8√2 m, not 4√2 m."
+   },
+   "C": {
+    "correct": false,
+    "why": "Amplitude computed is 8√2 m, not 6√2 m."
+   },
+   "D": {
+    "correct": true,
+    "why": "A = v·8√2/π = 8√2 m satisfies v = π m/s at t = 2 s."
+   }
+  },
+  "final_value": "8√2 m",
+  "choice": "D",
+  "choices": [
+   "D"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\n  \"assertion_true\": null,\n  \"reason_true\": null,\n  \"per_option\": {\n    \"A\": {\n      \"correct\": false,\n      \"why\": \"Using ω = π/8 rad/s, v = Aωcos(ωt) at t=2 s gives A = 8√2 m, not 2√2 m.\"\n    },\n    \"B\": {\n      \"correct\": false,\n      \"why\": \"Amplitude computed is 8√2 m, not 4√2 m.\"\n    },\n    \"C\": {\n      \"correct\": false,\n      \"why\": \"Amplitude computed is 8√2 m, not 6√2 m.\"\n    },\n    \"D\": {\n      \"correct\": true,\n      \"why\": \"A = v·8√2/π = 8√2 m satisfies v = π m/s at t = 2 s.\"\n    }\n  },\n  \"final_value\": \"8√2 m\",\n  \"choice\": \"D\",\n  \"choices\": [\"D\"],\n  \"confidence\": \"high\"\n}",
+ "_usage": {
+  "queue_time": 0.15659683,
+  "prompt_tokens": 423,
+  "prompt_time": 0.022893944,
+  "completion_tokens": 701,
+  "completion_time": 1.465441256,
+  "total_tokens": 1124,
+  "total_time": 1.4883352,
+  "completion_tokens_details": {
+   "reasoning_tokens": 464
+  }
+ }
+}

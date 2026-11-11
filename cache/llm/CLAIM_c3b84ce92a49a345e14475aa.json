@@ -1,0 +1,33 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R022",
+    "claim_type": "spelling",
+    "student_value": null,
+    "target_option": "D",
+    "target_text": "plexux",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Student claims spelling error in option D 'plexux'"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R022\",\"claim_type\":\"spelling\",\"student_value\":null,\"target_option\":\"D\",\"target_text\":\"plexux\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Student claims spelling error in option D 'plexux'\"}]}",
+ "_usage": {
+  "queue_time": 0.495229189,
+  "prompt_tokens": 750,
+  "prompt_time": 0.035950798,
+  "completion_tokens": 363,
+  "completion_time": 0.776264189,
+  "total_tokens": 1113,
+  "total_time": 0.812214987,
+  "completion_tokens_details": {
+   "reasoning_tokens": 298
+  }
+ }
+}

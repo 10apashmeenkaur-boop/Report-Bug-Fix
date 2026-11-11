@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "Let side = a cm. With 800 g on cube, it just submerges: a^3 = m_cube+800. Without mass, submerged height = a‑2 ⇒ buoyant volume = a^2(a‑2)=m_cube. Substitute: a^2(a‑2)+800 = a^3 ⇒ -2a^2+800=0 ⇒ a^2=400 ⇒ a=20 cm.",
+  "final_value": "20 cm",
+  "choice": null,
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"Let side = a cm. With 800 g on cube, it just submerges: a^3 = m_cube+800. Without mass, submerged height = a‑2 ⇒ buoyant volume = a^2(a‑2)=m_cube. Substitute: a^2(a‑2)+800 = a^3 ⇒ -2a^2+800=0 ⇒ a^2=400 ⇒ a=20 cm.\",\"final_value\":\"20 cm\",\"choice\":null,\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.154106725,
+  "prompt_tokens": 395,
+  "prompt_time": 0.020013979,
+  "completion_tokens": 639,
+  "completion_time": 1.34481585,
+  "total_tokens": 1034,
+  "total_time": 1.364829829,
+  "completion_tokens_details": {
+   "reasoning_tokens": 520
+  }
+ }
+}

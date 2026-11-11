@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "λ=0.3nm=3e-10m; KE=h^2/(2mλ^2); h=6.626e-34,J·s; m=9.11e-31kg; KE= (6.626e-34)^2/(2*9.11e-31*(3e-10)^2)=2.68e-18J≈16.8eV",
+  "final_value": "16.8 eV",
+  "choice": "B",
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"λ=0.3nm=3e-10m; KE=h^2/(2mλ^2); h=6.626e-34,J·s; m=9.11e-31kg; KE= (6.626e-34)^2/(2*9.11e-31*(3e-10)^2)=2.68e-18J≈16.8eV\",\"final_value\":\"16.8 eV\",\"choice\":\"B\",\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.279907593,
+  "prompt_tokens": 403,
+  "prompt_time": 0.028760734,
+  "completion_tokens": 441,
+  "completion_time": 0.93405126,
+  "total_tokens": 844,
+  "total_time": 0.962811994,
+  "completion_tokens_details": {
+   "reasoning_tokens": 321
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R042": "Thanks for catching that! A teacher is currently reviewing the classification of this question to make sure it’s in the right chapter."
+  }
+ },
+ "raw": "{\"replies\":{\"R042\":\"Thanks for catching that! A teacher is currently reviewing the classification of this question to make sure it’s in the right chapter.\"}}",
+ "_usage": {
+  "queue_time": 0.368995098,
+  "prompt_tokens": 533,
+  "prompt_time": 1.307175715,
+  "completion_tokens": 143,
+  "completion_time": 0.299522492,
+  "total_tokens": 676,
+  "total_time": 1.606698207,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 101
+  }
+ }
+}

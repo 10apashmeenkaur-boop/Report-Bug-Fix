@@ -1,0 +1,36 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R039",
+    "claim_type": "language",
+    "student_value": null,
+    "target_option": null,
+    "target_text": null,
+    "language": "hi",
+    "instruction_attempt": false,
+    "summary": "Student wants the question in Hindi"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R039\",\"claim_type\":\"language\",\"student_value\":null,\"target_option\":null,\"target_text\":null,\"language\":\"hi\",\"instruction_attempt\":false,\"summary\":\"Student wants the question in Hindi\"}]}",
+ "_usage": {
+  "queue_time": 0.370795841,
+  "prompt_tokens": 814,
+  "prompt_time": 0.059976487,
+  "completion_tokens": 273,
+  "completion_time": 0.565903974,
+  "total_tokens": 1087,
+  "total_time": 0.625880461,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 215
+  }
+ }
+}

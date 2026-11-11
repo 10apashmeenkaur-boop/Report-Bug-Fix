@@ -1,0 +1,47 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": true,
+    "why": "Julius von Sachs experimentally demonstrated that growing plants synthesize glucose (initially detected as starch) from carbon dioxide, providing direct evidence of carbohydrate formation."
+   },
+   "B": {
+    "correct": false,
+    "why": "Stephen Hales studied plant water relations and pressure but did not provide evidence for glucose production."
+   },
+   "C": {
+    "correct": false,
+    "why": "Lavoisier identified oxygen's role in combustion and respiration, not the specific synthesis of glucose in plants."
+   },
+   "D": {
+    "correct": false,
+    "why": "Van Helmont measured water uptake in plants but did not demonstrate glucose formation."
+   }
+  },
+  "final_value": "A",
+  "choice": "A",
+  "choices": [
+   "A"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\"assertion_true\":null,\"reason_true\":null,\"per_option\":{\"A\":{\"correct\":true,\"why\":\"Julius von Sachs experimentally demonstrated that growing plants synthesize glucose (initially detected as starch) from carbon dioxide, providing direct evidence of carbohydrate formation.\"},\"B\":{\"correct\":false,\"why\":\"Stephen Hales studied plant water relations and pressure but did not provide evidence for glucose production.\"},\"C\":{\"correct\":false,\"why\":\"Lavoisier identified oxygen's role in combustion and respiration, not the specific synthesis of glucose in plants.\"},\"D\":{\"correct\":false,\"why\":\"Van Helmont measured water uptake in plants but did not demonstrate glucose formation.\"}},\"final_value\":\"A\",\"choice\":\"A\",\"choices\":[\"A\"],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.322077404,
+  "prompt_tokens": 379,
+  "prompt_time": 0.022428695,
+  "completion_tokens": 449,
+  "completion_time": 0.939480493,
+  "total_tokens": 828,
+  "total_time": 0.961909188,
+  "completion_tokens_details": {
+   "reasoning_tokens": 281
+  }
+ }
+}

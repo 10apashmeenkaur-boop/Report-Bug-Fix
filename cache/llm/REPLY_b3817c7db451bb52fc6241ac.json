@@ -1,0 +1,27 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R027": "Thanks for your note; the answer key is correct as (A) 5.7 × 10⁻⁵ /°C."
+  }
+ },
+ "raw": "{\"replies\":{\"R027\":\"Thanks for your note; the answer key is correct as (A) 5.7 × 10⁻⁵ /°C.\"}}",
+ "_usage": {
+  "queue_time": 0.369209722,
+  "prompt_tokens": 617,
+  "prompt_time": 0.062220184,
+  "completion_tokens": 275,
+  "completion_time": 0.837274626,
+  "total_tokens": 892,
+  "total_time": 0.89949481,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 227
+  }
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R010",
+    "claim_type": "option_missing_or_blank",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "only 3 options showing",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Only three answer options are displayed."
+   },
+   {
+    "reportId": "R009",
+    "claim_type": "option_missing_or_blank",
+    "student_value": null,
+    "target_option": "D",
+    "target_text": "option D",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Option D is missing from the answer choices."
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R010\",\"claim_type\":\"option_missing_or_blank\",\"student_value\":null,\"target_option\":null,\"target_text\":\"only 3 options showing\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Only three answer options are displayed.\"},{\"reportId\":\"R009\",\"claim_type\":\"option_missing_or_blank\",\"student_value\":null,\"target_option\":\"D\",\"target_text\":\"option D\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Option D is missing from the answer choices.\"}]}",
+ "_usage": {
+  "queue_time": 0.322960795,
+  "prompt_tokens": 807,
+  "prompt_time": 0.039241202,
+  "completion_tokens": 315,
+  "completion_time": 0.657004879,
+  "total_tokens": 1122,
+  "total_time": 0.696246081,
+  "completion_tokens_details": {
+   "reasoning_tokens": 198
+  }
+ }
+}

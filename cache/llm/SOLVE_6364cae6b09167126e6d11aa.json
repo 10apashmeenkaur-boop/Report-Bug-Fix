@@ -1,0 +1,27 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "gemini",
+ "model": "gemini-3.5-flash",
+ "output": {
+  "working": "Voltage across resistor V_R = 40 V, across inductor V_L = 60 V, across capacitor V_C = 30 V. Supply voltage V = sqrt(V_R^2 + (V_L - V_C)^2) = sqrt(40^2 + (60 - 30)^2) = sqrt(1600 + 900) = sqrt(2500) = 50 V.",
+  "final_value": "50 V",
+  "choice": "A",
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\n  \"working\": \"Voltage across resistor V_R = 40 V, across inductor V_L = 60 V, across capacitor V_C = 30 V. Supply voltage V = sqrt(V_R^2 + (V_L - V_C)^2) = sqrt(40^2 + (60 - 30)^2) = sqrt(1600 + 900) = sqrt(2500) = 50 V.\",\n  \"final_value\": \"50 V\",\n  \"choice\": \"A\",\n  \"choices\": [],\n  \"confidence\": \"high\"\n}",
+ "_usage": {
+  "promptTokenCount": 343,
+  "candidatesTokenCount": 145,
+  "totalTokenCount": 678,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 343
+   }
+  ],
+  "thoughtsTokenCount": 190,
+  "serviceTier": "standard"
+ }
+}

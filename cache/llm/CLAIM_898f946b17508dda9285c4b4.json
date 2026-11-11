@@ -1,0 +1,33 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R016",
+    "claim_type": "solution_mismatch",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "40 cm",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Solution says 40 cm but answer key says 20"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R016\",\"claim_type\":\"solution_mismatch\",\"student_value\":null,\"target_option\":null,\"target_text\":\"40 cm\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Solution says 40 cm but answer key says 20\"}]}",
+ "_usage": {
+  "queue_time": 0.292237903,
+  "prompt_tokens": 764,
+  "prompt_time": 0.062562345,
+  "completion_tokens": 515,
+  "completion_time": 1.074238647,
+  "total_tokens": 1279,
+  "total_time": 1.136800992,
+  "completion_tokens_details": {
+   "reasoning_tokens": 449
+  }
+ }
+}

@@ -1,0 +1,33 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R038",
+    "claim_type": "app",
+    "student_value": "A",
+    "target_option": "B",
+    "target_text": "B",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Clicked A but system recorded B"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R038\",\"claim_type\":\"app\",\"student_value\":\"A\",\"target_option\":\"B\",\"target_text\":\"B\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Clicked A but system recorded B\"}]}",
+ "_usage": {
+  "queue_time": 0.368528586,
+  "prompt_tokens": 758,
+  "prompt_time": 0.032503731,
+  "completion_tokens": 307,
+  "completion_time": 0.647004837,
+  "total_tokens": 1065,
+  "total_time": 0.679508568,
+  "completion_tokens_details": {
+   "reasoning_tokens": 249
+  }
+ }
+}

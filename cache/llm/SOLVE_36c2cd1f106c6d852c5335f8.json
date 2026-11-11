@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "ΔL=0.19cm=0.0019m, L0=1m, ΔT=100°C. Linear coeff α=ΔL/(L0ΔT)=0.0019/(1×100)=1.9×10⁻⁵ °C⁻¹. Cubical coeff β≈3α=3×1.9×10⁻⁵=5.7×10⁻⁵ °C⁻¹.",
+  "final_value": "5.7×10⁻⁵ °C⁻¹",
+  "choice": "A",
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"ΔL=0.19cm=0.0019m, L0=1m, ΔT=100°C. Linear coeff α=ΔL/(L0ΔT)=0.0019/(1×100)=1.9×10⁻⁵ °C⁻¹. Cubical coeff β≈3α=3×1.9×10⁻⁵=5.7×10⁻⁵ °C⁻¹.\",\"final_value\":\"5.7×10⁻⁵ °C⁻¹\",\"choice\":\"A\",\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 1.148372127,
+  "prompt_tokens": 450,
+  "prompt_time": 0.024025954,
+  "completion_tokens": 327,
+  "completion_time": 0.68851292,
+  "total_tokens": 777,
+  "total_time": 0.712538874,
+  "completion_tokens_details": {
+   "reasoning_tokens": 189
+  }
+ }
+}

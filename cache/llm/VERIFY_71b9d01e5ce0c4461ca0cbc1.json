@@ -1,0 +1,45 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": false,
+  "reason_true": false,
+  "per_option": {
+   "A": {
+    "correct": false,
+    "why": "Both A and R are false, so R cannot explain A."
+   },
+   "B": {
+    "correct": false,
+    "why": "Both statements are not true."
+   },
+   "C": {
+    "correct": false,
+    "why": "Assertion is false."
+   },
+   "D": {
+    "correct": false,
+    "why": "Reason is false."
+   }
+  },
+  "final_value": "NONE",
+  "choice": "NONE",
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"assertion_true\":false,\"reason_true\":false,\"per_option\":{\"A\":{\"correct\":false,\"why\":\"Both A and R are false, so R cannot explain A.\"},\"B\":{\"correct\":false,\"why\":\"Both statements are not true.\"},\"C\":{\"correct\":false,\"why\":\"Assertion is false.\"},\"D\":{\"correct\":false,\"why\":\"Reason is false.\"}},\"final_value\":\"NONE\",\"choice\":\"NONE\",\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.322163708,
+  "prompt_tokens": 456,
+  "prompt_time": 0.026534671,
+  "completion_tokens": 513,
+  "completion_time": 1.063028133,
+  "total_tokens": 969,
+  "total_time": 1.089562804,
+  "completion_tokens_details": {
+   "reasoning_tokens": 409
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "V_surface=kQ/R=16V ⇒kQ/R=16. Inside V(r)=kQ(3R^2−r^2)/(2R^3). For r=R/2, V_P= kQ·11/(8R)=11/8·16=22V. Outside V(r)=kQ/r. For r=2R, V_S= (kQ/R)/2=8V. ΔV=V_P−V_S=22−8=14V.",
+  "final_value": "14 V",
+  "choice": null,
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"V_surface=kQ/R=16V ⇒kQ/R=16. Inside V(r)=kQ(3R^2−r^2)/(2R^3). For r=R/2, V_P= kQ·11/(8R)=11/8·16=22V. Outside V(r)=kQ/r. For r=2R, V_S= (kQ/R)/2=8V. ΔV=V_P−V_S=22−8=14V.\",\"final_value\":\"14 V\",\"choice\":null,\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.375138519,
+  "prompt_tokens": 427,
+  "prompt_time": 0.021802557,
+  "completion_tokens": 717,
+  "completion_time": 1.504786349,
+  "total_tokens": 1144,
+  "total_time": 1.526588906,
+  "completion_tokens_details": {
+   "reasoning_tokens": 582
+  }
+ }
+}

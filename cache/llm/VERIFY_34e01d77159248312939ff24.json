@@ -1,0 +1,47 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": false,
+    "why": "tan^{-1}(2) gives tanθ=2, which does not satisfy R=H (requires tanθ=4)"
+   },
+   "B": {
+    "correct": true,
+    "why": "tanθ=4 satisfies 4cosθ=sinθ, leading to equal range and height"
+   },
+   "C": {
+    "correct": false,
+    "why": "tan^{-1}(3) gives tanθ=3, not the required value"
+   },
+   "D": {
+    "correct": false,
+    "why": "tan^{-1}(0.5) gives tanθ=0.5, far from required tanθ=4"
+   }
+  },
+  "final_value": "tan^{-1}(4)",
+  "choice": "B",
+  "choices": [
+   "B"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\"assertion_true\":null,\"reason_true\":null,\"per_option\":{\"A\":{\"correct\":false,\"why\":\"tan^{-1}(2) gives tanθ=2, which does not satisfy R=H (requires tanθ=4)\"},\"B\":{\"correct\":true,\"why\":\"tanθ=4 satisfies 4cosθ=sinθ, leading to equal range and height\"},\"C\":{\"correct\":false,\"why\":\"tan^{-1}(3) gives tanθ=3, not the required value\"},\"D\":{\"correct\":false,\"why\":\"tan^{-1}(0.5) gives tanθ=0.5, far from required tanθ=4\"}},\"final_value\":\"tan^{-1}(4)\",\"choice\":\"B\",\"choices\":[\"B\"],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.158133086,
+  "prompt_tokens": 399,
+  "prompt_time": 0.017169853,
+  "completion_tokens": 664,
+  "completion_time": 1.391261339,
+  "total_tokens": 1063,
+  "total_time": 1.408431192,
+  "completion_tokens_details": {
+   "reasoning_tokens": 493
+  }
+ }
+}

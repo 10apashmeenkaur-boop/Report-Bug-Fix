@@ -1,0 +1,63 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [
+   {
+    "field": "solution",
+    "find": "wheater",
+    "replace": "whether"
+   }
+  ],
+  "solution_final": {
+   "value": "B",
+   "option": "B"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": "No foreign text detected"
+  },
+  "solution_errors": [],
+  "solution_factual": [
+   {
+    "find": "Forked tongue snakes may represents the origin of new variety of snake from the non-forked tongue snakes.",
+    "replace": "The presence or absence of a forked tongue is a character state; to infer the ancestral state, one should compare with an outgroup species.",
+    "why": "The original statement incorrectly describes evolutionary origin rather than ancestral state reconstruction."
+   }
+  ],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Zoology",
+   "suggested_chapter": "Evolution",
+   "why": "The question tests ancestral state reconstruction using an outgroup, which is a topic within Evolution."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option B correctly addresses the method for inferring the ancestral state."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[{\"field\":\"solution\",\"find\":\"wheater\",\"replace\":\"whether\"}],\"solution_final\":{\"value\":\"B\",\"option\":\"B\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":\"No foreign text detected\"},\"solution_errors\":[],\"solution_factual\":[{\"find\":\"Forked tongue snakes may represents the origin of new variety of snake from the non-forked tongue snakes.\",\"replace\":\"The presence or absence of a forked tongue is a character state; to infer the ancestral state, one should compare with an outgroup species.\",\"why\":\"The original statement incorrectly describes evolutionary origin rather than ancestral state reconstruction.\"}],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Zoology\",\"suggested_chapter\":\"Evolution\",\"why\":\"The question tests ancestral state reconstruction using an outgroup, which is a topic within Evolution.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Only option B correctly addresses the method for inferring the ancestral state.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.319789216,
+  "prompt_tokens": 934,
+  "prompt_time": 0.047623073,
+  "completion_tokens": 1251,
+  "completion_time": 2.63431069,
+  "total_tokens": 2185,
+  "total_time": 2.681933763,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1017
+  }
+ }
+}

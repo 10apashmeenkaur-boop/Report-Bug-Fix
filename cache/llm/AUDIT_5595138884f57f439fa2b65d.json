@@ -1,0 +1,60 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "Relaxin - Inhibin",
+   "option": "D"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": ""
+  },
+  "solution_errors": [],
+  "solution_factual": [
+   {
+    "find": "Insulin and glucagon work synergistically to keep blood glucose concentrations normal.",
+    "replace": "Insulin and glucagon work antagonistically to regulate blood glucose concentrations.",
+    "why": "Insulin and glucagon have opposite effects on blood glucose levels, not synergistic."
+   }
+  ],
+  "missing_data": {
+   "present": false,
+   "what": "",
+   "value": "",
+   "anchor": "",
+   "insert": ""
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Zoology",
+   "suggested_chapter": "Chemical Coordination and Integration",
+   "why": "Hormonal regulation is part of chemical coordination in animal physiology."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option D (Relaxin - Inhibin) is not antagonistic, all other pairs are antagonistic."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"Relaxin - Inhibin\",\"option\":\"D\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":\"\"},\"solution_errors\":[],\"solution_factual\":[{\"find\":\"Insulin and glucagon work synergistically to keep blood glucose concentrations normal.\",\"replace\":\"Insulin and glucagon work antagonistically to regulate blood glucose concentrations.\",\"why\":\"Insulin and glucagon have opposite effects on blood glucose levels, not synergistic.\"}],\"missing_data\":{\"present\":false,\"what\":\"\",\"value\":\"\",\"anchor\":\"\",\"insert\":\"\"},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Zoology\",\"suggested_chapter\":\"Chemical Coordination and Integration\",\"why\":\"Hormonal regulation is part of chemical coordination in animal physiology.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Only option D (Relaxin - Inhibin) is not antagonistic, all other pairs are antagonistic.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.155907329,
+  "prompt_tokens": 1016,
+  "prompt_time": 1.6619832730000001,
+  "completion_tokens": 1369,
+  "completion_time": 3.413395749,
+  "total_tokens": 2385,
+  "total_time": 5.075379022,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1166
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "m=100/10=10kg; Eq1: F-100μ=10 => F=10+100μ; Eq2: 2F-100μ=100 => F=50+50μ; equate:10+100μ=50+50μ =>50μ=40 => μ=0.8",
+  "final_value": "0.8",
+  "choice": "A",
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"m=100/10=10kg; Eq1: F-100μ=10 => F=10+100μ; Eq2: 2F-100μ=100 => F=50+50μ; equate:10+100μ=50+50μ =>50μ=40 => μ=0.8\",\"final_value\":\"0.8\",\"choice\":\"A\",\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.368355393,
+  "prompt_tokens": 436,
+  "prompt_time": 0.019322685,
+  "completion_tokens": 357,
+  "completion_time": 0.755324668,
+  "total_tokens": 793,
+  "total_time": 0.774647353,
+  "completion_tokens_details": {
+   "reasoning_tokens": 258
+  }
+ }
+}

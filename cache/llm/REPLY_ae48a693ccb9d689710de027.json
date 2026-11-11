@@ -1,0 +1,24 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R029": "Thanks for double‑checking! Using F = ma + μmg with the first case (F = 100 N + 1·10 N) gives μ = (110 − 10)/100 = 0.8, which matches answer (A)."
+  }
+ },
+ "raw": "{\"replies\":{\"R029\":\"Thanks for double‑checking! Using F = ma + μmg with the first case (F = 100 N + 1·10 N) gives μ = (110 − 10)/100 = 0.8, which matches answer (A).\"}}",
+ "_usage": {
+  "queue_time": 0.158482985,
+  "prompt_tokens": 566,
+  "prompt_time": 0.029468554,
+  "completion_tokens": 361,
+  "completion_time": 0.780028505,
+  "total_tokens": 927,
+  "total_time": 0.809497059,
+  "completion_tokens_details": {
+   "reasoning_tokens": 289
+  }
+ }
+}

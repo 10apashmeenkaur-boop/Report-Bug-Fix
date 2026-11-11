@@ -1,0 +1,47 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": false,
+    "why": "Kinetic energy ≈16.8 eV, not 0.168 eV"
+   },
+   "B": {
+    "correct": true,
+    "why": "Using K = (h/λ)^2/(2m) gives ≈2.68×10⁻¹⁸ J ≈16.8 eV"
+   },
+   "C": {
+    "correct": false,
+    "why": "1.68 eV is ten times smaller than the calculated value"
+   },
+   "D": {
+    "correct": false,
+    "why": "2.5 eV does not match the computed kinetic energy"
+   },
+   "final_value": "16.8 eV",
+   "choice": "B",
+   "choices": [
+    "B"
+   ],
+   "confidence": "high"
+  }
+ },
+ "raw": "{\"assertion_true\":null,\"reason_true\":null,\"per_option\":{\"A\":{\"correct\":false,\"why\":\"Kinetic energy ≈16.8 eV, not 0.168 eV\"},\"B\":{\"correct\":true,\"why\":\"Using K = (h/λ)^2/(2m) gives ≈2.68×10⁻¹⁸ J ≈16.8 eV\"},\"C\":{\"correct\":false,\"why\":\"1.68 eV is ten times smaller than the calculated value\"},\"D\":{\"correct\":false,\"why\":\"2.5 eV does not match the computed kinetic energy\"},\"final_value\":\"16.8 eV\",\"choice\":\"B\",\"choices\":[\"B\"],\"confidence\":\"high\"}}",
+ "_usage": {
+  "queue_time": 0.155981804,
+  "prompt_tokens": 399,
+  "prompt_time": 0.017565654,
+  "completion_tokens": 647,
+  "completion_time": 1.353394524,
+  "total_tokens": 1046,
+  "total_time": 1.370960178,
+  "completion_tokens_details": {
+   "reasoning_tokens": 478
+  }
+ }
+}

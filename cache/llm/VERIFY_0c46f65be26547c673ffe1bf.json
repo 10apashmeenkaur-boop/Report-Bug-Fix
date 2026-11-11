@@ -1,0 +1,47 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": false,
+    "why": "Flavr Savr tomato is engineered for delayed ripening, not enriched in provitamin A."
+   },
+   "B": {
+    "correct": false,
+    "why": "Canola is an oilseed crop; it does not provide significant vitamin A."
+   },
+   "C": {
+    "correct": true,
+    "why": "Golden rice is biofortified with beta‑carotene, a provitamin A, preventing vitamin A deficiency‑related blindness."
+   },
+   "D": {
+    "correct": false,
+    "why": "Bt‑Brinjal is engineered for pest resistance, not for vitamin A content."
+   }
+  },
+  "final_value": "C",
+  "choice": "C",
+  "choices": [
+   "C"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\"assertion_true\":null,\"reason_true\":null,\"per_option\":{\"A\":{\"correct\":false,\"why\":\"Flavr Savr tomato is engineered for delayed ripening, not enriched in provitamin A.\"},\"B\":{\"correct\":false,\"why\":\"Canola is an oilseed crop; it does not provide significant vitamin A.\"},\"C\":{\"correct\":true,\"why\":\"Golden rice is biofortified with beta‑carotene, a provitamin A, preventing vitamin A deficiency‑related blindness.\"},\"D\":{\"correct\":false,\"why\":\"Bt‑Brinjal is engineered for pest resistance, not for vitamin A content.\"}},\"final_value\":\"C\",\"choice\":\"C\",\"choices\":[\"C\"],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.288905847,
+  "prompt_tokens": 389,
+  "prompt_time": 0.017409912,
+  "completion_tokens": 458,
+  "completion_time": 0.954756132,
+  "total_tokens": 847,
+  "total_time": 0.972166044,
+  "completion_tokens_details": {
+   "reasoning_tokens": 299
+  }
+ }
+}

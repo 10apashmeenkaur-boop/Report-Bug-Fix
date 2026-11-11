@@ -1,0 +1,24 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R028": "Thanks for checking! When you set the range (v² sin2θ/g) equal to the max height (v² sin²θ/2g) and simplify, you get tanθ = 4, so the angle is tan⁻¹4."
+  }
+ },
+ "raw": "{\"replies\":{\"R028\":\"Thanks for checking! When you set the range (v² sin2θ/g) equal to the max height (v² sin²θ/2g) and simplify, you get tanθ = 4, so the angle is tan⁻¹4.\"}}",
+ "_usage": {
+  "queue_time": 0.330781405,
+  "prompt_tokens": 532,
+  "prompt_time": 0.071155341,
+  "completion_tokens": 446,
+  "completion_time": 0.929243545,
+  "total_tokens": 978,
+  "total_time": 1.000398886,
+  "completion_tokens_details": {
+   "reasoning_tokens": 373
+  }
+ }
+}

@@ -1,0 +1,27 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R037": "Thanks for letting us know about the loading issue; we’re checking the display and will get it working properly soon."
+  }
+ },
+ "raw": "{\"replies\":{\"R037\":\"Thanks for letting us know about the loading issue; we’re checking the display and will get it working properly soon.\"}}",
+ "_usage": {
+  "queue_time": 0.322136952,
+  "prompt_tokens": 478,
+  "prompt_time": 0.361162805,
+  "completion_tokens": 129,
+  "completion_time": 0.26833242,
+  "total_tokens": 607,
+  "total_time": 0.629495225,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 89
+  }
+ }
+}

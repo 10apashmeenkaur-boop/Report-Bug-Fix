@@ -1,0 +1,49 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": true,
+    "why": "Force from a uniform electric field is constant and collinear with the field; with initial velocity parallel to the field the particle experiences acceleration along the same line, giving straight‑line motion."
+   },
+   "B": {
+    "correct": true,
+    "why": "A constant electric force perpendicular to the initial velocity produces uniform acceleration orthogonal to the motion, yielding a parabolic trajectory analogous to projectile motion."
+   },
+   "C": {
+    "correct": false,
+    "why": "Magnetic force is q v×B; if v is parallel to B the cross product is zero, so no magnetic force acts and the particle moves straight, not in a helix."
+   },
+   "D": {
+    "correct": true,
+    "why": "With velocity perpendicular to a uniform magnetic field the magnetic force provides the required centripetal force, resulting in circular motion in a plane normal to B."
+   }
+  },
+  "final_value": "A,B,D",
+  "choice": "MULTIPLE",
+  "choices": [
+   "A",
+   "B",
+   "D"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\"assertion_true\":null,\"reason_true\":null,\"per_option\":{\"A\":{\"correct\":true,\"why\":\"Force from a uniform electric field is constant and collinear with the field; with initial velocity parallel to the field the particle experiences acceleration along the same line, giving straight‑line motion.\"},\"B\":{\"correct\":true,\"why\":\"A constant electric force perpendicular to the initial velocity produces uniform acceleration orthogonal to the motion, yielding a parabolic trajectory analogous to projectile motion.\"},\"C\":{\"correct\":false,\"why\":\"Magnetic force is q v×B; if v is parallel to B the cross product is zero, so no magnetic force acts and the particle moves straight, not in a helix.\"},\"D\":{\"correct\":true,\"why\":\"With velocity perpendicular to a uniform magnetic field the magnetic force provides the required centripetal force, resulting in circular motion in a plane normal to B.\"}},\"final_value\":\"A,B,D\",\"choice\":\"MULTIPLE\",\"choices\":[\"A\",\"B\",\"D\"],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.370054094,
+  "prompt_tokens": 430,
+  "prompt_time": 0.019413323,
+  "completion_tokens": 698,
+  "completion_time": 1.46288424,
+  "total_tokens": 1128,
+  "total_time": 1.482297563,
+  "completion_tokens_details": {
+   "reasoning_tokens": 478
+  }
+ }
+}

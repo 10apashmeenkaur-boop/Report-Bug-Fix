@@ -1,0 +1,46 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R018",
+    "claim_type": "solution_mismatch",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "solution",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Student says solution belongs to a different question."
+   },
+   {
+    "reportId": "R019",
+    "claim_type": "solution_mismatch",
+    "student_value": "5.47 Å",
+    "target_option": null,
+    "target_text": "5.47 angstrom",
+    "language": "hinglish",
+    "instruction_attempt": false,
+    "summary": "Solution shows 5.47 Å, not what question asks."
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R018\",\"claim_type\":\"solution_mismatch\",\"student_value\":null,\"target_option\":null,\"target_text\":\"solution\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Student says solution belongs to a different question.\"},{\"reportId\":\"R019\",\"claim_type\":\"solution_mismatch\",\"student_value\":\"5.47 Å\",\"target_option\":null,\"target_text\":\"5.47 angstrom\",\"language\":\"hinglish\",\"instruction_attempt\":false,\"summary\":\"Solution shows 5.47 Å, not what question asks.\"}]}",
+ "_usage": {
+  "queue_time": 0.156347888,
+  "prompt_tokens": 798,
+  "prompt_time": 0.119701761,
+  "completion_tokens": 413,
+  "completion_time": 0.923201857,
+  "total_tokens": 1211,
+  "total_time": 1.042903618,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 288
+  }
+ }
+}

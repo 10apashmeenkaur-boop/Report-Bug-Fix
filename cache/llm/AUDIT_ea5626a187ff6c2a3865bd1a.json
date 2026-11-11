@@ -1,0 +1,60 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "8√(2)m",
+   "option": "D"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [
+   {
+    "find": "π = A×(π)/(8)×cos(π)/(8)×2",
+    "replace": "π = A×(π)/(8)×cos(π/4)",
+    "why": "The cosine term should be cos(ωt)=cos((π/8)·2)=cos(π/4), not \"cos(π)/(8)×2\""
+   }
+  ],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Oscillations",
+   "why": "The problem involves simple harmonic motion and amplitude calculation, which belongs to the Oscillations chapter."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option D corresponds to the computed amplitude 8√2 m."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"8√(2)m\",\"option\":\"D\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[{\"find\":\"π = A×(π)/(8)×cos(π)/(8)×2\",\"replace\":\"π = A×(π)/(8)×cos(π/4)\",\"why\":\"The cosine term should be cos(ωt)=cos((π/8)·2)=cos(π/4), not \\\"cos(π)/(8)×2\\\"\"}],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Oscillations\",\"why\":\"The problem involves simple harmonic motion and amplitude calculation, which belongs to the Oscillations chapter.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Only option D corresponds to the computed amplitude 8√2 m.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.15568379,
+  "prompt_tokens": 960,
+  "prompt_time": 1.5428774440000002,
+  "completion_tokens": 1585,
+  "completion_time": 4.317434864,
+  "total_tokens": 2545,
+  "total_time": 5.860312308,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1355
+  }
+ }
+}

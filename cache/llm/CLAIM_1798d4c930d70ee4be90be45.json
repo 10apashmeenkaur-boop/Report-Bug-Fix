@@ -1,0 +1,36 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R004",
+    "claim_type": "answer_wrong",
+    "student_value": "8225",
+    "target_option": "B",
+    "target_text": "8225",
+    "language": "hinglish",
+    "instruction_attempt": false,
+    "summary": "Student says answer is wrong, should be 8225"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R004\",\"claim_type\":\"answer_wrong\",\"student_value\":\"8225\",\"target_option\":\"B\",\"target_text\":\"8225\",\"language\":\"hinglish\",\"instruction_attempt\":false,\"summary\":\"Student says answer is wrong, should be 8225\"}]}",
+ "_usage": {
+  "queue_time": 0.15657109,
+  "prompt_tokens": 800,
+  "prompt_time": 0.020857259,
+  "completion_tokens": 276,
+  "completion_time": 0.575862474,
+  "total_tokens": 1076,
+  "total_time": 0.596719733,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 209
+  }
+ }
+}

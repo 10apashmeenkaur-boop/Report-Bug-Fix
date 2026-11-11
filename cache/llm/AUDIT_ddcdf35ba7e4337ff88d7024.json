@@ -1,0 +1,57 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "311.3 m^(2)",
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [
+   {
+    "find": "311.3 m^(2)",
+    "replace": "10 A = 10 × 311.3 = 3113",
+    "why": "The question asks for the value of 10 A, but the solution stops at A = 311.3 m² and does not perform the required multiplication by 10."
+   }
+  ],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Units and dimensions",
+   "why": "The problem deals with significant figures and unit handling, which belong to the Units and dimensions chapter."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "There is a single correct integer answer (3113) matching the answer key."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"311.3 m^(2)\",\"option\":null},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[{\"find\":\"311.3 m^(2)\",\"replace\":\"10 A = 10 × 311.3 = 3113\",\"why\":\"The question asks for the value of 10 A, but the solution stops at A = 311.3 m² and does not perform the required multiplication by 10.\"}],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Units and dimensions\",\"why\":\"The problem deals with significant figures and unit handling, which belong to the Units and dimensions chapter.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"There is a single correct integer answer (3113) matching the answer key.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.370460738,
+  "prompt_tokens": 808,
+  "prompt_time": 0.033870359,
+  "completion_tokens": 1382,
+  "completion_time": 2.88227944,
+  "total_tokens": 2190,
+  "total_time": 2.9161497990000003,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1160
+  }
+ }
+}

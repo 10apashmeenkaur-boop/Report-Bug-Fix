@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "P = (1/3)ρv^2; ρ=0.09 kg/m^3, v=400 m/s → v^2=1.6×10^5; ρv^2=0.09×1.6×10^5=1.44×10^4; P=1/3×1.44×10^4=4.8×10^3 Pa",
+  "final_value": "4800 N/m^2",
+  "choice": "D",
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"P = (1/3)ρv^2; ρ=0.09 kg/m^3, v=400 m/s → v^2=1.6×10^5; ρv^2=0.09×1.6×10^5=1.44×10^4; P=1/3×1.44×10^4=4.8×10^3 Pa\",\"final_value\":\"4800 N/m^2\",\"choice\":\"D\",\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.155783552,
+  "prompt_tokens": 433,
+  "prompt_time": 0.017257228,
+  "completion_tokens": 270,
+  "completion_time": 0.56552567,
+  "total_tokens": 703,
+  "total_time": 0.582782898,
+  "completion_tokens_details": {
+   "reasoning_tokens": 146
+  }
+ }
+}

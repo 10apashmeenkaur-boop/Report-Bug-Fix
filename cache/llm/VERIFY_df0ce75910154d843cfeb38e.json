@@ -1,0 +1,47 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": false,
+    "why": "Parathormone raises blood calcium while calcitonin lowers it; they have opposite actions."
+   },
+   "B": {
+    "correct": false,
+    "why": "Insulin lowers blood glucose whereas glucagon raises it; they are antagonistic."
+   },
+   "C": {
+    "correct": false,
+    "why": "Aldosterone promotes Na+ retention and water reabsorption, while ANF promotes natriuresis and diuresis; opposite effects."
+   },
+   "D": {
+    "correct": true,
+    "why": "Relaxin (involved in pregnancy and connective‑tissue remodeling) and inhibin (inhibits FSH secretion) act on different pathways and are not antagonistic."
+   }
+  },
+  "final_value": "D",
+  "choice": "D",
+  "choices": [
+   "D"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\n  \"assertion_true\": null,\n  \"reason_true\": null,\n  \"per_option\": {\n    \"A\": {\n      \"correct\": false,\n      \"why\": \"Parathormone raises blood calcium while calcitonin lowers it; they have opposite actions.\"\n    },\n    \"B\": {\n      \"correct\": false,\n      \"why\": \"Insulin lowers blood glucose whereas glucagon raises it; they are antagonistic.\"\n    },\n    \"C\": {\n      \"correct\": false,\n      \"why\": \"Aldosterone promotes Na+ retention and water reabsorption, while ANF promotes natriuresis and diuresis; opposite effects.\"\n    },\n    \"D\": {\n      \"correct\": true,\n      \"why\": \"Relaxin (involved in pregnancy and connective‑tissue remodeling) and inhibin (inhibits FSH secretion) act on different pathways and are not antagonistic.\"\n    }\n  },\n  \"final_value\": \"D\",\n  \"choice\": \"D\",\n  \"choices\": [\"D\"],\n  \"confidence\": \"high\"\n}",
+ "_usage": {
+  "queue_time": 0.324813691,
+  "prompt_tokens": 401,
+  "prompt_time": 0.017587246,
+  "completion_tokens": 562,
+  "completion_time": 1.166596617,
+  "total_tokens": 963,
+  "total_time": 1.184183863,
+  "completion_tokens_details": {
+   "reasoning_tokens": 328
+  }
+ }
+}

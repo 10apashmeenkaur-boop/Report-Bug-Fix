@@ -1,0 +1,33 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R014",
+    "claim_type": "markup",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "\\frac",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "LaTeX code \\frac appears raw instead of formatted"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R014\",\"claim_type\":\"markup\",\"student_value\":null,\"target_option\":null,\"target_text\":\"\\\\frac\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"LaTeX code \\\\frac appears raw instead of formatted\"}]}",
+ "_usage": {
+  "queue_time": 0.294285032,
+  "prompt_tokens": 766,
+  "prompt_time": 0.075646856,
+  "completion_tokens": 248,
+  "completion_time": 0.524291119,
+  "total_tokens": 1014,
+  "total_time": 0.599937975,
+  "completion_tokens_details": {
+   "reasoning_tokens": 184
+  }
+ }
+}

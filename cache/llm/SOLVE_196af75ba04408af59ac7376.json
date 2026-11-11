@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "V_L=60V, V_C=30V => net reactive V = V_L-V_C=30V. V_R=40V. Supply V = sqrt(V_R^2+(V_L-V_C)^2)=sqrt(40^2+30^2)=sqrt(2500)=50V",
+  "final_value": "50 V",
+  "choice": "A",
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"V_L=60V, V_C=30V => net reactive V = V_L-V_C=30V. V_R=40V. Supply V = sqrt(V_R^2+(V_L-V_C)^2)=sqrt(40^2+30^2)=sqrt(2500)=50V\",\"final_value\":\"50 V\",\"choice\":\"A\",\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.36798073,
+  "prompt_tokens": 419,
+  "prompt_time": 0.021351198,
+  "completion_tokens": 326,
+  "completion_time": 0.680812666,
+  "total_tokens": 745,
+  "total_time": 0.702163864,
+  "completion_tokens_details": {
+   "reasoning_tokens": 233
+  }
+ }
+}

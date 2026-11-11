@@ -1,0 +1,53 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R002",
+    "claim_type": "answer_wrong",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "wrong ans",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Student claims the answer is wrong."
+   },
+   {
+    "reportId": "R003",
+    "claim_type": "answer_wrong",
+    "student_value": "50",
+    "target_option": "C",
+    "target_text": "130",
+    "language": "hinglish",
+    "instruction_attempt": false,
+    "summary": "Student says correct answer should be 50, not 130."
+   },
+   {
+    "reportId": "R001",
+    "claim_type": "answer_wrong",
+    "student_value": "50V",
+    "target_option": "C",
+    "target_text": "C",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Student claims correct answer is 50V, key shows C."
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R002\",\"claim_type\":\"answer_wrong\",\"student_value\":null,\"target_option\":null,\"target_text\":\"wrong ans\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Student claims the answer is wrong.\"},{\"reportId\":\"R003\",\"claim_type\":\"answer_wrong\",\"student_value\":\"50\",\"target_option\":\"C\",\"target_text\":\"130\",\"language\":\"hinglish\",\"instruction_attempt\":false,\"summary\":\"Student says correct answer should be 50, not 130.\"},{\"reportId\":\"R001\",\"claim_type\":\"answer_wrong\",\"student_value\":\"50V\",\"target_option\":\"C\",\"target_text\":\"C\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Student claims correct answer is 50V, key shows C.\"}]}",
+ "_usage": {
+  "queue_time": 0.649547238,
+  "prompt_tokens": 840,
+  "prompt_time": 0.063485325,
+  "completion_tokens": 447,
+  "completion_time": 0.941064625,
+  "total_tokens": 1287,
+  "total_time": 1.00454995,
+  "completion_tokens_details": {
+   "reasoning_tokens": 280
+  }
+ }
+}

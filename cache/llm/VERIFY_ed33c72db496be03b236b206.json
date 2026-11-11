@@ -1,0 +1,28 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {},
+  "final_value": "14",
+  "choice": null,
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"assertion_true\":null,\"reason_true\":null,\"per_option\":{},\"final_value\":\"14\",\"choice\":null,\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.676630275,
+  "prompt_tokens": 423,
+  "prompt_time": 0.138410461,
+  "completion_tokens": 590,
+  "completion_time": 1.245259919,
+  "total_tokens": 1013,
+  "total_time": 1.3836703799999999,
+  "completion_tokens_details": {
+   "reasoning_tokens": 548
+  }
+ }
+}

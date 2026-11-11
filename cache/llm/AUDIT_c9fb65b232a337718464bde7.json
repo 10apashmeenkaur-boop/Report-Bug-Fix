@@ -1,0 +1,74 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [
+   {
+    "field": "question",
+    "find": "hemispherial",
+    "replace": "hemispherical"
+   },
+   {
+    "field": "solution",
+    "find": "sincer_2>r_1",
+    "replace": "since r_2>r_1"
+   }
+  ],
+  "solution_final": {
+   "value": "air from end 1 flows towards end 2",
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": "All quantities mentioned appear in the question."
+  },
+  "solution_errors": [
+   {
+    "find": "sincer_2>r_1",
+    "replace": "since r_2>r_1",
+    "why": "Typographical error; the intended word is \"since\"."
+   }
+  ],
+  "solution_factual": [
+   {
+    "find": "P_2<P_1(since r_2>r_1)",
+    "replace": "P_2<P_1 (cannot be concluded without knowing r_2)",
+    "why": "The inequality assumes r_2>r_1, but the radius of the bubble at end 2 is not given in the question."
+   }
+  ],
+  "missing_data": {
+   "present": true,
+   "what": "radius of the sub‑hemispherical bubble at end 2",
+   "value": "r_2 > r_1",
+   "anchor": "End 2 has sub-hemispherical soap bubble as shown in figure.",
+   "insert": " with radius r_2 (r_2 > r_1)"
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Properties of matter and fluid mechanics",
+   "why": "The problem deals with pressure differences caused by surface tension, which falls under properties of matter."
+  },
+  "soundness": {
+   "status": "unclear",
+   "why": "The question does not specify the radius of the bubble at end 2; depending on that value, either option B or option C could be correct."
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [\n    {\n      \"field\": \"question\",\n      \"find\": \"hemispherial\",\n      \"replace\": \"hemispherical\"\n    },\n    {\n      \"field\": \"solution\",\n      \"find\": \"sincer_2>r_1\",\n      \"replace\": \"since r_2>r_1\"\n    }\n  ],\n  \"solution_final\": {\n    \"value\": \"air from end 1 flows towards end 2\",\n    \"option\": null\n  },\n  \"solution_foreign\": {\n    \"present\": false,\n    \"fragment\": null,\n    \"why\": \"All quantities mentioned appear in the question.\"\n  },\n  \"solution_errors\": [\n    {\n      \"find\": \"sincer_2>r_1\",\n      \"replace\": \"since r_2>r_1\",\n      \"why\": \"Typographical error; the intended word is \\\"since\\\".\"\n    }\n  ],\n  \"solution_factual\": [\n    {\n      \"find\": \"P_2<P_1(since r_2>r_1)\",\n      \"replace\": \"P_2<P_1 (cannot be concluded without knowing r_2)\",\n      \"why\": \"The inequality assumes r_2>r_1, but the radius of the bubble at end 2 is not given in the question.\"\n    }\n  ],\n  \"missing_data\": {\n    \"present\": true,\n    \"what\": \"radius of the sub‑hemispherical bubble at end 2\",\n    \"value\": \"r_2 > r_1\",\n    \"anchor\": \"End 2 has sub-hemispherical soap bubble as shown in figure.\",\n    \"insert\": \" with radius r_2 (r_2 > r_1)\"\n  },\n  \"chapter_fit\": {\n    \"fits\": true,\n    \"suggested_subject\": \"Physics\",\n    \"suggested_chapter\": \"Properties of matter and fluid mechanics\",\n    \"why\": \"The problem deals with pressure differences caused by surface tension, which falls under properties of matter.\"\n  },\n  \"soundness\": {\n    \"status\": \"unclear\",\n    \"why\": \"The question does not specify the radius of the bubble at end 2; depending on that value, either option B or option C could be correct.\"\n  },\n  \"noise\": []\n}",
+ "_usage": {
+  "queue_time": 0.158727046,
+  "prompt_tokens": 938,
+  "prompt_time": 0.043397653,
+  "completion_tokens": 1911,
+  "completion_time": 4.046655984,
+  "total_tokens": 2849,
+  "total_time": 4.090053637,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1411
+  }
+ }
+}

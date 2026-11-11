@@ -1,0 +1,54 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "20",
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": true,
+   "what": "gravitational acceleration",
+   "value": "10 m/s^2",
+   "anchor": "A body of mass 2 kg is kept by pressing to a vertical wall by a force of 100 N.",
+   "insert": " (take g = 10 m/s^2)"
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Newton's law of motion",
+   "why": "Friction involves forces and Newton's laws, so the chapter is appropriate."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only one integer answer (20) satisfies the problem."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"20\",\"option\":null},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":true,\"what\":\"gravitational acceleration\",\"value\":\"10 m/s^2\",\"anchor\":\"A body of mass 2 kg is kept by pressing to a vertical wall by a force of 100 N.\",\"insert\":\" (take g = 10 m/s^2)\"},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Newton's law of motion\",\"why\":\"Friction involves forces and Newton's laws, so the chapter is appropriate.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Only one integer answer (20) satisfies the problem.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.159325203,
+  "prompt_tokens": 902,
+  "prompt_time": 0.040246965,
+  "completion_tokens": 1200,
+  "completion_time": 3.524705222,
+  "total_tokens": 2102,
+  "total_time": 3.5649521870000003,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1022
+  }
+ }
+}

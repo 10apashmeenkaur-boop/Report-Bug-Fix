@@ -1,0 +1,47 @@
+{
+ "prompt_id": "VERIFY",
+ "version": "verify_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "assertion_true": null,
+  "reason_true": null,
+  "per_option": {
+   "A": {
+    "correct": true,
+    "why": "Solving the equations gives μ = 0.8, which matches option A."
+   },
+   "B": {
+    "correct": false,
+    "why": "μ = 0.4 does not satisfy the given accelerations."
+   },
+   "C": {
+    "correct": false,
+    "why": "μ = 0.6 is inconsistent with the force‑doubling condition."
+   },
+   "D": {
+    "correct": false,
+    "why": "μ = 0.2 is far too low to produce the observed accelerations."
+   }
+  },
+  "final_value": "0.8",
+  "choice": "A",
+  "choices": [
+   "A"
+  ],
+  "confidence": "high"
+ },
+ "raw": "{\n  \"assertion_true\": null,\n  \"reason_true\": null,\n  \"per_option\": {\n    \"A\": {\"correct\": true, \"why\": \"Solving the equations gives μ = 0.8, which matches option A.\"},\n    \"B\": {\"correct\": false, \"why\": \"μ = 0.4 does not satisfy the given accelerations.\"},\n    \"C\": {\"correct\": false, \"why\": \"μ = 0.6 is inconsistent with the force‑doubling condition.\"},\n    \"D\": {\"correct\": false, \"why\": \"μ = 0.2 is far too low to produce the observed accelerations.\"}\n  },\n  \"final_value\": \"0.8\",\n  \"choice\": \"A\",\n  \"choices\": [\"A\"],\n  \"confidence\": \"high\"\n}",
+ "_usage": {
+  "queue_time": 0.275470233,
+  "prompt_tokens": 432,
+  "prompt_time": 0.021080894,
+  "completion_tokens": 593,
+  "completion_time": 1.2504894100000001,
+  "total_tokens": 1025,
+  "total_time": 1.271570304,
+  "completion_tokens_details": {
+   "reasoning_tokens": 408
+  }
+ }
+}

@@ -1,0 +1,36 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R037",
+    "claim_type": "display",
+    "student_value": null,
+    "target_option": null,
+    "target_text": null,
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Student complains that the question loads slowly and never finishes"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R037\",\"claim_type\":\"display\",\"student_value\":null,\"target_option\":null,\"target_text\":null,\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Student complains that the question loads slowly and never finishes\"}]}",
+ "_usage": {
+  "queue_time": 0.156505994,
+  "prompt_tokens": 767,
+  "prompt_time": 0.012410565,
+  "completion_tokens": 454,
+  "completion_time": 1.070207038,
+  "total_tokens": 1221,
+  "total_time": 1.082617603,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 392
+  }
+ }
+}

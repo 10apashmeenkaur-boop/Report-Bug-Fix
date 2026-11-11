@@ -1,0 +1,54 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "F = qE",
+   "option": null
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": "All symbols (V, B, q, E) appear in the question."
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": "",
+   "value": "",
+   "anchor": "",
+   "insert": ""
+  },
+  "chapter_fit": {
+   "fits": false,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Magnetism",
+   "why": "The question involves both electrostatic and magnetic fields, but the stored chapter is only Electrostatics."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Options A, B, and D are correct; option C is incorrect, matching the stored answer key."
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\n    \"value\": \"F = qE\",\n    \"option\": null\n  },\n  \"solution_foreign\": {\n    \"present\": false,\n    \"fragment\": null,\n    \"why\": \"All symbols (V, B, q, E) appear in the question.\"\n  },\n  \"solution_errors\": [],\n  \"solution_factual\": [],\n  \"missing_data\": {\n    \"present\": false,\n    \"what\": \"\",\n    \"value\": \"\",\n    \"anchor\": \"\",\n    \"insert\": \"\"\n  },\n  \"chapter_fit\": {\n    \"fits\": false,\n    \"suggested_subject\": \"Physics\",\n    \"suggested_chapter\": \"Magnetism\",\n    \"why\": \"The question involves both electrostatic and magnetic fields, but the stored chapter is only Electrostatics.\"\n  },\n  \"soundness\": {\n    \"status\": \"ok\",\n    \"why\": \"Options A, B, and D are correct; option C is incorrect, matching the stored answer key.\"\n  },\n  \"noise\": []\n}",
+ "_usage": {
+  "queue_time": 0.370882373,
+  "prompt_tokens": 847,
+  "prompt_time": 1.202840746,
+  "completion_tokens": 1290,
+  "completion_time": 3.310745856,
+  "total_tokens": 2137,
+  "total_time": 4.513586602,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 1054
+  }
+ }
+}

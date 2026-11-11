@@ -1,0 +1,27 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R015": "Thanks for catching that! A teacher is currently reviewing the duplicate options B and C."
+  }
+ },
+ "raw": "{\"replies\":{\"R015\":\"Thanks for catching that! A teacher is currently reviewing the duplicate options B and C.\"}}",
+ "_usage": {
+  "queue_time": 0.291421809,
+  "prompt_tokens": 512,
+  "prompt_time": 0.183262067,
+  "completion_tokens": 116,
+  "completion_time": 0.24804285,
+  "total_tokens": 628,
+  "total_time": 0.431304917,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 82
+  }
+ }
+}

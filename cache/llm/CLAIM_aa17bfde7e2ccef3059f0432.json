@@ -1,0 +1,36 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R025",
+    "claim_type": "figure_missing",
+    "student_value": null,
+    "target_option": null,
+    "target_text": "Figure",
+    "language": "en",
+    "instruction_attempt": false,
+    "summary": "Figure is missing from the question"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R025\",\"claim_type\":\"figure_missing\",\"student_value\":null,\"target_option\":null,\"target_text\":\"Figure\",\"language\":\"en\",\"instruction_attempt\":false,\"summary\":\"Figure is missing from the question\"}]}",
+ "_usage": {
+  "queue_time": 0.371319196,
+  "prompt_tokens": 845,
+  "prompt_time": 0.414583308,
+  "completion_tokens": 305,
+  "completion_time": 0.828398623,
+  "total_tokens": 1150,
+  "total_time": 1.242981931,
+  "prompt_tokens_details": {
+   "cached_tokens": 512
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 246
+  }
+ }
+}

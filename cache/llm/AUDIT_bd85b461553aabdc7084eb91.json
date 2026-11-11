@@ -1,0 +1,57 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "photosynthesis in herbs and shrubs is comparatively low",
+   "option": "C"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [
+   {
+    "find": "Minimum photosynthesis occur in the green wavelength.",
+    "replace": "Minimum photosynthesis occurs in the green wavelength.",
+    "why": "Verb agreement error"
+   }
+  ],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Botany",
+   "suggested_chapter": "Photosynthesis in Higher Plants",
+   "why": "The question tests the effect of light quality on photosynthetic rate, which belongs to this chapter."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option C correctly explains the lower rate of photosynthesis in herbs and shrubs."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"photosynthesis in herbs and shrubs is comparatively low\",\"option\":\"C\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[{\"find\":\"Minimum photosynthesis occur in the green wavelength.\",\"replace\":\"Minimum photosynthesis occurs in the green wavelength.\",\"why\":\"Verb agreement error\"}],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Botany\",\"suggested_chapter\":\"Photosynthesis in Higher Plants\",\"why\":\"The question tests the effect of light quality on photosynthetic rate, which belongs to this chapter.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Only option C correctly explains the lower rate of photosynthesis in herbs and shrubs.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.165578598,
+  "prompt_tokens": 857,
+  "prompt_time": 0.052309281,
+  "completion_tokens": 913,
+  "completion_time": 1.9163424070000001,
+  "total_tokens": 1770,
+  "total_time": 1.968651688,
+  "completion_tokens_details": {
+   "reasoning_tokens": 726
+  }
+ }
+}

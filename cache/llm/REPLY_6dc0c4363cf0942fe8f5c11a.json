@@ -1,0 +1,27 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R011": "Thanks for spotting it – option C was blank; we’ve updated it to '1:1', so you can mark C."
+  }
+ },
+ "raw": "{\"replies\":{\"R011\":\"Thanks for spotting it – option C was blank; we’ve updated it to '1:1', so you can mark C.\"}}",
+ "_usage": {
+  "queue_time": 0.321865044,
+  "prompt_tokens": 511,
+  "prompt_time": 0.023054065,
+  "completion_tokens": 267,
+  "completion_time": 0.925071965,
+  "total_tokens": 778,
+  "total_time": 0.94812603,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 224
+  }
+ }
+}

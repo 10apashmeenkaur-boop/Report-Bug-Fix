@@ -1,0 +1,27 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R044": "For a uniformly charged sphere V(r)=kQ/R · (3/2−r³/2R³); at r=R/2 this gives V=1.5·kQ/R and at the surface V=kQ/R, so the difference is 0.5·kQ/R = 14 V. Hence the correct potential difference is 14 V."
+  }
+ },
+ "raw": "{\"replies\":{\"R044\":\"For a uniformly charged sphere V(r)=kQ/R · (3/2−r³/2R³); at r=R/2 this gives V=1.5·kQ/R and at the surface V=kQ/R, so the difference is 0.5·kQ/R = 14 V. Hence the correct potential difference is 14 V.\"}}",
+ "_usage": {
+  "queue_time": 0.320103046,
+  "prompt_tokens": 541,
+  "prompt_time": 2.272665902,
+  "completion_tokens": 370,
+  "completion_time": 1.019056865,
+  "total_tokens": 911,
+  "total_time": 3.291722767,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 272
+  }
+ }
+}

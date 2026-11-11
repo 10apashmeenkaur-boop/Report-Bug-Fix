@@ -1,0 +1,52 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "gemini",
+ "model": "gemini-3.5-flash",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "50V",
+   "option": "A"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": null,
+   "suggested_chapter": null,
+   "why": null
+  },
+  "soundness": {
+   "status": "ok",
+   "why": null
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\n    \"value\": \"50V\",\n    \"option\": \"A\"\n  },\n  \"solution_foreign\": {\n    \"present\": false,\n    \"fragment\": null,\n    \"why\": null\n  },\n  \"solution_errors\": [],\n  \"solution_factual\": [],\n  \"missing_data\": {\n    \"present\": false,\n    \"what\": null,\n    \"value\": null,\n    \"anchor\": null,\n    \"insert\": null\n  },\n  \"chapter_fit\": {\n    \"fits\": true,\n    \"suggested_subject\": null,\n    \"suggested_chapter\": null,\n    \"why\": null\n  },\n  \"soundness\": {\n    \"status\": \"ok\",\n    \"why\": null\n  },\n  \"noise\": []\n}",
+ "_usage": {
+  "promptTokenCount": 796,
+  "candidatesTokenCount": 205,
+  "totalTokenCount": 1869,
+  "promptTokensDetails": [
+   {
+    "modality": "TEXT",
+    "tokenCount": 796
+   }
+  ],
+  "thoughtsTokenCount": 868,
+  "serviceTier": "standard"
+ }
+}

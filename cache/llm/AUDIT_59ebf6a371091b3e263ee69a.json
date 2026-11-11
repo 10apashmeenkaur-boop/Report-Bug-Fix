@@ -1,0 +1,82 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [
+   {
+    "field": "question",
+    "find": "Canolla",
+    "replace": "Canola"
+   },
+   {
+    "field": "solution",
+    "find": "riceis",
+    "replace": "rice is"
+   },
+   {
+    "field": "solution",
+    "find": "producebeta-carotene",
+    "replace": "produce beta-carotene"
+   },
+   {
+    "field": "solution",
+    "find": "ofvitamin",
+    "replace": "of vitamin"
+   },
+   {
+    "field": "solution",
+    "find": "helpprevent",
+    "replace": "help prevent"
+   },
+   {
+    "field": "solution",
+    "find": "tonight",
+    "replace": "to night"
+   }
+  ],
+  "solution_final": {
+   "value": "Bt-Brinjal: Engineered for insect resistance (Bt toxin), not vitamin A enrichment.",
+   "option": "D"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": null,
+   "suggested_chapter": null,
+   "why": "Biotechnology topic matches question about genetically engineered Golden rice."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Exactly one correct option (C) matches the solution."
+  },
+  "noise": []
+ },
+ "raw": "{\"spelling\":[{\"field\":\"question\",\"find\":\"Canolla\",\"replace\":\"Canola\"},{\"field\":\"solution\",\"find\":\"riceis\",\"replace\":\"rice is\"},{\"field\":\"solution\",\"find\":\"producebeta-carotene\",\"replace\":\"produce beta-carotene\"},{\"field\":\"solution\",\"find\":\"ofvitamin\",\"replace\":\"of vitamin\"},{\"field\":\"solution\",\"find\":\"helpprevent\",\"replace\":\"help prevent\"},{\"field\":\"solution\",\"find\":\"tonight\",\"replace\":\"to night\"}],\"solution_final\":{\"value\":\"Bt-Brinjal: Engineered for insect resistance (Bt toxin), not vitamin A enrichment.\",\"option\":\"D\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":null},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":null,\"suggested_chapter\":null,\"why\":\"Biotechnology topic matches question about genetically engineered Golden rice.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Exactly one correct option (C) matches the solution.\"},\"noise\":[]}",
+ "_usage": {
+  "queue_time": 0.055702375,
+  "prompt_tokens": 886,
+  "prompt_time": 0.042763022,
+  "completion_tokens": 1539,
+  "completion_time": 3.249319945,
+  "total_tokens": 2425,
+  "total_time": 3.292082967,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1296
+  }
+ }
+}

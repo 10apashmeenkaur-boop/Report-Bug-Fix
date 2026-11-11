@@ -1,0 +1,33 @@
+{
+ "prompt_id": "CLAIM",
+ "version": "claim_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "reports": [
+   {
+    "reportId": "R030",
+    "claim_type": "answer_wrong",
+    "student_value": "4√2",
+    "target_option": "B",
+    "target_text": "4√(2m)",
+    "language": "hinglish",
+    "instruction_attempt": false,
+    "summary": "Student says the correct amplitude is 4√2 (option B)"
+   }
+  ]
+ },
+ "raw": "{\"reports\":[{\"reportId\":\"R030\",\"claim_type\":\"answer_wrong\",\"student_value\":\"4√2\",\"target_option\":\"B\",\"target_text\":\"4√(2m)\",\"language\":\"hinglish\",\"instruction_attempt\":false,\"summary\":\"Student says the correct amplitude is 4√2 (option B)\"}]}",
+ "_usage": {
+  "queue_time": 0.157749806,
+  "prompt_tokens": 790,
+  "prompt_time": 0.050585367,
+  "completion_tokens": 323,
+  "completion_time": 0.68055206,
+  "total_tokens": 1113,
+  "total_time": 0.731137427,
+  "completion_tokens_details": {
+   "reasoning_tokens": 248
+  }
+ }
+}

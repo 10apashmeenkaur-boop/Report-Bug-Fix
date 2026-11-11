@@ -1,0 +1,68 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [
+   {
+    "field": "question",
+    "find": "de-Broglie",
+    "replace": "de Broglie"
+   }
+  ],
+  "solution_final": {
+   "value": "16.8 eV",
+   "option": "B"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": "All quantities in the solution relate to the given wavelength and kinetic energy."
+  },
+  "solution_errors": [
+   {
+    "find": "5.469×10^( − 10)m = 5.47\\AA",
+    "replace": "0.3 nm = 3.0×10^(−10) m",
+    "why": "The solution uses a wavelength of 5.47 Å, which does not match the question's given wavelength of 0.3 nm."
+   },
+   {
+    "find": "(h)/(|I|)",
+    "replace": "(h)/(|p|)",
+    "why": "Variable typo: momentum is denoted by p, not I."
+   }
+  ],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Photoelectric effect and matter waves",
+   "why": "The question tests the de Broglie relation, which belongs to the matter‑waves portion of the chapter."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Exactly one option (B) matches the computed kinetic energy."
+  },
+  "noise": []
+ },
+ "raw": "{\n  \"spelling\": [\n    {\n      \"field\": \"question\",\n      \"find\": \"de-Broglie\",\n      \"replace\": \"de Broglie\"\n    }\n  ],\n  \"solution_final\": {\n    \"value\": \"16.8 eV\",\n    \"option\": \"B\"\n  },\n  \"solution_foreign\": {\n    \"present\": false,\n    \"fragment\": null,\n    \"why\": \"All quantities in the solution relate to the given wavelength and kinetic energy.\"\n  },\n  \"solution_errors\": [\n    {\n      \"find\": \"5.469×10^( − 10)m = 5.47\\\\AA\",\n      \"replace\": \"0.3 nm = 3.0×10^(−10) m\",\n      \"why\": \"The solution uses a wavelength of 5.47 Å, which does not match the question's given wavelength of 0.3 nm.\"\n    },\n    {\n      \"find\": \"(h)/(|I|)\",\n      \"replace\": \"(h)/(|p|)\",\n      \"why\": \"Variable typo: momentum is denoted by p, not I.\"\n    }\n  ],\n  \"solution_factual\": [],\n  \"missing_data\": {\n    \"present\": false,\n    \"what\": null,\n    \"value\": null,\n    \"anchor\": null,\n    \"insert\": null\n  },\n  \"chapter_fit\": {\n    \"fits\": true,\n    \"suggested_subject\": \"Physics\",\n    \"suggested_chapter\": \"Photoelectric effect and matter waves\",\n    \"why\": \"The question tests the de Broglie relation, which belongs to the matter‑waves portion of the chapter.\"\n  },\n  \"soundness\": {\n    \"status\": \"ok\",\n    \"why\": \"Exactly one option (B) matches the computed kinetic energy.\"\n  },\n  \"noise\": []\n}",
+ "_usage": {
+  "queue_time": 0.330025043,
+  "prompt_tokens": 851,
+  "prompt_time": 0.080500243,
+  "completion_tokens": 2079,
+  "completion_time": 4.311445761,
+  "total_tokens": 2930,
+  "total_time": 4.391946004,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1677
+  }
+ }
+}

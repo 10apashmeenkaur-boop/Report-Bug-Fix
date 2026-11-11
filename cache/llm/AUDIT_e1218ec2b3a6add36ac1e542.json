@@ -1,0 +1,62 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "tan^( − 1)(4)",
+   "option": "B"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": null
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": true,
+   "what": "projectile lands at the same vertical level as launch",
+   "value": "same level",
+   "anchor": "projectile",
+   "insert": "launched from and lands on the same horizontal level"
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": null,
+   "suggested_chapter": null,
+   "why": "Projectile motion is covered under Motion in a Plane"
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Only option B corresponds to the derived angle tan⁻¹(4)"
+  },
+  "noise": [
+   {
+    "field": "solution",
+    "find": "Solution:",
+    "why": "Redundant label"
+   },
+   {
+    "field": "solution",
+    "find": "(b)",
+    "why": "Lower‑case option label not needed"
+   }
+  ]
+ },
+ "raw": "{\n  \"spelling\": [],\n  \"solution_final\": {\"value\":\"tan^( − 1)(4)\",\"option\":\"B\"},\n  \"solution_foreign\": {\"present\":false,\"fragment\":null,\"why\":null},\n  \"solution_errors\": [],\n  \"solution_factual\": [],\n  \"missing_data\": {\n    \"present\":true,\n    \"what\":\"projectile lands at the same vertical level as launch\",\n    \"value\":\"same level\",\n    \"anchor\":\"projectile\",\n    \"insert\":\"launched from and lands on the same horizontal level\"\n  },\n  \"chapter_fit\": {\"fits\":true,\"suggested_subject\":null,\"suggested_chapter\":null,\"why\":\"Projectile motion is covered under Motion in a Plane\"},\n  \"soundness\": {\"status\":\"ok\",\"why\":\"Only option B corresponds to the derived angle tan⁻¹(4)\"},\n  \"noise\": [\n    {\"field\":\"solution\",\"find\":\"Solution:\",\"why\":\"Redundant label\"},\n    {\"field\":\"solution\",\"find\":\"(b)\",\"why\":\"Lower‑case option label not needed\"}\n  ]\n}",
+ "_usage": {
+  "queue_time": 0.291043,
+  "prompt_tokens": 891,
+  "prompt_time": 0.053301429,
+  "completion_tokens": 1414,
+  "completion_time": 2.934321664,
+  "total_tokens": 2305,
+  "total_time": 2.987623093,
+  "completion_tokens_details": {
+   "reasoning_tokens": 1177
+  }
+ }
+}

@@ -1,0 +1,26 @@
+{
+ "prompt_id": "SOLVE",
+ "version": "solve_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "working": "Set range R = u^2 sin2θ / g and max height H = u^2 sin^2θ /(2g). Equate: sin2θ = (1/2) sin^2θ → 2 sinθ cosθ = (1/2) sin^2θ → 4 cosθ = sinθ → tanθ = 4. Hence θ = tan⁻¹(4).",
+  "final_value": "tan⁻¹(4)",
+  "choice": "B",
+  "choices": [],
+  "confidence": "high"
+ },
+ "raw": "{\"working\":\"Set range R = u^2 sin2θ / g and max height H = u^2 sin^2θ /(2g). Equate: sin2θ = (1/2) sin^2θ → 2 sinθ cosθ = (1/2) sin^2θ → 4 cosθ = sinθ → tanθ = 4. Hence θ = tan⁻¹(4).\",\"final_value\":\"tan⁻¹(4)\",\"choice\":\"B\",\"choices\":[],\"confidence\":\"high\"}",
+ "_usage": {
+  "queue_time": 0.319812229,
+  "prompt_tokens": 403,
+  "prompt_time": 0.01915009,
+  "completion_tokens": 351,
+  "completion_time": 0.735970134,
+  "total_tokens": 754,
+  "total_time": 0.755120224,
+  "completion_tokens_details": {
+   "reasoning_tokens": 230
+  }
+ }
+}

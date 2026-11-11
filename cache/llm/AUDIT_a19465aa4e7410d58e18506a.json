@@ -1,0 +1,64 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [],
+  "solution_final": {
+   "value": "5.7×10^( − 5)/C",
+   "option": "A"
+  },
+  "solution_foreign": {
+   "present": true,
+   "fragment": "AC",
+   "why": "The characters \"AC\" do not appear in the question and are unrelated to the solution."
+  },
+  "solution_errors": [
+   {
+    "find": "γ = 3a",
+    "replace": "γ = 3α",
+    "why": "The coefficient of cubical expansion γ equals three times the linear expansion coefficient α, not the letter a."
+   }
+  ],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "Physics",
+   "suggested_chapter": "Temperature and thermal properties of matter",
+   "why": "Coefficient of cubical expansion is a thermal property covered in this chapter."
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Exactly one option (A) matches the computed value."
+  },
+  "noise": [
+   {
+    "field": "solution",
+    "find": "AC",
+    "why": "Stray text not part of the solution."
+   },
+   {
+    "field": "solution",
+    "find": "CC",
+    "why": "Stray text not part of the solution."
+   }
+  ]
+ },
+ "raw": "{\"spelling\":[],\"solution_final\":{\"value\":\"5.7×10^( − 5)/C\",\"option\":\"A\"},\"solution_foreign\":{\"present\":true,\"fragment\":\"AC\",\"why\":\"The characters \\\"AC\\\" do not appear in the question and are unrelated to the solution.\"},\"solution_errors\":[{\"find\":\"γ = 3a\",\"replace\":\"γ = 3α\",\"why\":\"The coefficient of cubical expansion γ equals three times the linear expansion coefficient α, not the letter a.\"}],\"solution_factual\":[],\"missing_data\":{\"present\":false},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"Physics\",\"suggested_chapter\":\"Temperature and thermal properties of matter\",\"why\":\"Coefficient of cubical expansion is a thermal property covered in this chapter.\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Exactly one option (A) matches the computed value.\"},\"noise\":[{\"field\":\"solution\",\"find\":\"AC\",\"why\":\"Stray text not part of the solution.\"},{\"field\":\"solution\",\"find\":\"CC\",\"why\":\"Stray text not part of the solution.\"}]}",
+ "_usage": {
+  "queue_time": 0.154638464,
+  "prompt_tokens": 914,
+  "prompt_time": 0.05218881,
+  "completion_tokens": 1180,
+  "completion_time": 2.495231004,
+  "total_tokens": 2094,
+  "total_time": 2.547419814,
+  "completion_tokens_details": {
+   "reasoning_tokens": 947
+  }
+ }
+}

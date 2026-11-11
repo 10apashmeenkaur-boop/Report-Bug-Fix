@@ -1,0 +1,27 @@
+{
+ "prompt_id": "REPLY",
+ "version": "reply_v2",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "replies": {
+   "R012": "Thanks for spotting that! In option A “Epithellial tisue” was misspelled; it’s now corrected to “Epithelial tissue”. "
+  }
+ },
+ "raw": "{\"replies\":{\"R012\":\"Thanks for spotting that! In option A “Epithellial tisue” was misspelled; it’s now corrected to “Epithelial tissue”. \"}}",
+ "_usage": {
+  "queue_time": 0.366795766,
+  "prompt_tokens": 470,
+  "prompt_time": 0.011679642,
+  "completion_tokens": 225,
+  "completion_time": 1.037048745,
+  "total_tokens": 695,
+  "total_time": 1.048728387,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 175
+  }
+ }
+}

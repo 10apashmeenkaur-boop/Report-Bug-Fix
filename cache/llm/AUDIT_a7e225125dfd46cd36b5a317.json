@@ -1,0 +1,66 @@
+{
+ "prompt_id": "AUDIT",
+ "version": "audit_v3",
+ "provider": "openai",
+ "model": "openai/gpt-oss-120b",
+ "output": {
+  "spelling": [
+   {
+    "field": "question",
+    "find": "ofleaf",
+    "replace": "of leaf"
+   }
+  ],
+  "solution_final": {
+   "value": "Lamina",
+   "option": "D"
+  },
+  "solution_foreign": {
+   "present": false,
+   "fragment": null,
+   "why": "No text from another question is present"
+  },
+  "solution_errors": [],
+  "solution_factual": [],
+  "missing_data": {
+   "present": false,
+   "what": null,
+   "value": null,
+   "anchor": null,
+   "insert": null
+  },
+  "chapter_fit": {
+   "fits": true,
+   "suggested_subject": "",
+   "suggested_chapter": "",
+   "why": "Leaf lamina is a topic in Morphology of Flowering Plants"
+  },
+  "soundness": {
+   "status": "ok",
+   "why": "Exactly one correct option (D) matches the stored answer"
+  },
+  "noise": [
+   {
+    "field": "question",
+    "find": "(NEET 2019)",
+    "why": "Source label not needed"
+   }
+  ]
+ },
+ "raw": "{\"spelling\":[{\"field\":\"question\",\"find\":\"ofleaf\",\"replace\":\"of leaf\"}],\"solution_final\":{\"value\":\"Lamina\",\"option\":\"D\"},\"solution_foreign\":{\"present\":false,\"fragment\":null,\"why\":\"No text from another question is present\"},\"solution_errors\":[],\"solution_factual\":[],\"missing_data\":{\"present\":false,\"what\":null,\"value\":null,\"anchor\":null,\"insert\":null},\"chapter_fit\":{\"fits\":true,\"suggested_subject\":\"\",\"suggested_chapter\":\"\",\"why\":\"Leaf lamina is a topic in Morphology of Flowering Plants\"},\"soundness\":{\"status\":\"ok\",\"why\":\"Exactly one correct option (D) matches the stored answer\"},\"noise\":[{\"field\":\"question\",\"find\":\"(NEET 2019)\",\"why\":\"Source label not needed\"}]}",
+ "_usage": {
+  "queue_time": 0.372722543,
+  "prompt_tokens": 838,
+  "prompt_time": 0.267734114,
+  "completion_tokens": 988,
+  "completion_time": 3.036599793,
+  "total_tokens": 1826,
+  "total_time": 3.304333907,
+  "prompt_tokens_details": {
+   "cached_tokens": 256
+  },
+  "completion_tokens_details": {
+   "reasoning_tokens": 811
+  }
+ }
+}
