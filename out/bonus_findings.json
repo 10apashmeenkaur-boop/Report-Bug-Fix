@@ -1,5 +1,16 @@
 [
   {
+    "questionId": "68dea616d0cda73d07e93ae6",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "kind": "unsound",
+    "repair": "unsound",
+    "evidence": "The solution yields total flux (q)/(2ε_0), implying n=1, but the stored answer key is 2, so the recorded answer is incorrect.",
+    "edit": null,
+    "confidence": 0.6,
+    "reported": true
+  },
+  {
     "questionId": "68dea715387eea3d0d95f790",
     "subject": "Physics",
     "chapter": "Units and dimensions",
@@ -123,6 +134,17 @@
     "edit": null,
     "confidence": 0.75,
     "reported": false
+  },
+  {
+    "questionId": "68e870ef42c06737d6e565c4",
+    "subject": "Physics",
+    "chapter": "Kinetic theory of gases",
+    "kind": "unsound",
+    "repair": "unsound",
+    "evidence": "The stored answer key selects option A, but the correct calculation gives 4800 N/m², which corresponds to option D.",
+    "edit": null,
+    "confidence": 0.6,
+    "reported": true
   },
   {
     "questionId": "68e8734442c06737d6e56da4",

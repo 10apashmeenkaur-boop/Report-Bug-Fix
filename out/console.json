@@ -1,6 +1,6 @@
 {
  "meta": {
-  "generated_at": "2026-11-11 19:26:34",
+  "generated_at": "2026-11-11 22:48:08",
   "provider": "openai",
   "model": "openai/gpt-oss-120b",
   "llm_calls": {
@@ -8,7 +8,7 @@
    "cached": 167,
    "failed": 0
   },
-  "seconds": 12.5
+  "seconds": 13.4
  },
  "taxonomy": {
   "_about": "Closed list. Your system must pick from these keys. A repair may only touch the fields it lists. 'auto: false' means a human (faculty) must approve - your system may suggest, never write.",
@@ -757,21 +757,32 @@
    "answer_display": "2",
    "options": {},
    "stem": "The charges (q)/(2) and 2q are placed at the centre of face and corner of a cube respectively. Total flux through the cube is (nq)/(2ε_0) . The value of ' n ' is",
-   "urgency": 106.2,
-   "headline": "No valid answer",
+   "urgency": 125.0,
+   "headline": "Answer key wrong",
    "primary": {
     "reportId": "R005",
     "verdict": "defect",
-    "repair": "unsound",
-    "edit": null,
+    "repair": "answer_key",
+    "edit": {
+     "field": "answer",
+     "find": "2",
+     "replace": "1"
+    },
     "route": "faculty_review",
-    "confidence": 0.85,
-    "evidence": "No option is valid as written. The solution yields total flux (q)/(2ε_0), implying n=1, but the stored answer key is 2, so the recorded answer is incorrect. Blind solve 1 → 1; blind solve 2 → 1; stored solution ends at (q)/(2ε_0); key says 2.",
+    "confidence": 0.7,
+    "evidence": "Both blind solves disagree with the key, but the stored solution does not back them. Blind solve 1 → 1; blind solve 2 → 1; stored solution ends at (q)/(2ε_0); key says 2.",
     "guard_notes": [],
     "suggestion": null,
-    "correct": null
+    "correct": "1"
    },
-   "diff": {},
+   "diff": {
+    "answer": {
+     "before": "2",
+     "after": "1",
+     "find": "2",
+     "replace": "1"
+    }
+   },
    "reports": [
     {
      "reportId": "R005",
@@ -781,12 +792,16 @@
      "reportedAt": "2026-11-03T19:14:00Z",
      "comment": "answer key wrong i got n=1",
      "verdict": "defect",
-     "repair": "unsound",
-     "edit": null,
+     "repair": "answer_key",
+     "edit": {
+      "field": "answer",
+      "find": "2",
+      "replace": "1"
+     },
      "route": "faculty_review",
-     "confidence": 0.85,
-     "evidence": "No option is valid as written. The solution yields total flux (q)/(2ε_0), implying n=1, but the stored answer key is 2, so the recorded answer is incorrect. Blind solve 1 → 1; blind solve 2 → 1; stored solution ends at (q)/(2ε_0); key says 2.",
-     "student_reply": "Thanks for letting us know! A teacher is checking this question and will update you soon.",
+     "confidence": 0.7,
+     "evidence": "Both blind solves disagree with the key, but the stored solution does not back them. Blind solve 1 → 1; blind solve 2 → 1; stored solution ends at (q)/(2ε_0); key says 2.",
+     "student_reply": "Thanks for letting us know. A teacher is checking the question and your observation about n=1.",
      "guard_notes": [],
      "injection": false,
      "reply_source": "llm",
@@ -854,144 +869,6 @@
     "soundness": {
      "status": "no_correct_option",
      "why": "The solution yields total flux (q)/(2ε_0), implying n=1, but the stored answer key is 2, so the recorded answer is incorrect."
-    },
-    "noise": []
-   },
-   "error_history": []
-  },
-  {
-   "questionId": "68e870ef42c06737d6e565c4",
-   "subject": "Physics",
-   "chapter": "Kinetic theory of gases",
-   "qtype": "scq",
-   "level": "MEDIUM",
-   "question_html": "<h3>The density of a gas is <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 9 </mn><mi>&times;</mi><msup><mn> 10 </mn><mrow><mo>&minus;</mo><mn> 2 </mn></mrow></msup><mrow><mtext> </mtext><mi mathvariant=\"normal\"> k </mi><mi mathvariant=\"normal\"> g </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 3 </mn></mrow></msup></mrow></math> and root mean square velocity of gas molecules is <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 400 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> m </mi></mrow><mo>/</mo><mi> s </mi></mrow></math>. The pressure exerted by the gas on the walls of the vessel is<br />(A) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 4556 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math><br />(B) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 8225 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math><br />(C) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 7520 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math><br />(D) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 4800 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math></h3>\n",
-   "solution_html": "<h3>Pressure of the gas <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> P </mi><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 3 </mn></mrow></mfrac><mi> &rho; </mi><msup><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><msub><mi> v </mi><mrow><mrow><mi mathvariant=\"normal\"> r </mi><mi mathvariant=\"normal\"> m </mi><mi mathvariant=\"normal\"> s </mi></mrow></mrow></msub><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mn> 2 </mn></mrow></msup></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> P </mi><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 3 </mn></mrow></mfrac><mi>&times;</mi><mn> 9 </mn><mi>&times;</mi><msup><mn> 10 </mn><mrow><mo>&minus;</mo><mn> 2 </mn></mrow></msup><mi>&times;</mi><mo stretchy=\"false\">(</mo><mn> 400 </mn><msup><mo stretchy=\"false\">)</mo><mrow><mn> 2 </mn></mrow></msup><mo>=</mo><mn> 4800 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math></h3>\n",
-   "answer": "A",
-   "answer_display": "(A) 4556N/m^(2)",
-   "options": {
-    "A": "4556N/m^(2)",
-    "B": "8225N/m^(2)",
-    "C": "7520N/m^(2)",
-    "D": "4800N/m^(2)"
-   },
-   "stem": "The density of a gas is 9×10^( − 2)kg/m^(3) and root mean square velocity of gas molecules is 400m/s . The pressure exerted by the gas on the walls of the vessel is",
-   "urgency": 106.2,
-   "headline": "No valid answer",
-   "primary": {
-    "reportId": "R004",
-    "verdict": "defect",
-    "repair": "unsound",
-    "edit": null,
-    "route": "faculty_review",
-    "confidence": 0.85,
-    "evidence": "No option is valid as written. The stored answer key selects option A, but the correct calculation gives 4800 N/m², which corresponds to option D. Blind solve 1 → (D) 4800N/m^(2); blind solve 2 → (D) 4800N/m^(2); stored solution ends at 4800N/m^(2); key says (A) 4556N/m^(2).",
-    "guard_notes": [],
-    "suggestion": null,
-    "correct": null
-   },
-   "diff": {},
-   "reports": [
-    {
-     "reportId": "R004",
-     "questionId": "68e870ef42c06737d6e565c4",
-     "studentId": "stu_78da7ee1",
-     "source": "android",
-     "reportedAt": "2026-11-04T00:50:00Z",
-     "comment": "ans galat hai, 8225 aana chahiye",
-     "verdict": "defect",
-     "repair": "unsound",
-     "edit": null,
-     "route": "faculty_review",
-     "confidence": 0.85,
-     "evidence": "No option is valid as written. The stored answer key selects option A, but the correct calculation gives 4800 N/m², which corresponds to option D. Blind solve 1 → (D) 4800N/m^(2); blind solve 2 → (D) 4800N/m^(2); stored solution ends at 4800N/m^(2); key says (A) 4556N/m^(2).",
-     "student_reply": "Thanks for letting us know! A teacher is reviewing your comment and will get back to you soon.",
-     "guard_notes": [],
-     "injection": false,
-     "reply_source": "llm",
-     "claim": {
-      "reportId": "R004",
-      "claim_type": "answer_wrong",
-      "student_value": "8225",
-      "target_option": "B",
-      "target_text": "8225",
-      "language": "hinglish",
-      "instruction_attempt": false,
-      "summary": "Student says answer is wrong, should be 8225",
-      "source": "llm"
-     }
-    }
-   ],
-   "findings": [],
-   "solves": {
-    "s1": {
-     "working": "P = (1/3)ρv^2; ρ=0.09 kg/m^3, v=400 m/s → v^2=1.6×10^5; ρv^2=0.09×1.6×10^5=1.44×10^4; P=1/3×1.44×10^4=4.8×10^3 Pa",
-     "final_value": "4800 N/m^2",
-     "choice": "D",
-     "choices": [],
-     "confidence": "high"
-    },
-    "s2": {
-     "assertion_true": null,
-     "reason_true": null,
-     "per_option": {
-      "A": {
-       "correct": false,
-       "why": "Calculated pressure is 4800 Pa, not 4556 Pa."
-      },
-      "B": {
-       "correct": false,
-       "why": "Calculated pressure is 4800 Pa, not 8225 Pa."
-      },
-      "C": {
-       "correct": false,
-       "why": "Calculated pressure is 4800 Pa, not 7520 Pa."
-      },
-      "D": {
-       "correct": true,
-       "why": "Using p = (1/3)ρv^2 gives (1/3)*0.09*400^2 = 4800 Pa."
-      }
-     },
-     "final_value": "4800 N/m^2",
-     "choice": "D",
-     "choices": [
-      "D"
-     ],
-     "confidence": "high"
-    },
-    "agree": true,
-    "s1_matches_key": false,
-    "s2_matches_key": false
-   },
-   "audit": {
-    "spelling": [],
-    "solution_final": {
-     "value": "4800N/m^(2)",
-     "option": "D"
-    },
-    "solution_foreign": {
-     "present": false,
-     "fragment": null,
-     "why": null
-    },
-    "solution_errors": [],
-    "solution_factual": [],
-    "missing_data": {
-     "present": false,
-     "what": null,
-     "value": null,
-     "anchor": null,
-     "insert": null
-    },
-    "chapter_fit": {
-     "fits": true,
-     "suggested_subject": "Physics",
-     "suggested_chapter": "Kinetic theory of gases",
-     "why": "The question asks for pressure using the kinetic‑theory formula P=⅓ρv_{rms}^2, which is covered in this chapter."
-    },
-    "soundness": {
-     "status": "no_correct_option",
-     "why": "The stored answer key selects option A, but the correct calculation gives 4800 N/m², which corresponds to option D."
     },
     "noise": []
    },
@@ -1145,6 +1022,159 @@
     "soundness": {
      "status": "no_correct_option",
      "why": "Both assertion and reason are false, but none of the given options (A‑D) represent this combination."
+    },
+    "noise": []
+   },
+   "error_history": []
+  },
+  {
+   "questionId": "68e870ef42c06737d6e565c4",
+   "subject": "Physics",
+   "chapter": "Kinetic theory of gases",
+   "qtype": "scq",
+   "level": "MEDIUM",
+   "question_html": "<h3>The density of a gas is <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 9 </mn><mi>&times;</mi><msup><mn> 10 </mn><mrow><mo>&minus;</mo><mn> 2 </mn></mrow></msup><mrow><mtext> </mtext><mi mathvariant=\"normal\"> k </mi><mi mathvariant=\"normal\"> g </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 3 </mn></mrow></msup></mrow></math> and root mean square velocity of gas molecules is <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 400 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> m </mi></mrow><mo>/</mo><mi> s </mi></mrow></math>. The pressure exerted by the gas on the walls of the vessel is<br />(A) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 4556 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math><br />(B) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 8225 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math><br />(C) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 7520 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math><br />(D) <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn> 4800 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math></h3>\n",
+   "solution_html": "<h3>Pressure of the gas <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> P </mi><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 3 </mn></mrow></mfrac><mi> &rho; </mi><msup><mrow><mo fence=\"true\" form=\"prefix\" stretchy=\"true\">(</mo><msub><mi> v </mi><mrow><mrow><mi mathvariant=\"normal\"> r </mi><mi mathvariant=\"normal\"> m </mi><mi mathvariant=\"normal\"> s </mi></mrow></mrow></msub><mo fence=\"true\" form=\"postfix\" stretchy=\"true\">)</mo></mrow><mrow><mn> 2 </mn></mrow></msup></mrow></math> <math display=\"inline\" xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi> P </mi><mo>=</mo><mfrac><mrow><mn> 1 </mn></mrow><mrow><mn> 3 </mn></mrow></mfrac><mi>&times;</mi><mn> 9 </mn><mi>&times;</mi><msup><mn> 10 </mn><mrow><mo>&minus;</mo><mn> 2 </mn></mrow></msup><mi>&times;</mi><mo stretchy=\"false\">(</mo><mn> 400 </mn><msup><mo stretchy=\"false\">)</mo><mrow><mn> 2 </mn></mrow></msup><mo>=</mo><mn> 4800 </mn><mrow><mtext> </mtext><mi mathvariant=\"normal\"> N </mi></mrow><mo>/</mo><msup><mi> m </mi><mrow><mn> 2 </mn></mrow></msup></mrow></math></h3>\n",
+   "answer": "A",
+   "answer_display": "(A) 4556N/m^(2)",
+   "options": {
+    "A": "4556N/m^(2)",
+    "B": "8225N/m^(2)",
+    "C": "7520N/m^(2)",
+    "D": "4800N/m^(2)"
+   },
+   "stem": "The density of a gas is 9×10^( − 2)kg/m^(3) and root mean square velocity of gas molecules is 400m/s . The pressure exerted by the gas on the walls of the vessel is",
+   "urgency": 100.0,
+   "headline": "Answer key wrong",
+   "primary": {
+    "reportId": "R004",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+     "field": "answer",
+     "find": "A",
+     "replace": "D"
+    },
+    "route": "auto_apply",
+    "confidence": 0.95,
+    "evidence": "Key is wrong. Blind solve 1 → (D) 4800N/m^(2); blind solve 2 → (D) 4800N/m^(2); stored solution ends at 4800N/m^(2); key says (A) 4556N/m^(2). Two blind solves and the stored solution all agree.",
+    "guard_notes": [],
+    "suggestion": null,
+    "correct": "(D) 4800N/m^(2)"
+   },
+   "diff": {
+    "answer": {
+     "before": "A",
+     "after": "D",
+     "find": "A",
+     "replace": "D"
+    }
+   },
+   "reports": [
+    {
+     "reportId": "R004",
+     "questionId": "68e870ef42c06737d6e565c4",
+     "studentId": "stu_78da7ee1",
+     "source": "android",
+     "reportedAt": "2026-11-04T00:50:00Z",
+     "comment": "ans galat hai, 8225 aana chahiye",
+     "verdict": "defect",
+     "repair": "answer_key",
+     "edit": {
+      "field": "answer",
+      "find": "A",
+      "replace": "D"
+     },
+     "route": "auto_apply",
+     "confidence": 0.95,
+     "evidence": "Key is wrong. Blind solve 1 → (D) 4800N/m^(2); blind solve 2 → (D) 4800N/m^(2); stored solution ends at 4800N/m^(2); key says (A) 4556N/m^(2). Two blind solves and the stored solution all agree.",
+     "student_reply": "Thanks for pointing it out! The answer key was indeed wrong; the correct pressure is 4800 N/m².",
+     "guard_notes": [],
+     "injection": false,
+     "reply_source": "llm",
+     "claim": {
+      "reportId": "R004",
+      "claim_type": "answer_wrong",
+      "student_value": "8225",
+      "target_option": "B",
+      "target_text": "8225",
+      "language": "hinglish",
+      "instruction_attempt": false,
+      "summary": "Student says answer is wrong, should be 8225",
+      "source": "llm"
+     }
+    }
+   ],
+   "findings": [],
+   "solves": {
+    "s1": {
+     "working": "P = (1/3)ρv^2; ρ=0.09 kg/m^3, v=400 m/s → v^2=1.6×10^5; ρv^2=0.09×1.6×10^5=1.44×10^4; P=1/3×1.44×10^4=4.8×10^3 Pa",
+     "final_value": "4800 N/m^2",
+     "choice": "D",
+     "choices": [],
+     "confidence": "high"
+    },
+    "s2": {
+     "assertion_true": null,
+     "reason_true": null,
+     "per_option": {
+      "A": {
+       "correct": false,
+       "why": "Calculated pressure is 4800 Pa, not 4556 Pa."
+      },
+      "B": {
+       "correct": false,
+       "why": "Calculated pressure is 4800 Pa, not 8225 Pa."
+      },
+      "C": {
+       "correct": false,
+       "why": "Calculated pressure is 4800 Pa, not 7520 Pa."
+      },
+      "D": {
+       "correct": true,
+       "why": "Using p = (1/3)ρv^2 gives (1/3)*0.09*400^2 = 4800 Pa."
+      }
+     },
+     "final_value": "4800 N/m^2",
+     "choice": "D",
+     "choices": [
+      "D"
+     ],
+     "confidence": "high"
+    },
+    "agree": true,
+    "s1_matches_key": false,
+    "s2_matches_key": false
+   },
+   "audit": {
+    "spelling": [],
+    "solution_final": {
+     "value": "4800N/m^(2)",
+     "option": "D"
+    },
+    "solution_foreign": {
+     "present": false,
+     "fragment": null,
+     "why": null
+    },
+    "solution_errors": [],
+    "solution_factual": [],
+    "missing_data": {
+     "present": false,
+     "what": null,
+     "value": null,
+     "anchor": null,
+     "insert": null
+    },
+    "chapter_fit": {
+     "fits": true,
+     "suggested_subject": "Physics",
+     "suggested_chapter": "Kinetic theory of gases",
+     "why": "The question asks for pressure using the kinetic‑theory formula P=⅓ρv_{rms}^2, which is covered in this chapter."
+    },
+    "soundness": {
+     "status": "no_correct_option",
+     "why": "The stored answer key selects option A, but the correct calculation gives 4800 N/m², which corresponds to option D."
     },
     "noise": []
    },
@@ -5549,6 +5579,17 @@
  ],
  "bonus": [
   {
+   "questionId": "68dea616d0cda73d07e93ae6",
+   "subject": "Physics",
+   "chapter": "Electrostatics",
+   "kind": "unsound",
+   "repair": "unsound",
+   "evidence": "The solution yields total flux (q)/(2ε_0), implying n=1, but the stored answer key is 2, so the recorded answer is incorrect.",
+   "edit": null,
+   "confidence": 0.6,
+   "reported": true
+  },
+  {
    "questionId": "68dea715387eea3d0d95f790",
    "subject": "Physics",
    "chapter": "Units and dimensions",
@@ -5672,6 +5713,17 @@
    "edit": null,
    "confidence": 0.75,
    "reported": false
+  },
+  {
+   "questionId": "68e870ef42c06737d6e565c4",
+   "subject": "Physics",
+   "chapter": "Kinetic theory of gases",
+   "kind": "unsound",
+   "repair": "unsound",
+   "evidence": "The stored answer key selects option A, but the correct calculation gives 4800 N/m², which corresponds to option D.",
+   "edit": null,
+   "confidence": 0.6,
+   "reported": true
   },
   {
    "questionId": "68e8734442c06737d6e56da4",

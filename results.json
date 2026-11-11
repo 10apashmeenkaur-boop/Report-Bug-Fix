@@ -48,23 +48,31 @@
     "reportId": "R004",
     "questionId": "68e870ef42c06737d6e565c4",
     "verdict": "defect",
-    "repair": "unsound",
-    "edit": null,
-    "route": "faculty_review",
-    "confidence": 0.85,
-    "evidence": "No option is valid as written. The stored answer key selects option A, but the correct calculation gives 4800 N/m², which corresponds to option D. Blind solve 1 → (D) 4800N/m^(2); blind solve 2 → (D) 4800N/m^(2); stored solution ends at 4800N/m^(2); key says (A) 4556N/m^(2).",
-    "student_reply": "Thanks for letting us know! A teacher is reviewing your comment and will get back to you soon."
+    "repair": "answer_key",
+    "edit": {
+      "field": "answer",
+      "find": "A",
+      "replace": "D"
+    },
+    "route": "auto_apply",
+    "confidence": 0.95,
+    "evidence": "Key is wrong. Blind solve 1 → (D) 4800N/m^(2); blind solve 2 → (D) 4800N/m^(2); stored solution ends at 4800N/m^(2); key says (A) 4556N/m^(2). Two blind solves and the stored solution all agree.",
+    "student_reply": "Thanks for pointing it out! The answer key was indeed wrong; the correct pressure is 4800 N/m²."
   },
   {
     "reportId": "R005",
     "questionId": "68dea616d0cda73d07e93ae6",
     "verdict": "defect",
-    "repair": "unsound",
-    "edit": null,
+    "repair": "answer_key",
+    "edit": {
+      "field": "answer",
+      "find": "2",
+      "replace": "1"
+    },
     "route": "faculty_review",
-    "confidence": 0.85,
-    "evidence": "No option is valid as written. The solution yields total flux (q)/(2ε_0), implying n=1, but the stored answer key is 2, so the recorded answer is incorrect. Blind solve 1 → 1; blind solve 2 → 1; stored solution ends at (q)/(2ε_0); key says 2.",
-    "student_reply": "Thanks for letting us know! A teacher is checking this question and will update you soon."
+    "confidence": 0.7,
+    "evidence": "Both blind solves disagree with the key, but the stored solution does not back them. Blind solve 1 → 1; blind solve 2 → 1; stored solution ends at (q)/(2ε_0); key says 2.",
+    "student_reply": "Thanks for letting us know. A teacher is checking the question and your observation about n=1."
   },
   {
     "reportId": "R006",

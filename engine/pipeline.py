@@ -432,8 +432,11 @@ class Engine:
               f"stored solution ends at {sol.get('value') or 'n/a'}; key says {key_text(q)}.")
 
         # unsound: solvers agree there is no single valid option
+        solved_ok = sv["agree"] and ((q.qtype == "integerQuestion" and a.get("value") is not None)
+                                     or a.get("choice") in ("A", "B", "C", "D") or bool(a.get("choices")))
+        audit_unsound = ((audit or {}).get("soundness") or {}).get("status") in ("no_correct_option", "multiple_correct")
         if (a.get("choice") in ("NONE", "MULTIPLE") and b.get("choice") in ("NONE", "MULTIPLE")) or \
-           ((audit or {}).get("soundness") or {}).get("status") in ("no_correct_option", "multiple_correct") and not sv["a_key"]:
+           (audit_unsound and not solved_ok and not sv["a_key"]):
             why = ((audit or {}).get("soundness") or {}).get("why", "")
             return D("defect", "unsound", route="faculty_review", conf=0.85,
                      evidence=f"No option is valid as written. {why} {ev}".strip() + inj_note)
